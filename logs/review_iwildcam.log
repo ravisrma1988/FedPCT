@@ -1,0 +1,358 @@
+${FEDPCT_ROOT}/src/online2.py:113: RuntimeWarning: Mean of empty slice.
+  res[g][k] = dict(cov=float(h.mean()), size=float(size[g].mean()), seen=bool(seen[k]),
+/usr/local/lib/python3.12/dist-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/usr/local/lib/python3.12/dist-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in divide
+  ret = ret.dtype.type(ret / rcount)
+seed 0 done
+${FEDPCT_ROOT}/src/online2.py:113: RuntimeWarning: Mean of empty slice.
+  res[g][k] = dict(cov=float(h.mean()), size=float(size[g].mean()), seen=bool(seen[k]),
+/usr/local/lib/python3.12/dist-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/usr/local/lib/python3.12/dist-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in divide
+  ret = ret.dtype.type(ret / rcount)
+seed 1 done
+${FEDPCT_ROOT}/src/online2.py:113: RuntimeWarning: Mean of empty slice.
+  res[g][k] = dict(cov=float(h.mean()), size=float(size[g].mean()), seen=bool(seen[k]),
+/usr/local/lib/python3.12/dist-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/usr/local/lib/python3.12/dist-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in divide
+  ret = ret.dtype.type(ret / rcount)
+seed 2 done
+${FEDPCT_ROOT}/src/online2.py:113: RuntimeWarning: Mean of empty slice.
+  res[g][k] = dict(cov=float(h.mean()), size=float(size[g].mean()), seen=bool(seen[k]),
+/usr/local/lib/python3.12/dist-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/usr/local/lib/python3.12/dist-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in divide
+  ret = ret.dtype.type(ret / rcount)
+seed 3 done
+${FEDPCT_ROOT}/src/online2.py:113: RuntimeWarning: Mean of empty slice.
+  res[g][k] = dict(cov=float(h.mean()), size=float(size[g].mean()), seen=bool(seen[k]),
+/usr/local/lib/python3.12/dist-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/usr/local/lib/python3.12/dist-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in divide
+  ret = ret.dtype.type(ret / rcount)
+seed 4 done
+{
+ "dataset": "iwildcam",
+ "n_sites": 43,
+ "nonanimal": [
+  "car",
+  "empty",
+  "motorcycle"
+ ],
+ "frontier_g": [
+  0.1,
+  0.095,
+  0.09,
+  0.085,
+  0.08,
+  0.075,
+  0.07,
+  0.06,
+  0.05,
+  0.03,
+  0.02,
+  0.01,
+  0.005
+ ],
+ "animal_share_of_known_test_seed0": 0.6229221347331584,
+ "fcp_all": {
+  "sig": 25.581395348837212,
+  "size": 3.6550495585729914,
+  "cov_mean": 0.8973861029112908,
+  "below_obs": 46.51162790697674,
+  "shortfall": 0.037158514872885726,
+  "cov_median": 0.9103706315780296,
+  "n": 43.0,
+  "sig_seeds": [
+   25.6,
+   25.6,
+   25.6,
+   30.2,
+   20.9
+  ]
+ },
+ "ours_all|0.1": {
+  "sig": 24.651162790697676,
+  "size": 4.284243027276771,
+  "cov_mean": 0.8954886380914158,
+  "below_obs": 47.906976744186046,
+  "shortfall": 0.0302500323254018,
+  "cov_median": 0.9057963045588812,
+  "n": 43.0,
+  "sig_seeds": [
+   25.6,
+   27.9,
+   20.9,
+   23.3,
+   25.6
+  ]
+ },
+ "ours_all|0.3": {
+  "sig": 15.348837209302323,
+  "size": 3.8344948319501655,
+  "cov_mean": 0.9027315371062059,
+  "below_obs": 41.860465116279066,
+  "shortfall": 0.02322894830917485,
+  "cov_median": 0.9138852963839479,
+  "n": 43.0,
+  "sig_seeds": [
+   20.9,
+   14.0,
+   14.0,
+   14.0,
+   14.0
+  ]
+ },
+ "ours_all|1.0": {
+  "sig": 8.372093023255815,
+  "size": 3.585213468241137,
+  "cov_mean": 0.9076926937216969,
+  "below_obs": 35.81395348837209,
+  "shortfall": 0.014645647613295634,
+  "cov_median": 0.911548014697599,
+  "n": 43.0,
+  "sig_seeds": [
+   9.3,
+   7.0,
+   9.3,
+   7.0,
+   9.3
+  ]
+ },
+ "fcp_animal": {
+  "sig": 39.807445442875476,
+  "size": 4.947246857892258,
+  "cov_mean": 0.7195493292605224,
+  "below_obs": 67.36842105263159,
+  "shortfall": 0.19759533918358665,
+  "cov_median": 0.855249069329868,
+  "n": 39.8,
+  "sig_seeds": [
+   36.6,
+   36.6,
+   39.0,
+   47.4,
+   39.5
+  ]
+ },
+ "ours_animal|0.1": {
+  "sig": 39.768934531450576,
+  "size": 5.555554139445774,
+  "cov_mean": 0.7131331221855296,
+  "below_obs": 67.74069319640566,
+  "shortfall": 0.20141991868731898,
+  "cov_median": 0.8592913397158425,
+  "n": 39.8,
+  "sig_seeds": [
+   43.9,
+   39.0,
+   31.7,
+   39.5,
+   44.7
+  ]
+ },
+ "ours_animal|0.3": {
+  "sig": 29.178433889602058,
+  "size": 5.002460317418878,
+  "cov_mean": 0.7229751662726042,
+  "below_obs": 62.259306803594356,
+  "shortfall": 0.19255772619748251,
+  "cov_median": 0.8733888795623678,
+  "n": 39.8,
+  "sig_seeds": [
+   39.0,
+   24.4,
+   22.0,
+   31.6,
+   28.9
+  ]
+ },
+ "ours_animal|1.0": {
+  "sig": 22.682926829268293,
+  "size": 4.692849080890073,
+  "cov_mean": 0.7440672260655345,
+  "below_obs": 58.767650834403085,
+  "shortfall": 0.1706743887127761,
+  "cov_median": 0.8890446135098976,
+  "n": 39.8,
+  "sig_seeds": [
+   22.0,
+   19.5,
+   22.0,
+   23.7,
+   26.3
+  ]
+ },
+ "gfront": {
+  "0.1": {
+   "sig": 25.581395348837212,
+   "size": 3.6550495585729914,
+   "cov_mean": 0.8973861029112908,
+   "shortfall": 0.037158514872885726
+  },
+  "0.095": {
+   "sig": 22.790697674418603,
+   "size": 3.965708412126054,
+   "cov_mean": 0.9013664093764249,
+   "shortfall": 0.03530320595447052
+  },
+  "0.09": {
+   "sig": 20.930232558139533,
+   "size": 4.589871094947638,
+   "cov_mean": 0.9050248916979798,
+   "shortfall": 0.03336284314222882
+  },
+  "0.085": {
+   "sig": 20.0,
+   "size": 5.237220157578934,
+   "cov_mean": 0.9087663058095495,
+   "shortfall": 0.031071421216438834
+  },
+  "0.08": {
+   "sig": 16.744186046511626,
+   "size": 5.712220075518586,
+   "cov_mean": 0.9120052276537844,
+   "shortfall": 0.028909400393859364
+  },
+  "0.075": {
+   "sig": 15.813953488372093,
+   "size": 6.238647939992505,
+   "cov_mean": 0.9155278238339829,
+   "shortfall": 0.026728771743008993
+  },
+  "0.07": {
+   "sig": 15.348837209302326,
+   "size": 6.9159632838049605,
+   "cov_mean": 0.9189710786818386,
+   "shortfall": 0.024759411318216448
+  },
+  "0.06": {
+   "sig": 12.093023255813952,
+   "size": 8.292082675667697,
+   "cov_mean": 0.9264652788720842,
+   "shortfall": 0.020566073525569897
+  },
+  "0.05": {
+   "sig": 11.162790697674419,
+   "size": 10.13773783972097,
+   "cov_mean": 0.9343108157883234,
+   "shortfall": 0.017015830351093088
+  },
+  "0.03": {
+   "sig": 6.046511627906978,
+   "size": 16.84203543552133,
+   "cov_mean": 0.9550023667608075,
+   "shortfall": 0.009343031260441862
+  },
+  "0.02": {
+   "sig": 4.651162790697675,
+   "size": 22.694513569321742,
+   "cov_mean": 0.9673587925677116,
+   "shortfall": 0.004369753451780325
+  },
+  "0.01": {
+   "sig": 0.930232558139535,
+   "size": 37.352233159264856,
+   "cov_mean": 0.9816742783096168,
+   "shortfall": 0.0009344289932678938
+  },
+  "0.005": {
+   "sig": 0.0,
+   "size": 61.503943705004325,
+   "cov_mean": 0.9900826129912239,
+   "shortfall": 8.79299546663016e-05
+  }
+ },
+ "matched_global|0.1": {
+  "frontier_sig": 21.262825762419045,
+  "diff": 3.388337028278632,
+  "diff_seeds": [
+   2.4,
+   6.7,
+   -1.1,
+   4.0,
+   4.9
+  ],
+  "clipped_seeds": 0
+ },
+ "matched_global|0.3": {
+  "frontier_sig": 23.733780120576835,
+  "diff": -8.38494291127451,
+  "diff_seeds": [
+   -4.7,
+   -7.0,
+   -10.0,
+   -13.3,
+   -7.0
+  ],
+  "clipped_seeds": 1
+ },
+ "matched_global|1.0": {
+  "frontier_sig": 25.045662866343438,
+  "diff": -16.673569843087623,
+  "diff_seeds": [
+   -16.3,
+   -18.6,
+   -16.3,
+   -20.6,
+   -11.6
+  ],
+  "clipped_seeds": 4
+ },
+ "paired_all|0.3": {
+  "cov_diff": 0.005345434194914952,
+  "cov_ci": [
+   -0.010032959517653515,
+   0.022156419303738167
+  ],
+  "sig_diff_pts": -10.232558139534884,
+  "sig_ci_pts": [
+   -19.069767441860467,
+   -1.8604651162790697
+  ],
+  "n_sites": 43
+ },
+ "paired_all|1.0": {
+  "cov_diff": 0.010306590810406002,
+  "cov_ci": [
+   -0.007450072113290559,
+   0.030087678754249298
+  ],
+  "sig_diff_pts": -17.209302325581394,
+  "sig_ci_pts": [
+   -27.44186046511628,
+   -7.441860465116279
+  ],
+  "n_sites": 43
+ },
+ "paired_animal|0.3": {
+  "cov_diff": 0.01329559076488468,
+  "cov_ci": [
+   -0.0020545255440384417,
+   0.031695323225010376
+  ],
+  "sig_diff_pts": -11.052631578947366,
+  "sig_ci_pts": [
+   -21.052631578947366,
+   -2.1052631578947367
+  ],
+  "n_sites": 38
+ },
+ "paired_animal|1.0": {
+  "cov_diff": 0.032593482897421054,
+  "cov_ci": [
+   0.010563296602257086,
+   0.05549911273473135
+  ],
+  "sig_diff_pts": -17.368421052631575,
+  "sig_ci_pts": [
+   -29.47368421052631,
+   -5.7894736842105265
+  ],
+  "n_sites": 38
+ },
+ "sites_without_animal_images_seed0": 2
+}
+REVIEW_DONE

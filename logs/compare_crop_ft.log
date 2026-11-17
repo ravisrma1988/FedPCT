@@ -1,0 +1,10 @@
+bioclip2crop done
+Traceback (most recent call last):
+  File "${FEDPCT_ROOT}/src/compare_backbones.py", line 47, in <module>
+    Xall = np.load(f"{ROOT}/features/iwildcam_{tag}.npy")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/numpy/lib/npyio.py", line 427, in load
+    fid = stack.enter_context(open(os_fspath(file), "rb"))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '${FEDPCT_ROOT}/features/iwildcam_bioclip2ft_seed{seed}.npy'
+CMP_DONE

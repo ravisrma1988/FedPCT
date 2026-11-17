@@ -1,0 +1,48 @@
+  seed 0 r=0.1: qt %sig 32 size 5.14 | frontier at that size 28
+  seed 0 r=0.3: qt %sig 23 size 4.76 | frontier at that size 26
+  seed 0 r=1.0: qt %sig 15 size 4.10 | frontier at that size 18
+  seed 1 r=0.1: qt %sig 24 size 3.85 | frontier at that size 23
+  seed 1 r=0.3: qt %sig 19 size 4.12 | frontier at that size 18
+  seed 1 r=1.0: qt %sig 11 size 3.68 | frontier at that size 17
+  seed 2 r=0.1: qt %sig 28 size 4.10 | frontier at that size 28
+  seed 2 r=0.3: qt %sig 18 size 4.08 | frontier at that size 21
+  seed 2 r=1.0: qt %sig 9 size 4.22 | frontier at that size 14
+  seed 3 r=0.1: qt %sig 28 size 4.96 | frontier at that size 25
+  seed 3 r=0.3: qt %sig 19 size 4.31 | frontier at that size 24
+  seed 3 r=1.0: qt %sig 9 size 4.38 | frontier at that size 15
+  seed 4 r=0.1: qt %sig 25 size 4.03 | frontier at that size 26
+  seed 4 r=0.3: qt %sig 21 size 3.72 | frontier at that size 22
+  seed 4 r=1.0: qt %sig 11 size 3.63 | frontier at that size 15
+
+== Ditto heads: static frontier vs online tracking, DEV sites, features=bioclip2crop, delay=5, 5 seeds
+
+r=0.1
+  tau                 cov   %sig %sig_unseen %win<.85   size
+  static a=0.1      0.875    28%         37%      31%   3.82
+  static a=0.07     0.903    17%         18%      19%   7.01
+  static a=0.05     0.924    11%         11%      12%  10.20
+  static a=0.03     0.954     3%          2%       4%  16.87
+  static a=0.02     0.970     1%          0%       2%  22.71
+  qt (tracked)      0.876    27%         38%      30%   4.41
+  qt minus frontier at matched size: %sig +1.3 (per seed [4.0, 0.7, -0.2, 2.7, -0.8]), %win +0.8, cov -0.005; qt better in 2/5 seeds
+
+r=0.3
+  tau                 cov   %sig %sig_unseen %win<.85   size
+  static a=0.1      0.886    24%         29%      28%   3.65
+  static a=0.07     0.912    14%         16%      16%   6.91
+  static a=0.05     0.932     7%          8%      11%  10.12
+  static a=0.03     0.959     2%          2%       4%  16.81
+  static a=0.02     0.972     0%          0%       2%  22.66
+  qt (tracked)      0.885    20%         27%      26%   4.20
+  qt minus frontier at matched size: %sig -2.4 (per seed [-2.9, 1.0, -3.5, -5.1, -1.4]), %win +0.5, cov -0.005; qt better in 4/5 seeds
+
+r=1.0
+  tau                 cov   %sig %sig_unseen %win<.85   size
+  static a=0.1      0.905    17%         22%      21%   3.40
+  static a=0.07     0.927    10%         14%      13%   6.76
+  static a=0.05     0.942     5%          7%       8%  10.00
+  static a=0.03     0.964     1%          2%       2%  16.71
+  static a=0.02     0.976     0%          0%       1%  22.59
+  qt (tracked)      0.897    11%         19%      18%   4.00
+  qt minus frontier at matched size: %sig -4.9 (per seed [-3.4, -6.1, -5.3, -5.5, -4.2]), %win -0.9, cov -0.013; qt better in 5/5 seeds
+FRONTIER_DONE

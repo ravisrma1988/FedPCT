@@ -1,0 +1,34 @@
+seed 0 done
+seed 1 done
+seed 2 done
+seed 3 done
+seed 4 done
+
+== online, time split, score=raps, alpha=0.1, delay=5 seqs, 5 seeds (cov/size: mean over sites, known classes, all test images)
+method                                cov   %sig %sig_unseen %win<0.85   size
+static_pooled                       0.873    30%         39%       35%   5.40
+static_local                        0.865    33%         49%       34%  10.31
+static_labelshift                   0.894    23%         34%       28%   7.27
+static_pooled|alpha=0.07            0.904    23%         32%       27%   8.58
+static_pooled|alpha=0.05            0.926    14%         21%       18%  11.50
+static_pooled|alpha=0.03            0.952     6%          9%        8%  16.53
+static_pooled|alpha=0.02            0.969     3%          6%        4%  21.80
+qt_local|r=0.1|eta=0.005            0.870    33%         48%       33%  10.42
+qt_pooled_init|r=0.1|eta=0.005      0.879    29%         38%       32%   5.71
+qt_local|r=0.1|eta=0.02             0.876    29%         44%       30%  11.00
+qt_pooled_init|r=0.1|eta=0.02       0.883    25%         33%       29%   6.71
+qt_local|r=0.1|eta=0.05             0.878    28%         40%       31%  12.65
+qt_pooled_init|r=0.1|eta=0.05       0.883    22%         31%       30%   8.88
+qt_local|r=0.3|eta=0.005            0.878    29%         42%       30%  10.74
+qt_pooled_init|r=0.3|eta=0.005      0.887    25%         32%       29%   6.27
+qt_local|r=0.3|eta=0.02             0.886    21%         36%       26%  11.99
+qt_pooled_init|r=0.3|eta=0.02       0.891    17%         24%       25%   8.28
+qt_local|r=0.3|eta=0.05             0.886    17%         25%       26%  14.50
+qt_pooled_init|r=0.3|eta=0.05       0.886    17%         17%       26%  11.76
+qt_local|r=1.0|eta=0.005            0.886    21%         33%       27%  11.06
+qt_pooled_init|r=1.0|eta=0.005      0.892    17%         25%       24%   7.19
+qt_local|r=1.0|eta=0.02             0.890     7%         11%       20%  13.03
+qt_pooled_init|r=1.0|eta=0.02       0.891     7%          8%       19%  10.74
+qt_local|r=1.0|eta=0.05             0.886     4%          6%       16%  19.47
+qt_pooled_init|r=1.0|eta=0.05       0.885     4%          4%       19%  19.45
+BOTH_DONE

@@ -1,0 +1,10 @@
+bioclip2ft_seed{seed} done
+
+== frozen backbones, time split, LAC, alpha=0.1, 5 seeds
+features      head        acc method       mean_cov p10_known  %sig %sig_unseen   size
+bioclip2ft_seed{seed}fedavg    0.696 pooled          0.843     0.710   27%         32%   3.82
+bioclip2ft_seed{seed}fedavg    0.696 labelshift      0.857     0.752   21%         26%   4.87
+bioclip2ft_seed{seed}fedavg    0.696 local           0.832     0.716   34%         39%  10.65
+bioclip2ft_seed{seed}central   0.725 pooled          0.850     0.677   27%         42%   2.48
+bioclip2ft_seed{seed}central   0.725 labelshift      0.884     0.789   15%         21%   3.73
+bioclip2ft_seed{seed}central   0.725 local           0.813     0.681   37%         31%   5.65

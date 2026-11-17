@@ -1,0 +1,115 @@
+seed 0 done
+seed 1 done
+seed 2 done
+seed 3 done
+seed 4 done
+{
+ "dataset": "cct",
+ "n_lockbox_sites": 25,
+ "B": 2000,
+ "blocks": [
+  5,
+  10,
+  20
+ ],
+ "fcp": {
+  "sig": 47.2,
+  "p05": 47.2,
+  "bh": 42.4,
+  "block5": 44.0,
+  "block10": 48.0,
+  "block20": 53.6,
+  "cov": 0.8077315107167369,
+  "n": 25.0,
+  "sig_seeds": [
+   40.0,
+   48.0,
+   52.0,
+   44.0,
+   52.0
+  ],
+  "bh_seeds": [
+   24.0,
+   40.0,
+   52.0,
+   44.0,
+   52.0
+  ]
+ },
+ "ours|0.3": {
+  "sig": 28.8,
+  "p05": 28.8,
+  "bh": 19.2,
+  "block5": 25.6,
+  "block10": 25.6,
+  "block20": 32.0,
+  "cov": 0.840765974789288,
+  "n": 25.0,
+  "sig_seeds": [
+   20.0,
+   28.0,
+   20.0,
+   36.0,
+   40.0
+  ],
+  "bh_seeds": [
+   12.0,
+   12.0,
+   4.0,
+   32.0,
+   36.0
+  ]
+ },
+ "ours|1.0": {
+  "sig": 8.0,
+  "p05": 8.0,
+  "bh": 4.0,
+  "block5": 6.4,
+  "block10": 5.6,
+  "block20": 13.6,
+  "cov": 0.8705266403070647,
+  "n": 25.0,
+  "sig_seeds": [
+   8.0,
+   4.0,
+   4.0,
+   12.0,
+   12.0
+  ],
+  "bh_seeds": [
+   4.0,
+   4.0,
+   4.0,
+   4.0,
+   4.0
+  ]
+ },
+ "classes|fcp": {
+  "n_classes": 16.0,
+  "n_animal_classes": 14.0,
+  "animal_median_cov": 0.6921331870857843,
+  "animal_share_below": 84.28571428571429,
+  "nonanimal_cov": 0.9840107421370655,
+  "rare_animal_median_cov": 0.19838727252914895,
+  "common_animal_median_cov": 0.8536508059316569
+ },
+ "classes|ours|0.3": {
+  "n_classes": 16.0,
+  "n_animal_classes": 14.0,
+  "animal_median_cov": 0.8197356650061527,
+  "animal_share_below": 90.0,
+  "nonanimal_cov": 0.9039973144657336,
+  "rare_animal_median_cov": 0.5601538139699399,
+  "common_animal_median_cov": 0.8807488427582916
+ },
+ "classes|ours|1.0": {
+  "n_classes": 16.0,
+  "n_animal_classes": 14.0,
+  "animal_median_cov": 0.8594953935068919,
+  "animal_share_below": 81.42857142857143,
+  "nonanimal_cov": 0.9030367195166038,
+  "rare_animal_median_cov": 0.7156345098194608,
+  "common_animal_median_cov": 0.8937591028394178
+ }
+}
+SENSITIVITY_DONE

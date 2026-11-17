@@ -1,0 +1,279 @@
+nohup: ignoring input
+The cache for model files in Transformers v4.22.0 has been updated. Migrating your old cache. This is a one-time only operation. You can interrupt this and resume the migration later on by calling `transformers.utils.move_cache()`.
+0it [00:00, ?it/s]0it [00:00, ?it/s]
+Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+/usr/local/lib/python3.12/dist-packages/nvidia/dali/plugin/base_iterator.py:208: Warning: Please set `reader_name` and don't set last_batch_padded and size manually whenever possible. This may lead, in some situations, to missing some samples or returning duplicated ones. Check the Sharding section of the documentation for more details.
+  _iterator_deprecation_warning()
+128/203029
+25728/203029
+51328/203029
+76928/203029
+102528/203029
+128128/203029
+153728/203029
+179328/203029
+DINOV2_DONE iwildcam
+/usr/local/lib/python3.12/dist-packages/nvidia/dali/plugin/base_iterator.py:208: Warning: Please set `reader_name` and don't set last_batch_padded and size manually whenever possible. This may lead, in some situations, to missing some samples or returning duplicated ones. Check the Sharding section of the documentation for more details.
+  _iterator_deprecation_warning()
+128/242895
+25728/242895
+51328/242895
+76928/242895
+102528/242895
+128128/242895
+153728/242895
+179328/242895
+204928/242895
+230528/242895
+DINOV2_DONE cct
+  seed 0 r=0.1: lambda* 3.0 | sel loss 0.1:0.858 0.3:0.853 1.0:0.849 3.0:0.848 10.0:0.851
+  seed 0 r=0.3: lambda* 1.0 | sel loss 0.1:0.841 0.3:0.827 1.0:0.818 3.0:0.821 10.0:0.833
+  seed 0 r=1.0: lambda* 1.0 | sel loss 0.1:0.755 0.3:0.732 1.0:0.726 3.0:0.741 10.0:0.784
+  seed 1 r=0.1: lambda* 10.0 | sel loss 0.1:0.811 0.3:0.803 1.0:0.798 3.0:0.795 10.0:0.795
+  seed 1 r=0.3: lambda* 3.0 | sel loss 0.1:0.818 0.3:0.793 1.0:0.774 3.0:0.769 10.0:0.776
+  seed 1 r=1.0: lambda* 1.0 | sel loss 0.1:0.734 0.3:0.709 1.0:0.699 3.0:0.709 10.0:0.740
+  seed 2 r=0.1: lambda* 10.0 | sel loss 0.1:0.855 0.3:0.846 1.0:0.840 3.0:0.836 10.0:0.836
+  seed 2 r=0.3: lambda* 3.0 | sel loss 0.1:0.843 0.3:0.818 1.0:0.801 3.0:0.799 10.0:0.811
+  seed 2 r=1.0: lambda* 1.0 | sel loss 0.1:0.762 0.3:0.735 1.0:0.726 3.0:0.739 10.0:0.776
+  seed 3 r=0.1: lambda* 3.0 | sel loss 0.1:0.861 0.3:0.852 1.0:0.844 3.0:0.840 10.0:0.844
+  seed 3 r=0.3: lambda* 3.0 | sel loss 0.1:0.873 0.3:0.847 1.0:0.824 3.0:0.815 10.0:0.826
+  seed 3 r=1.0: lambda* 1.0 | sel loss 0.1:0.775 0.3:0.749 1.0:0.739 3.0:0.751 10.0:0.788
+  seed 4 r=0.1: lambda* 3.0 | sel loss 0.1:0.797 0.3:0.793 1.0:0.790 3.0:0.790 10.0:0.791
+  seed 4 r=0.3: lambda* 3.0 | sel loss 0.1:0.820 0.3:0.795 1.0:0.776 3.0:0.770 10.0:0.779
+  seed 4 r=1.0: lambda* 1.0 | sel loss 0.1:0.745 0.3:0.717 1.0:0.705 3.0:0.713 10.0:0.742
+
+== Ditto lambda: federated selection + test sensitivity, DEV sites, features=dinov2crop, 5 seeds
+
+r=0.1: lambda* per seed [3.0, 10.0, 10.0, 3.0, 3.0]
+  lambda   sel_loss | fixed %sig  size |  qt %sig  size |  recall    ff%  auroc
+  0.1        0.8362 |        28%  2.41 |      24%  2.85 |   0.816  29.2%  0.856
+  0.3        0.8295 |        28%  2.42 |      24%  2.86 |   0.828  29.5%  0.856
+  1.0        0.8242 |        28%  2.44 |      24%  2.86 |   0.837  30.0%  0.855
+  3.0        0.8221 |        28%  2.46 |      24%  2.86 |   0.845  30.3%  0.853
+  10.0       0.8238 |        28%  2.47 |      24%  2.87 |   0.849  30.4%  0.850
+  selected: fixed %sig 28% size 2.46 | qt %sig 25% size 2.86 | ff 30.4%
+
+r=0.3: lambda* per seed [1.0, 3.0, 3.0, 3.0, 3.0]
+  lambda   sel_loss | fixed %sig  size |  qt %sig  size |  recall    ff%  auroc
+  0.1        0.8390 |        26%  2.26 |      19%  2.96 |   0.810  26.2%  0.871
+  0.3        0.8159 |        25%  2.31 |      18%  2.98 |   0.831  27.1%  0.870
+  1.0        0.7986 |        24%  2.37 |      17%  3.01 |   0.842  28.2%  0.865
+  3.0        0.7946 |        24%  2.42 |      17%  3.05 |   0.846  29.1%  0.859
+  10.0       0.8050 |        26%  2.46 |      18%  3.09 |   0.849  30.0%  0.851
+  selected: fixed %sig 24% size 2.41 | qt %sig 17% size 3.04 | ff 28.9%
+
+r=1.0: lambda* per seed [1.0, 1.0, 1.0, 1.0, 1.0]
+  lambda   sel_loss | fixed %sig  size |  qt %sig  size |  recall    ff%  auroc
+  0.1        0.7542 |        22%  2.02 |      10%  3.03 |   0.811  22.0%  0.882
+  0.3        0.7286 |        21%  2.12 |       9%  3.05 |   0.827  23.2%  0.879
+  1.0        0.7188 |        19%  2.24 |      10%  3.12 |   0.838  25.0%  0.872
+  3.0        0.7305 |        22%  2.34 |      10%  3.20 |   0.845  26.8%  0.862
+  10.0       0.7661 |        25%  2.42 |      11%  3.39 |   0.848  28.9%  0.854
+  selected: fixed %sig 19% size 2.24 | qt %sig 10% size 3.12 | ff 25.0%
+  seed 0 r=0.1: lambda* 0.1 | sel loss 0.1:0.479 0.3:0.480 1.0:0.486 3.0:0.496 10.0:0.515
+  seed 0 r=0.3: lambda* 0.1 | sel loss 0.1:0.428 0.3:0.430 1.0:0.443 3.0:0.465 10.0:0.500
+  seed 0 r=1.0: lambda* 0.1 | sel loss 0.1:0.376 0.3:0.380 1.0:0.402 3.0:0.437 10.0:0.485
+  seed 1 r=0.1: lambda* 0.3 | sel loss 0.1:0.574 0.3:0.574 1.0:0.577 3.0:0.583 10.0:0.593
+  seed 1 r=0.3: lambda* 0.1 | sel loss 0.1:0.500 0.3:0.500 1.0:0.512 3.0:0.537 10.0:0.579
+  seed 1 r=1.0: lambda* 0.1 | sel loss 0.1:0.408 0.3:0.414 1.0:0.440 3.0:0.483 10.0:0.553
+  seed 2 r=0.1: lambda* 0.1 | sel loss 0.1:0.584 0.3:0.586 1.0:0.595 3.0:0.609 10.0:0.623
+  seed 2 r=0.3: lambda* 0.1 | sel loss 0.1:0.517 0.3:0.518 1.0:0.532 3.0:0.561 10.0:0.601
+  seed 2 r=1.0: lambda* 0.1 | sel loss 0.1:0.410 0.3:0.417 1.0:0.444 3.0:0.492 10.0:0.572
+  seed 3 r=0.1: lambda* 0.1 | sel loss 0.1:0.529 0.3:0.529 1.0:0.535 3.0:0.547 10.0:0.565
+  seed 3 r=0.3: lambda* 0.1 | sel loss 0.1:0.470 0.3:0.474 1.0:0.489 3.0:0.515 10.0:0.553
+  seed 3 r=1.0: lambda* 0.1 | sel loss 0.1:0.392 0.3:0.399 1.0:0.425 3.0:0.466 10.0:0.530
+  seed 4 r=0.1: lambda* 0.3 | sel loss 0.1:0.513 0.3:0.513 1.0:0.516 3.0:0.529 10.0:0.548
+  seed 4 r=0.3: lambda* 0.3 | sel loss 0.1:0.470 0.3:0.468 1.0:0.477 3.0:0.498 10.0:0.532
+  seed 4 r=1.0: lambda* 0.1 | sel loss 0.1:0.384 0.3:0.390 1.0:0.414 3.0:0.453 10.0:0.509
+
+== Ditto lambda: federated selection + test sensitivity, DEV sites, features=cct_dinov2crop, 5 seeds
+
+r=0.1: lambda* per seed [0.1, 0.3, 0.1, 0.1, 0.3]
+  lambda   sel_loss | fixed %sig  size |  qt %sig  size |  recall    ff%  auroc
+  0.1        0.5357 |        70%  1.18 |      68%  1.43 |   0.762  32.1%  0.824
+  0.3        0.5363 |        69%  1.18 |      67%  1.43 |   0.764  32.4%  0.819
+  1.0        0.5417 |        70%  1.19 |      68%  1.44 |   0.767  32.8%  0.810
+  3.0        0.5527 |        71%  1.19 |      69%  1.44 |   0.765  33.0%  0.802
+  10.0       0.5690 |        72%  1.19 |      70%  1.45 |   0.763  33.2%  0.793
+  selected: fixed %sig 69% size 1.18 | qt %sig 68% size 1.43 | ff 32.2%
+
+r=0.3: lambda* per seed [0.1, 0.1, 0.1, 0.1, 0.3]
+  lambda   sel_loss | fixed %sig  size |  qt %sig  size |  recall    ff%  auroc
+  0.1        0.4771 |        65%  1.17 |      53%  1.67 |   0.767  30.9%  0.835
+  0.3        0.4779 |        65%  1.18 |      54%  1.67 |   0.775  31.8%  0.827
+  1.0        0.4905 |        66%  1.19 |      55%  1.70 |   0.773  32.7%  0.815
+  3.0        0.5151 |        69%  1.19 |      58%  1.75 |   0.775  33.4%  0.804
+  10.0       0.5528 |        71%  1.19 |      62%  1.80 |   0.768  33.4%  0.795
+  selected: fixed %sig 65% size 1.17 | qt %sig 53% size 1.67 | ff 31.1%
+
+r=1.0: lambda* per seed [0.1, 0.1, 0.1, 0.1, 0.1]
+  lambda   sel_loss | fixed %sig  size |  qt %sig  size |  recall    ff%  auroc
+  0.1        0.3940 |        49%  1.15 |      10%  1.87 |   0.784  28.4%  0.849
+  0.3        0.4001 |        51%  1.17 |      10%  1.87 |   0.789  30.1%  0.839
+  1.0        0.4249 |        54%  1.19 |      12%  1.94 |   0.791  32.2%  0.823
+  3.0        0.4662 |        62%  1.20 |      14%  2.06 |   0.787  33.7%  0.808
+  10.0       0.5297 |        69%  1.19 |      20%  2.25 |   0.773  33.6%  0.796
+  selected: fixed %sig 49% size 1.15 | qt %sig 10% size 1.87 | ff 28.4%
+  seed 0 r=0.1: ours %sig 24 size 3.28 | ditto fixed 31 | global qt 25 | fcp 31
+  seed 0 r=0.3: ours %sig 19 size 3.77 | ditto fixed 27 | global qt 19 | fcp 31
+  seed 0 r=1.0: ours %sig 8 size 3.29 | ditto fixed 18 | global qt 12 | fcp 31
+  seed 1 r=0.1: ours %sig 28 size 2.39 | ditto fixed 28 | global qt 28 | fcp 29
+  seed 1 r=0.3: ours %sig 19 size 2.63 | ditto fixed 26 | global qt 23 | fcp 29
+  seed 1 r=1.0: ours %sig 12 size 2.94 | ditto fixed 22 | global qt 15 | fcp 29
+  seed 2 r=0.1: ours %sig 15 size 3.71 | ditto fixed 21 | global qt 15 | fcp 24
+  seed 2 r=0.3: ours %sig 13 size 3.23 | ditto fixed 17 | global qt 16 | fcp 24
+  seed 2 r=1.0: ours %sig 6 size 3.35 | ditto fixed 12 | global qt 7 | fcp 24
+  seed 3 r=0.1: ours %sig 27 size 2.57 | ditto fixed 28 | global qt 28 | fcp 28
+  seed 3 r=0.3: ours %sig 17 size 2.91 | ditto fixed 25 | global qt 19 | fcp 28
+  seed 3 r=1.0: ours %sig 10 size 3.06 | ditto fixed 21 | global qt 13 | fcp 28
+  seed 4 r=0.1: ours %sig 29 size 2.36 | ditto fixed 30 | global qt 30 | fcp 30
+  seed 4 r=0.3: ours %sig 19 size 2.64 | ditto fixed 27 | global qt 24 | fcp 30
+  seed 4 r=1.0: ours %sig 12 size 3.00 | ditto fixed 23 | global qt 16 | fcp 30
+
+== FINAL EVALUATION on IWILDCAM DEV DINOV2 sites (100 sites, 24 unseen), features=dinov2crop, RAPS, alpha=0.1, alpha_u=0.2, delay=5, seeds [0, 1, 2, 3, 4]
+method                                cov   %sig %sig_unseen   size   per-seed %sig
+fcp (static, global)                0.887    28%         30%   2.47   [31, 29, 24, 28, 30]
+labelshift (static, global)         0.909    17%         18%   4.05   [13, 19, 16, 17, 20]
+qq (static, global)                 0.851    34%         38%   2.06   [35, 33, 33, 34, 35]
+dr (static, global)                 0.874    28%         29%   2.88   [33, 27, 23, 28, 27]
+global + tracking   r=0.1           0.890    25%         28%   2.87   [25, 28, 15, 28, 30]
+Ditto fixed tau     r=0.1           0.889    28%         28%   2.46   [31, 28, 21, 28, 30]
+OURS Ditto+tracking r=0.1           0.890    25%         28%   2.86   [24, 28, 15, 27, 29]
+   ours - FCP: -3.8 pts (per seed [-7.0, -1.0, -9.0, -1.0, -1.0]); ours - Ditto frontier at matched size: +1.0 pts (per seed [-4.7, 1.7, 4.2, 2.8, 1.1])
+   unknown flag global : recall 0.847  %sites<0.8 11%  false flags 30.5%  AUROC 0.850
+   unknown flag ours   : recall 0.847  %sites<0.8 11%  false flags 30.4%  AUROC 0.852
+global + tracking   r=0.3           0.891    20%         22%   3.16   [19, 23, 16, 19, 24]
+Ditto fixed tau     r=0.3           0.897    24%         25%   2.41   [27, 26, 17, 25, 27]
+OURS Ditto+tracking r=0.3           0.895    17%         20%   3.04   [19, 19, 13, 17, 19]
+   ours - FCP: -11.0 pts (per seed [-12.0, -10.0, -11.0, -11.0, -11.0]); ours - Ditto frontier at matched size: -2.8 pts (per seed [-0.3, -3.6, -0.7, -4.3, -4.9])
+   unknown flag global : recall 0.847  %sites<0.8 11%  false flags 30.5%  AUROC 0.850
+   unknown flag ours   : recall 0.846  %sites<0.8 11%  false flags 28.9%  AUROC 0.860
+global + tracking   r=1.0           0.890    13%         18%   3.59   [12, 15, 7, 13, 16]
+Ditto fixed tau     r=1.0           0.908    19%         18%   2.24   [18, 22, 12, 21, 23]
+OURS Ditto+tracking r=1.0           0.896    10%         14%   3.12   [8, 12, 6, 10, 12]
+   ours - FCP: -18.8 pts (per seed [-23.0, -17.0, -18.0, -18.0, -18.0]); ours - Ditto frontier at matched size: -4.5 pts (per seed [-9.6, -3.5, 0.3, -4.0, -5.7])
+   unknown flag global : recall 0.847  %sites<0.8 11%  false flags 30.5%  AUROC 0.850
+   unknown flag ours   : recall 0.838  %sites<0.8 13%  false flags 25.0%  AUROC 0.872
+  seed 0 r=0.1: ours %sig 19 size 2.84 | ditto fixed 21 | global qt 21 | fcp 21
+  seed 0 r=0.3: ours %sig 12 size 2.98 | ditto fixed 19 | global qt 21 | fcp 21
+  seed 0 r=1.0: ours %sig 9 size 2.79 | ditto fixed 16 | global qt 9 | fcp 21
+  seed 1 r=0.1: ours %sig 21 size 2.02 | ditto fixed 21 | global qt 21 | fcp 23
+  seed 1 r=0.3: ours %sig 19 size 2.21 | ditto fixed 21 | global qt 26 | fcp 23
+  seed 1 r=1.0: ours %sig 12 size 2.55 | ditto fixed 19 | global qt 9 | fcp 23
+  seed 2 r=0.1: ours %sig 12 size 3.19 | ditto fixed 14 | global qt 14 | fcp 16
+  seed 2 r=0.3: ours %sig 9 size 2.87 | ditto fixed 12 | global qt 9 | fcp 16
+  seed 2 r=1.0: ours %sig 5 size 2.81 | ditto fixed 12 | global qt 5 | fcp 16
+  seed 3 r=0.1: ours %sig 23 size 2.43 | ditto fixed 23 | global qt 23 | fcp 23
+  seed 3 r=0.3: ours %sig 19 size 2.65 | ditto fixed 23 | global qt 26 | fcp 23
+  seed 3 r=1.0: ours %sig 9 size 2.80 | ditto fixed 19 | global qt 12 | fcp 23
+  seed 4 r=0.1: ours %sig 21 size 2.10 | ditto fixed 23 | global qt 26 | fcp 23
+  seed 4 r=0.3: ours %sig 19 size 2.44 | ditto fixed 21 | global qt 23 | fcp 23
+  seed 4 r=1.0: ours %sig 5 size 2.60 | ditto fixed 16 | global qt 12 | fcp 23
+
+== FINAL EVALUATION on IWILDCAM LOCKBOX (POST HOC) DINOV2 sites (43 sites, 10 unseen), features=dinov2crop, RAPS, alpha=0.1, alpha_u=0.2, delay=5, seeds [0, 1, 2, 3, 4]
+method                                cov   %sig %sig_unseen   size   per-seed %sig
+fcp (static, global)                0.908    21%         46%   2.20   [21, 23, 16, 23, 23]
+labelshift (static, global)         0.927    11%         20%   3.84   [7, 16, 7, 14, 12]
+qq (static, global)                 0.876    28%         50%   1.82   [28, 26, 26, 30, 30]
+dr (static, global)                 0.884    24%         38%   3.45   [26, 23, 16, 26, 28]
+global + tracking   r=0.1           0.905    21%         44%   2.54   [21, 21, 14, 23, 26]
+Ditto fixed tau     r=0.1           0.911    20%         44%   2.19   [21, 21, 14, 23, 23]
+OURS Ditto+tracking r=0.1           0.907    19%         40%   2.52   [19, 21, 12, 23, 21]
+   ours - FCP: -2.3 pts (per seed [-2.3, -2.3, -4.7, 0.0, -2.3]); ours - Ditto frontier at matched size: -0.5 pts (per seed [-2.3, 0.0, -0.3, 0.4, 0.0])
+   unknown flag global : recall 0.816  %sites<0.8 19%  false flags 24.1%  AUROC 0.862
+   unknown flag ours   : recall 0.818  %sites<0.8 19%  false flags 23.8%  AUROC 0.867
+global + tracking   r=0.3           0.902    21%         38%   2.78   [21, 26, 9, 26, 23]
+Ditto fixed tau     r=0.3           0.917    19%         40%   2.14   [19, 21, 12, 23, 21]
+OURS Ditto+tracking r=0.3           0.907    15%         28%   2.63   [12, 19, 9, 19, 19]
+   ours - FCP: -6.0 pts (per seed [-9.3, -4.7, -7.0, -4.7, -4.7]); ours - Ditto frontier at matched size: -1.2 pts (per seed [-4.7, -2.2, 0.9, -4.7, 4.7])
+   unknown flag global : recall 0.816  %sites<0.8 19%  false flags 24.1%  AUROC 0.862
+   unknown flag ours   : recall 0.799  %sites<0.8 21%  false flags 22.3%  AUROC 0.867
+global + tracking   r=1.0           0.899     9%         10%   3.12   [9, 9, 5, 12, 12]
+Ditto fixed tau     r=1.0           0.923    16%         36%   2.02   [16, 19, 12, 19, 16]
+OURS Ditto+tracking r=1.0           0.903     8%          4%   2.71   [9, 12, 5, 9, 5]
+   ours - FCP: -13.5 pts (per seed [-11.6, -11.6, -11.6, -14.0, -18.6]); ours - Ditto frontier at matched size: -4.7 pts (per seed [-7.0, -4.7, 0.0, -4.7, -7.0])
+   unknown flag global : recall 0.816  %sites<0.8 19%  false flags 24.1%  AUROC 0.862
+   unknown flag ours   : recall 0.797  %sites<0.8 21%  false flags 20.0%  AUROC 0.878
+BACKBONE_DONE iwildcam
+  seed 0 r=0.1: ours %sig 63 size 1.43 | ditto fixed 64 | global qt 68 | fcp 71
+  seed 0 r=0.3: ours %sig 51 size 1.64 | ditto fixed 61 | global qt 64 | fcp 71
+  seed 0 r=1.0: ours %sig 10 size 1.85 | ditto fixed 49 | global qt 22 | fcp 71
+  seed 1 r=0.1: ours %sig 69 size 1.46 | ditto fixed 69 | global qt 73 | fcp 73
+  seed 1 r=0.3: ours %sig 47 size 1.69 | ditto fixed 66 | global qt 64 | fcp 73
+  seed 1 r=1.0: ours %sig 8 size 1.89 | ditto fixed 51 | global qt 27 | fcp 73
+  seed 2 r=0.1: ours %sig 69 size 1.41 | ditto fixed 73 | global qt 73 | fcp 75
+  seed 2 r=0.3: ours %sig 56 size 1.70 | ditto fixed 64 | global qt 66 | fcp 75
+  seed 2 r=1.0: ours %sig 12 size 1.90 | ditto fixed 47 | global qt 27 | fcp 75
+  seed 3 r=0.1: ours %sig 66 size 1.47 | ditto fixed 69 | global qt 68 | fcp 71
+  seed 3 r=0.3: ours %sig 54 size 1.70 | ditto fixed 66 | global qt 66 | fcp 71
+  seed 3 r=1.0: ours %sig 10 size 1.86 | ditto fixed 49 | global qt 29 | fcp 71
+  seed 4 r=0.1: ours %sig 71 size 1.39 | ditto fixed 71 | global qt 73 | fcp 73
+  seed 4 r=0.3: ours %sig 58 size 1.61 | ditto fixed 69 | global qt 68 | fcp 73
+  seed 4 r=1.0: ours %sig 10 size 1.82 | ditto fixed 47 | global qt 24 | fcp 73
+
+== FINAL EVALUATION on CCT DEV DINOV2 sites (59 sites, 17 unseen), features=cct_dinov2crop, RAPS, alpha=0.1, alpha_u=0.2, delay=5, seeds [0, 1, 2, 3, 4]
+method                                cov   %sig %sig_unseen   size   per-seed %sig
+fcp (static, global)                0.787    73%         76%   1.18   [71, 73, 75, 71, 73]
+labelshift (static, global)         0.813    61%         66%   1.44   [59, 64, 58, 61, 64]
+qq (static, global)                 0.875    40%         49%   2.17   [46, 41, 37, 39, 36]
+dr (static, global)                 0.812    69%         78%   1.56   [69, 73, 73, 66, 64]
+global + tracking   r=0.1           0.809    71%         73%   1.47   [68, 73, 73, 68, 73]
+Ditto fixed tau     r=0.1           0.794    69%         66%   1.18   [64, 69, 73, 69, 71]
+OURS Ditto+tracking r=0.1           0.812    68%         71%   1.43   [63, 69, 69, 66, 71]
+   ours - FCP: -4.7 pts (per seed [-8.5, -3.4, -5.1, -5.1, -1.7]); ours - Ditto frontier at matched size: +10.2 pts (per seed [9.5, 12.9, 7.1, 11.6, 9.7])
+   unknown flag global : recall 0.760  %sites<0.8 23%  false flags 33.2%  AUROC 0.785
+   unknown flag ours   : recall 0.762  %sites<0.8 20%  false flags 32.2%  AUROC 0.822
+global + tracking   r=0.3           0.832    66%         64%   1.86   [64, 64, 66, 66, 68]
+Ditto fixed tau     r=0.3           0.809    65%         61%   1.17   [61, 66, 64, 66, 69]
+OURS Ditto+tracking r=0.3           0.844    53%         45%   1.67   [51, 47, 56, 54, 58]
+   ours - FCP: -19.3 pts (per seed [-20.3, -25.4, -18.6, -16.9, -15.3]); ours - Ditto frontier at matched size: +14.9 pts (per seed [17.5, 10.2, 9.8, 18.1, 19.0])
+   unknown flag global : recall 0.760  %sites<0.8 23%  false flags 33.2%  AUROC 0.785
+   unknown flag ours   : recall 0.769  %sites<0.8 21%  false flags 31.1%  AUROC 0.834
+global + tracking   r=1.0           0.865    26%         25%   2.46   [22, 27, 27, 29, 24]
+Ditto fixed tau     r=1.0           0.841    49%         45%   1.15   [49, 51, 47, 49, 47]
+OURS Ditto+tracking r=1.0           0.879    10%          5%   1.87   [10, 8, 12, 10, 10]
+   ours - FCP: -62.4 pts (per seed [-61.0, -64.4, -62.7, -61.0, -62.7]); ours - Ditto frontier at matched size: -6.5 pts (per seed [-5.0, -5.5, -9.4, -5.4, -7.3])
+   unknown flag global : recall 0.760  %sites<0.8 23%  false flags 33.2%  AUROC 0.785
+   unknown flag ours   : recall 0.784  %sites<0.8 15%  false flags 28.4%  AUROC 0.849
+  seed 0 r=0.1: ours %sig 44 size 1.27 | ditto fixed 52 | global qt 40 | fcp 52
+  seed 0 r=0.3: ours %sig 28 size 1.40 | ditto fixed 48 | global qt 40 | fcp 52
+  seed 0 r=1.0: ours %sig 8 size 1.68 | ditto fixed 28 | global qt 16 | fcp 52
+  seed 1 r=0.1: ours %sig 64 size 1.26 | ditto fixed 56 | global qt 56 | fcp 56
+  seed 1 r=0.3: ours %sig 52 size 1.47 | ditto fixed 48 | global qt 56 | fcp 56
+  seed 1 r=1.0: ours %sig 12 size 1.73 | ditto fixed 36 | global qt 24 | fcp 56
+  seed 2 r=0.1: ours %sig 68 size 1.25 | ditto fixed 64 | global qt 72 | fcp 64
+  seed 2 r=0.3: ours %sig 48 size 1.41 | ditto fixed 60 | global qt 60 | fcp 64
+  seed 2 r=1.0: ours %sig 12 size 1.79 | ditto fixed 44 | global qt 36 | fcp 64
+  seed 3 r=0.1: ours %sig 56 size 1.19 | ditto fixed 60 | global qt 56 | fcp 56
+  seed 3 r=0.3: ours %sig 56 size 1.42 | ditto fixed 56 | global qt 60 | fcp 56
+  seed 3 r=1.0: ours %sig 16 size 1.81 | ditto fixed 32 | global qt 24 | fcp 56
+  seed 4 r=0.1: ours %sig 72 size 1.23 | ditto fixed 64 | global qt 72 | fcp 64
+  seed 4 r=0.3: ours %sig 48 size 1.36 | ditto fixed 60 | global qt 52 | fcp 64
+  seed 4 r=1.0: ours %sig 16 size 1.77 | ditto fixed 40 | global qt 36 | fcp 64
+
+== FINAL EVALUATION on CCT LOCKBOX (POST HOC) DINOV2 sites (25 sites, 7 unseen), features=cct_dinov2crop, RAPS, alpha=0.1, alpha_u=0.2, delay=5, seeds [0, 1, 2, 3, 4]
+method                                cov   %sig %sig_unseen   size   per-seed %sig
+fcp (static, global)                0.805    58%         63%   1.14   [52, 56, 64, 56, 64]
+labelshift (static, global)         0.818    54%         63%   1.42   [48, 56, 64, 52, 52]
+qq (static, global)                 0.866    32%         46%   2.11   [32, 24, 36, 32, 36]
+dr (static, global)                 0.819    50%         57%   1.85   [44, 44, 56, 52, 52]
+global + tracking   r=0.1           0.802    59%         71%   1.24   [40, 56, 72, 56, 72]
+Ditto fixed tau     r=0.1           0.809    59%         66%   1.14   [52, 56, 64, 60, 64]
+OURS Ditto+tracking r=0.1           0.803    61%         71%   1.24   [44, 64, 68, 56, 72]
+   ours - FCP: +2.4 pts (per seed [-8.0, 8.0, 4.0, 0.0, 8.0]); ours - Ditto frontier at matched size: +8.2 pts (per seed [6.2, 16.0, 4.0, -0.0, 14.7])
+   unknown flag global : recall 0.713  %sites<0.8 28%  false flags 27.3%  AUROC 0.890
+   unknown flag ours   : recall 0.711  %sites<0.8 28%  false flags 25.8%  AUROC 0.930
+global + tracking   r=0.3           0.815    54%         74%   1.49   [40, 56, 60, 60, 52]
+Ditto fixed tau     r=0.3           0.816    54%         54%   1.13   [48, 48, 60, 56, 60]
+OURS Ditto+tracking r=0.3           0.818    46%         46%   1.41   [28, 52, 48, 56, 48]
+   ours - FCP: -12.0 pts (per seed [-24.0, -4.0, -16.0, 0.0, -16.0]); ours - Ditto frontier at matched size: +7.9 pts (per seed [0.7, 16.0, -4.1, 15.1, 12.0])
+   unknown flag global : recall 0.713  %sites<0.8 28%  false flags 27.3%  AUROC 0.890
+   unknown flag ours   : recall 0.729  %sites<0.8 28%  false flags 24.9%  AUROC 0.948
+global + tracking   r=1.0           0.846    27%         29%   2.08   [16, 24, 36, 24, 36]
+Ditto fixed tau     r=1.0           0.846    36%         46%   1.12   [28, 36, 44, 32, 40]
+OURS Ditto+tracking r=1.0           0.863    13%         17%   1.75   [8, 12, 12, 16, 16]
+   ours - FCP: -45.6 pts (per seed [-44.0, -44.0, -52.0, -40.0, -48.0]); ours - Ditto frontier at matched size: -5.5 pts (per seed [-6.5, 0.0, -10.9, -8.0, -2.0])
+   unknown flag global : recall 0.713  %sites<0.8 28%  false flags 27.3%  AUROC 0.890
+   unknown flag ours   : recall 0.772  %sites<0.8 22%  false flags 23.6%  AUROC 0.952
+BACKBONE_DONE cct
+RUN_BACKBONE_DONE

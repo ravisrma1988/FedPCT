@@ -1,0 +1,10 @@
+nohup: ignoring input
+fmow time seed 0: OK clients=105 unknown=[4, 7, 45, 61] (pool 13, range (20, 2000)) near-dup=0.05% dropped_objects=0 counts={'cal/known': 48124, 'cal/designed': 832, 'test/known': 77110, 'test/designed': 1334, 'train/known': 294530, 'tune/known': 23639, 'tune/designed': 416}
+fmow time seed 1: OK clients=105 unknown=[0, 27, 31, 61] (pool 13, range (20, 2000)) near-dup=0.05% dropped_objects=0 counts={'cal/known': 48419, 'cal/designed': 705, 'test/known': 77146, 'test/designed': 1298, 'train/known': 295970, 'tune/known': 23480, 'tune/designed': 407}
+fmow time seed 2: OK clients=105 unknown=[0, 5, 18, 44] (pool 13, range (20, 2000)) near-dup=0.05% dropped_objects=0 counts={'cal/known': 47277, 'cal/designed': 1602, 'test/known': 76101, 'test/designed': 2343, 'train/known': 292825, 'tune/known': 23379, 'tune/designed': 753}
+fmow time seed 3: OK clients=105 unknown=[4, 5, 44, 50] (pool 13, range (20, 2000)) near-dup=0.05% dropped_objects=0 counts={'cal/known': 47305, 'cal/designed': 1129, 'test/known': 76540, 'test/designed': 1904, 'train/known': 293753, 'tune/known': 24058, 'tune/designed': 519}
+fmow time seed 4: OK clients=105 unknown=[25, 27, 44, 45] (pool 13, range (20, 2000)) near-dup=0.05% dropped_objects=0 counts={'cal/known': 47818, 'cal/designed': 898, 'test/known': 77023, 'test/designed': 1421, 'train/known': 294509, 'tune/known': 23929, 'tune/designed': 366}
+${FEDPCT_ROOT}/src/splits.py:179: DtypeWarning: Columns (10) have mixed types. Specify dtype option on import or set low_memory=False.
+  return pd.read_csv(f"{p}.csv.gz", parse_dates=["datetime"]), info
+FMoW lockbox: 32 of 105 sites (seen 24, unseen 8)
+FMOW_SPLITS_DONE

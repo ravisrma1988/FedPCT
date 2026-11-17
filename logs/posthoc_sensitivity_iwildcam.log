@@ -1,0 +1,115 @@
+seed 0 done
+seed 1 done
+seed 2 done
+seed 3 done
+seed 4 done
+{
+ "dataset": "iwildcam",
+ "n_lockbox_sites": 43,
+ "B": 2000,
+ "blocks": [
+  5,
+  10,
+  20
+ ],
+ "fcp": {
+  "sig": 25.581395348837212,
+  "p05": 25.581395348837212,
+  "bh": 18.604651162790695,
+  "block5": 22.325581395348838,
+  "block10": 24.186046511627907,
+  "block20": 24.65116279069768,
+  "cov": 0.8973861029112908,
+  "n": 43.0,
+  "sig_seeds": [
+   25.6,
+   25.6,
+   25.6,
+   30.2,
+   20.9
+  ],
+  "bh_seeds": [
+   16.3,
+   20.9,
+   18.6,
+   20.9,
+   16.3
+  ]
+ },
+ "ours|0.3": {
+  "sig": 15.348837209302323,
+  "p05": 15.348837209302323,
+  "bh": 6.511627906976744,
+  "block5": 10.697674418604652,
+  "block10": 11.162790697674419,
+  "block20": 10.69767441860465,
+  "cov": 0.9027315371062059,
+  "n": 43.0,
+  "sig_seeds": [
+   20.9,
+   14.0,
+   14.0,
+   14.0,
+   14.0
+  ],
+  "bh_seeds": [
+   4.7,
+   7.0,
+   7.0,
+   4.7,
+   9.3
+  ]
+ },
+ "ours|1.0": {
+  "sig": 8.372093023255815,
+  "p05": 8.372093023255815,
+  "bh": 3.255813953488372,
+  "block5": 6.511627906976744,
+  "block10": 3.255813953488372,
+  "block20": 5.5813953488372094,
+  "cov": 0.9076926937216969,
+  "n": 43.0,
+  "sig_seeds": [
+   9.3,
+   7.0,
+   9.3,
+   7.0,
+   9.3
+  ],
+  "bh_seeds": [
+   2.3,
+   4.7,
+   0.0,
+   2.3,
+   7.0
+  ]
+ },
+ "classes|fcp": {
+  "n_classes": 42.4,
+  "n_animal_classes": 41.4,
+  "animal_median_cov": 0.8357156988000458,
+  "animal_share_below": 65.16541069065177,
+  "nonanimal_cov": 0.9890529424172115,
+  "rare_animal_median_cov": 0.5358794043933364,
+  "common_animal_median_cov": 0.887664919541287
+ },
+ "classes|ours|0.3": {
+  "n_classes": 42.4,
+  "n_animal_classes": 41.4,
+  "animal_median_cov": 0.8551850057707922,
+  "animal_share_below": 62.3176809010615,
+  "nonanimal_cov": 0.9349293398017297,
+  "rare_animal_median_cov": 0.5205182072829132,
+  "common_animal_median_cov": 0.9139363289165121
+ },
+ "classes|ours|1.0": {
+  "n_classes": 42.4,
+  "n_animal_classes": 41.4,
+  "animal_median_cov": 0.8599547604967475,
+  "animal_share_below": 60.34265186505686,
+  "nonanimal_cov": 0.9226956338325248,
+  "rare_animal_median_cov": 0.5697832817337461,
+  "common_animal_median_cov": 0.9236235873444727
+ }
+}
+SENSITIVITY_DONE

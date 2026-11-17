@@ -1,0 +1,187 @@
+[
+ {
+  "unknown": [
+   "fox",
+   "opossum",
+   "raccoon"
+  ],
+  "test_acc_known": 0.6999521890581244,
+  "local": {
+   "mean_cov": 0.5998802161633552,
+   "worst_cov": 0.279057859703021,
+   "worst_cov_known": 0.8220551378446115,
+   "frac_clients_below": 0.85,
+   "mean_size": 2.703050874867704
+  },
+  "pooled": {
+   "mean_cov": 0.5981037412985459,
+   "worst_cov": 0.2708653353814644,
+   "worst_cov_known": 0.76875,
+   "frac_clients_below": 0.85,
+   "mean_size": 2.237489957004146
+  },
+  "labelshift": {
+   "mean_cov": 0.6373138687618812,
+   "worst_cov": 0.2944188428059396,
+   "worst_cov_known": 0.8822055137844611,
+   "frac_clients_below": 0.85,
+   "mean_size": 3.6121767840622034
+  },
+  "pooled+msp": {
+   "mean_cov": 0.6818151012128154,
+   "worst_cov": 0.4816995136933709,
+   "worst_cov_known": 0.76875,
+   "frac_clients_below": 0.85,
+   "mean_size": 2.3939138617068236,
+   "unk_recall": 0.21715171198512712
+  }
+ },
+ {
+  "unknown": [
+   "deer",
+   "dog",
+   "raccoon"
+  ],
+  "test_acc_known": 0.7370325051869979,
+  "local": {
+   "mean_cov": 0.7455776366918581,
+   "worst_cov": 0.34269662921348315,
+   "worst_cov_known": 0.8661800486618005,
+   "frac_clients_below": 0.85,
+   "mean_size": 2.3010102185167907
+  },
+  "pooled": {
+   "mean_cov": 0.734923064994609,
+   "worst_cov": 0.3365679264555669,
+   "worst_cov_known": 0.8355555555555556,
+   "frac_clients_below": 0.8,
+   "mean_size": 1.945470989283563
+  },
+  "labelshift": {
+   "mean_cov": 0.7800424312911982,
+   "worst_cov": 0.3442288049029622,
+   "worst_cov_known": 0.88,
+   "frac_clients_below": 0.65,
+   "mean_size": 2.9056993940765383
+  },
+  "pooled+msp": {
+   "mean_cov": 0.7667948005537828,
+   "worst_cov": 0.40602655771195095,
+   "worst_cov_known": 0.8355555555555556,
+   "frac_clients_below": 0.8,
+   "mean_size": 2.0618099568962487,
+   "unk_recall": 0.14595007228478957
+  }
+ },
+ {
+  "unknown": [
+   "bird",
+   "cat",
+   "raccoon"
+  ],
+  "test_acc_known": 0.7634438876062841,
+  "local": {
+   "mean_cov": 0.7011216955006059,
+   "worst_cov": 0.3824884792626728,
+   "worst_cov_known": 0.8341708542713567,
+   "frac_clients_below": 0.8,
+   "mean_size": 1.8447756459696412
+  },
+  "pooled": {
+   "mean_cov": 0.6937280561655397,
+   "worst_cov": 0.39631336405529954,
+   "worst_cov_known": 0.797752808988764,
+   "frac_clients_below": 0.85,
+   "mean_size": 1.7054252164801753
+  },
+  "labelshift": {
+   "mean_cov": 0.7495289501516746,
+   "worst_cov": 0.41705069124423966,
+   "worst_cov_known": 0.9041533546325878,
+   "frac_clients_below": 0.75,
+   "mean_size": 2.9141652238981783
+  },
+  "pooled+msp": {
+   "mean_cov": 0.7272669551424273,
+   "worst_cov": 0.47497446373850866,
+   "worst_cov_known": 0.797752808988764,
+   "frac_clients_below": 0.85,
+   "mean_size": 1.8151241558250557,
+   "unk_recall": 0.15427235677775203
+  }
+ },
+ {
+  "unknown": [
+   "bird",
+   "bobcat",
+   "rabbit"
+  ],
+  "test_acc_known": 0.771367754611942,
+  "local": {
+   "mean_cov": 0.7021792758367141,
+   "worst_cov": 0.22703273495248152,
+   "worst_cov_known": 0.8134715025906736,
+   "frac_clients_below": 0.9,
+   "mean_size": 1.9069540494046646
+  },
+  "pooled": {
+   "mean_cov": 0.6902168384199397,
+   "worst_cov": 0.22280887011615627,
+   "worst_cov_known": 0.7926509186351706,
+   "frac_clients_below": 0.85,
+   "mean_size": 1.6300457124522638
+  },
+  "labelshift": {
+   "mean_cov": 0.7450382170241611,
+   "worst_cov": 0.249208025343189,
+   "worst_cov_known": 0.8267716535433071,
+   "frac_clients_below": 0.65,
+   "mean_size": 2.619276780340851
+  },
+  "pooled+msp": {
+   "mean_cov": 0.7394231505441516,
+   "worst_cov": 0.36958817317845827,
+   "worst_cov_known": 0.7926509186351706,
+   "frac_clients_below": 0.75,
+   "mean_size": 1.7712716895129248,
+   "unk_recall": 0.19175817253222976
+  }
+ },
+ {
+  "unknown": [
+   "opossum",
+   "skunk",
+   "squirrel"
+  ],
+  "test_acc_known": 0.7339731526784594,
+  "local": {
+   "mean_cov": 0.6222082277885572,
+   "worst_cov": 0.3781609195402299,
+   "worst_cov_known": 0.7966101694915254,
+   "frac_clients_below": 1.0,
+   "mean_size": 2.1436418715951557
+  },
+  "pooled": {
+   "mean_cov": 0.6171384341137655,
+   "worst_cov": 0.3585746102449889,
+   "worst_cov_known": 0.7966101694915254,
+   "frac_clients_below": 0.9,
+   "mean_size": 1.8832373498432908
+  },
+  "labelshift": {
+   "mean_cov": 0.6704002460836155,
+   "worst_cov": 0.40344827586206894,
+   "worst_cov_known": 0.8762541806020067,
+   "frac_clients_below": 0.85,
+   "mean_size": 3.332560879705086
+  },
+  "pooled+msp": {
+   "mean_cov": 0.677544336354227,
+   "worst_cov": 0.46963873943120676,
+   "worst_cov_known": 0.7966101694915254,
+   "frac_clients_below": 0.85,
+   "mean_size": 2.0076488382633095,
+   "unk_recall": 0.22166400868635527
+  }
+ }
+]

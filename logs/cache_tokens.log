@@ -1,0 +1,12 @@
+rows 53674  tokens 257x1024  -> 26.3 GB
+split check: cos(full, trunk+top) min 1.00000
+128/53674  188 img/s
+6528/53674  419 img/s
+12928/53674  420 img/s
+19328/53674  425 img/s
+25728/53674  421 img/s
+32128/53674  424 img/s
+38528/53674  427 img/s
+44928/53674  423 img/s
+51328/53674  425 img/s
+CACHE_DONE

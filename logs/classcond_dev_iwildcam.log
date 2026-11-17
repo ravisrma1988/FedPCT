@@ -1,0 +1,21 @@
+seed 0 done (tau0 0.988, animal 1.106, non-animal 0.869)
+seed 1 done (tau0 0.983, animal 1.117, non-animal 0.881)
+seed 2 done (tau0 0.977, animal 1.019, non-animal 0.877)
+seed 3 done (tau0 0.997, animal 1.046, non-animal 0.887)
+seed 4 done (tau0 0.982, animal 1.142, non-animal 0.876)
+
+== FedPCT-CC, iwildcam development sites, five seeds
+fedpct|all|0.3             flagged  19.2% [23.0, 18.0, 18.0, 17.0, 20.0] | cov 0.886 | obs<0.9  46.2% | size 4.25 | sites [100, 100, 100, 100, 100]
+fedpct|animal|0.3          flagged  43.3% [45.3, 44.2, 38.9, 41.9, 46.2] | cov 0.717 | obs<0.9  73.2% | size 5.44 | sites [95, 95, 95, 93, 93]
+fedpct|nonanimal|0.3       flagged   0.6% [1.4, 0.0, 0.0, 0.0, 1.4] | cov 0.964 | obs<0.9   6.9% | size 3.88 | sites [70, 70, 70, 70, 70]
+fedpct_cc|all|0.3          flagged  18.8% [27.0, 16.0, 14.0, 20.0, 17.0] | cov 0.885 | obs<0.9  52.0% | size 7.26 | sites [100, 100, 100, 100, 100]
+fedpct_cc|animal|0.3       flagged  30.4% [31.6, 31.6, 24.2, 32.3, 32.3] | cov 0.771 | obs<0.9  59.4% | size 8.11 | sites [95, 95, 95, 93, 93]
+fedpct_cc|nonanimal|0.3    flagged   4.6% [10.0, 2.9, 4.3, 2.9, 2.9] | cov 0.883 | obs<0.9  35.4% | size 7.19 | sites [70, 70, 70, 70, 70]
+fedpct|all|1.0             flagged  11.0% [15.0, 11.0, 9.0, 9.0, 11.0] | cov 0.897 | obs<0.9  34.2% | size 4.00 | sites [100, 100, 100, 100, 100]
+fedpct|animal|1.0          flagged  34.4% [36.8, 34.7, 29.5, 34.4, 36.6] | cov 0.745 | obs<0.9  64.3% | size 5.13 | sites [95, 95, 95, 93, 93]
+fedpct|nonanimal|1.0       flagged   0.9% [2.9, 0.0, 1.4, 0.0, 0.0] | cov 0.928 | obs<0.9  12.0% | size 3.79 | sites [70, 70, 70, 70, 70]
+fedpct_cc|all|1.0          flagged  11.0% [17.0, 10.0, 9.0, 10.0, 9.0] | cov 0.893 | obs<0.9  50.4% | size 6.97 | sites [100, 100, 100, 100, 100]
+fedpct_cc|animal|1.0       flagged  23.4% [27.4, 25.3, 15.8, 23.7, 24.7] | cov 0.796 | obs<0.9  53.9% | size 7.77 | sites [95, 95, 95, 93, 93]
+fedpct_cc|nonanimal|1.0    flagged   3.7% [5.7, 2.9, 4.3, 2.9, 2.9] | cov 0.828 | obs<0.9  43.7% | size 7.08 | sites [70, 70, 70, 70, 70]
+criterion (r=1.0): {'animal_reduction_pts': 11.042444821731749, 'seeds_reduced': 5, 'size_ratio': 1.7413150560925006, 'met': False}
+CLASSCOND_DONE

@@ -1,0 +1,18 @@
+seed 0: chosen msp  AUROC tune {'msp': 0.7153854287625829, 'energy': 0.6861910456254758, 'proto': 0.49652868029868424}  test {'msp': 0.7679191013950118, 'energy': 0.7717084192454686, 'proto': 0.5956777962782431}  cal unknowns 424
+seed 1: chosen msp  AUROC tune {'msp': 0.7534376625331911, 'energy': 0.7372023076291369, 'proto': 0.5386644219977553}  test {'msp': 0.797531853095965, 'energy': 0.800311414960016, 'proto': 0.5944724846961809}  cal unknowns 517
+seed 2: chosen msp  AUROC tune {'msp': 0.8339963204216598, 'energy': 0.8231023375819756, 'proto': 0.6040431162603108}  test {'msp': 0.8226302051643737, 'energy': 0.8400624440771813, 'proto': 0.6562859416613156}  cal unknowns 489
+seed 3: chosen msp  AUROC tune {'msp': 0.7840710518300015, 'energy': 0.7385013706975327, 'proto': 0.492334452664382}  test {'msp': 0.8252784538773573, 'energy': 0.8094964607103413, 'proto': 0.5900797271846556}  cal unknowns 288
+seed 4: chosen msp  AUROC tune {'msp': 0.8100097483896043, 'energy': 0.781456014374096, 'proto': 0.6069592033080811}  test {'msp': 0.8074574154967645, 'energy': 0.7919832828616665, 'proto': 0.6132693593230583}  cal unknowns 431
+
+== open-set, DEV sites, features=bioclip2crop, target unknown recall 0.80, delay=5, 5 seeds
+method                  recall site_rec  %sites< false_flag%  cov_all  eta
+static a_u=0.1           0.936    0.942       1%       58.0%    0.876  
+static a_u=0.2           0.847    0.853      10%       40.2%    0.872  
+static a_u=0.3           0.739    0.741      27%       30.5%    0.867  
+local|r=0.1              0.847    0.854      10%       40.1%    0.872  0.005
+shared|r=0.1             0.866    0.874       6%       43.6%    0.873  0.05
+local|r=0.3              0.843    0.850      10%       40.0%    0.872  0.005
+shared|r=0.3             0.878    0.883       4%       45.4%    0.873  0.005
+local|r=1.0              0.836    0.839       6%       40.7%    0.872  0.005
+shared|r=1.0             0.852    0.855       7%       40.8%    0.872  0.005
+OPENSET_DONE

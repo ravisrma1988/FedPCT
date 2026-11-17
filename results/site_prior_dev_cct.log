@@ -1,0 +1,40 @@
+nohup: ignoring input
+  seed 0 r=0.1 eta=0.05: pooled 37%/2.11  local 29%/3.23  shrink 31%/3.01  fedprior 12%/2.90  fedprior_eb 31%/3.14
+  seed 0 r=0.3 eta=0.05: pooled 24%/2.37  local 17%/3.09  shrink 17%/2.93  fedprior 7%/2.82  fedprior_eb 17%/3.06
+  seed 0 r=1.0 eta=0.02: pooled 5%/2.02  local 5%/2.70  shrink 5%/2.56  fedprior 2%/2.45  fedprior_eb 3%/2.65
+seed 0 done  diag {'n_ok': 80, 's2_loc': 0.08342875864813558, 's2_res': 0.09210081456958914, 'med_var': 0.0025978563429881482, 'mean_w_loc': 0.9372362906556722, 'mean_w_res': 0.9421559936978268, 'r2_prior': -0.10080666224456647}
+  seed 1 r=0.1 eta=0.05: pooled 56%/2.37  local 29%/3.88  shrink 32%/3.23  fedprior 27%/3.35  fedprior_eb 27%/3.63
+  seed 1 r=0.3 eta=0.05: pooled 31%/2.86  local 19%/3.78  shrink 20%/3.34  fedprior 17%/3.43  fedprior_eb 17%/3.61
+  seed 1 r=1.0 eta=0.02: pooled 5%/2.17  local 2%/3.18  shrink 3%/2.61  fedprior 2%/2.75  fedprior_eb 2%/2.95
+seed 1 done  diag {'n_ok': 81, 's2_loc': 0.013257765761881262, 's2_res': 0.04536923954032283, 'med_var': 0.003076398515993417, 'mean_w_loc': 0.7547567500190124, 'mean_w_res': 0.8799125958924812, 'r2_prior': -1.9659085847408746}
+  seed 2 r=0.1 eta=0.05: pooled 54%/2.67  local 25%/3.96  shrink 32%/3.30  fedprior 31%/3.83  fedprior_eb 22%/3.88
+  seed 2 r=0.3 eta=0.05: pooled 27%/2.96  local 10%/3.77  shrink 14%/3.31  fedprior 22%/3.60  fedprior_eb 7%/3.64
+  seed 2 r=1.0 eta=0.02: pooled 8%/2.33  local 2%/3.13  shrink 3%/2.69  fedprior 8%/3.01  fedprior_eb 2%/3.07
+seed 2 done  diag {'n_ok': 83, 's2_loc': 0.010198221218499053, 's2_res': 0.05654867601029536, 'med_var': 0.0029055905869938515, 'mean_w_loc': 0.725911755285809, 'mean_w_res': 0.9047669041802935, 'r2_prior': -3.5371734179185133}
+  seed 3 r=0.1 eta=0.05: pooled 66%/1.90  local 41%/3.75  shrink 66%/1.90  fedprior 68%/2.05  fedprior_eb 68%/2.05
+  seed 3 r=0.3 eta=0.05: pooled 44%/2.11  local 17%/3.69  shrink 44%/2.11  fedprior 37%/2.22  fedprior_eb 37%/2.22
+  seed 3 r=1.0 eta=0.05: pooled 7%/2.13  local 2%/3.20  shrink 7%/2.13  fedprior 8%/2.16  fedprior_eb 8%/2.16
+seed 3 done  diag {'n_ok': 82, 's2_loc': 0.0, 's2_res': 0.0, 'med_var': 0.03603565157478181, 'mean_w_loc': 0.0, 'mean_w_res': 0.0, 'r2_prior': 0.13792229230441755}
+  seed 4 r=0.1 eta=0.05: pooled 75%/1.62  local 29%/3.55  shrink 75%/1.62  fedprior 64%/1.95  fedprior_eb 64%/1.95
+  seed 4 r=0.3 eta=0.05: pooled 49%/1.98  local 10%/3.45  shrink 49%/1.98  fedprior 39%/2.14  fedprior_eb 39%/2.14
+  seed 4 r=1.0 eta=0.05: pooled 10%/2.03  local 2%/3.09  shrink 10%/2.03  fedprior 12%/2.13  fedprior_eb 12%/2.13
+seed 4 done  diag {'n_ok': 82, 's2_loc': 0.0, 's2_res': 0.0, 'med_var': 0.03525486028508357, 'mean_w_loc': 0.0, 'mean_w_res': 0.0, 'r2_prior': -0.09634340838334943}
+
+== site prior, cct DEVELOPMENT sites (59 sites, 17 unseen), 5 seeds
+start          rate  track %sig  unseen   size    cov  fixed %sig   size   per-seed
+pooled          0.1       57.6%     55%   2.13  0.833       68.5%   1.44   [37, 56, 54, 66, 75]
+local           0.1       30.5%     24%   3.67  0.885       37.3%   3.50   [29, 29, 25, 41, 29]
+shrink          0.1       47.1%     46%   2.61  0.851       53.9%   2.23   [31, 32, 32, 66, 75]
+fedprior        0.1       40.3%     36%   2.81  0.858       44.4%   2.66   [12, 27, 31, 68, 64]
+fedprior_eb     0.1       42.4%     38%   2.93  0.860       45.4%   2.69   [31, 27, 22, 68, 64]
+pooled          0.3       34.9%     24%   2.46  0.864       56.3%   1.42   [24, 31, 27, 44, 49]
+local           0.3       14.6%      8%   3.55  0.899       22.4%   3.48   [17, 19, 10, 17, 10]
+shrink          0.3       28.8%     20%   2.73  0.874       42.0%   2.21   [17, 20, 14, 44, 49]
+fedprior        0.3       24.4%     15%   2.84  0.879       33.9%   2.64   [7, 17, 22, 37, 39]
+fedprior_eb     0.3       23.4%     16%   2.93  0.880       34.2%   2.67   [17, 17, 7, 37, 39]
+pooled          1.0        7.1%      2%   2.14  0.888       39.7%   1.39   [5, 5, 8, 7, 10]
+local           1.0        2.4%      0%   3.06  0.911       12.2%   3.43   [5, 2, 2, 2, 2]
+shrink          1.0        5.8%      2%   2.40  0.896       24.4%   2.17   [5, 3, 3, 7, 10]
+fedprior        1.0        6.4%      2%   2.50  0.899       21.0%   2.60   [2, 2, 8, 8, 12]
+fedprior_eb     1.0        5.4%      1%   2.59  0.900       21.0%   2.63   [3, 2, 2, 8, 12]
+SITE_PRIOR_DONE

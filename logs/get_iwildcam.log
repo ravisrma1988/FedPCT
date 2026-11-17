@@ -1,0 +1,10 @@
+downloaded 11957415473 bytes
+iwildcam_v2.0.tar.gz: OK
+extracted
+top-level: ['RELEASE_v2.0.txt', 'categories.csv', 'iwildcam2021_train_annotations_final.json', 'metadata.csv', 'train']
+columns: ['Unnamed: 0', 'split', 'location_remapped', 'location', 'sequence_remapped', 'seq_id', 'y', 'category_id', 'datetime', 'filename', 'image_id']
+split sizes: {'train': 129809, 'test': 42791, 'val': 14961, 'id_test': 8154, 'id_val': 7314} | match WILDS: True
+total 203029, classes in y: 182, locations: 323
+missing image files: 0
+wilds loader OK: 203029 examples, 182 classes
+DONE

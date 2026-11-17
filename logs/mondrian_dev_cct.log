@@ -1,0 +1,17 @@
+seed 0 done (tau0 0.979, detected 1.071, not detected 0.930)
+seed 1 done (tau0 0.989, detected 1.048, not detected 0.965)
+seed 2 done (tau0 1.017, detected 1.072, not detected 0.974)
+seed 3 done (tau0 1.149, detected 1.506, not detected 0.981)
+seed 4 done (tau0 1.112, detected 1.337, not detected 0.969)
+
+== FedPCT-D exploratory, cct development sites, five seeds
+fedpct|all|0.3           flagged  34.9% [23.7, 30.5, 27.1, 44.1, 49.2] | cov 0.864 | obs<0.9  68.5% | size 2.46 | sites 59
+fedpct|animal|0.3        flagged  43.1% [33.9, 39.0, 39.0, 47.5, 55.9] | cov 0.850 | obs<0.9  72.9% | size 2.44 | sites 59
+fedpct_d|all|0.3         flagged  36.3% [23.7, 39.0, 39.0, 30.5, 49.2] | cov 0.861 | obs<0.9  68.5% | size 2.31 | sites 59
+fedpct_d|animal|0.3      flagged  41.4% [25.4, 47.5, 45.8, 35.6, 52.5] | cov 0.851 | obs<0.9  72.2% | size 2.33 | sites 59
+fedpct|all|1.0           flagged   7.1% [5.1, 5.1, 8.5, 6.8, 10.2] | cov 0.888 | obs<0.9  51.5% | size 2.14 | sites 59
+fedpct|animal|1.0        flagged  17.3% [11.9, 16.9, 18.6, 16.9, 22.0] | cov 0.879 | obs<0.9  54.2% | size 2.11 | sites 59
+fedpct_d|all|1.0         flagged  12.2% [10.2, 13.6, 13.6, 8.5, 15.3] | cov 0.884 | obs<0.9  59.7% | size 2.00 | sites 59
+fedpct_d|animal|1.0      flagged  16.9% [11.9, 20.3, 18.6, 11.9, 22.0] | cov 0.877 | obs<0.9  62.7% | size 2.00 | sites 59
+MONDRIAN_DONE
+MONDRIAN_ALL_DONE

@@ -1,0 +1,5 @@
+animal crops: 0.595 of 200 images
+/usr/local/lib/python3.12/dist-packages/nvidia/dali/plugin/base_iterator.py:208: Warning: Please set `reader_name` and don't set last_batch_padded and size manually whenever possible. This may lead, in some situations, to missing some samples or returning duplicated ones. Check the Sharding section of the documentation for more details.
+  _iterator_deprecation_warning()
+128/200
+TEST ok: 200 rows; cos to whole-image features: no-animal 0.998, animal crops 0.894

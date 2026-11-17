@@ -1,0 +1,58 @@
+  seed 0 r=0.1 done (eta*=0.02)
+  seed 0 r=0.3 done (eta*=0.005)
+  seed 0 r=1.0 done (eta*=0.005)
+seed 0 done
+  seed 1 r=0.1 done (eta*=0.005)
+  seed 1 r=0.3 done (eta*=0.005)
+  seed 1 r=1.0 done (eta*=0.005)
+seed 1 done
+  seed 2 r=0.1 done (eta*=0.005)
+  seed 2 r=0.3 done (eta*=0.005)
+  seed 2 r=1.0 done (eta*=0.005)
+seed 2 done
+  seed 3 r=0.1 done (eta*=0.02)
+  seed 3 r=0.3 done (eta*=0.02)
+  seed 3 r=1.0 done (eta*=0.02)
+seed 3 done
+  seed 4 r=0.1 done (eta*=0.005)
+  seed 4 r=0.3 done (eta*=0.005)
+  seed 4 r=1.0 done (eta*=0.005)
+seed 4 done
+
+== online personalisation + conformal, DEV sites, features=bioclip2, RAPS, delay=5, 5 seeds
+method                                cov   %sig %sig_unseen %win<.85   size
+static_global a=0.1                 0.869    27%         26%      33%   4.74
+static_global a=0.07                0.902    17%         18%      22%   8.49
+static_global a=0.05                0.928    11%          9%      12%  12.45
+static_global a=0.03                0.960     4%          4%       5%  20.91
+static_global a=0.02                0.977     2%          0%       2%  30.74
+global|r=0.1 frozen                 0.870    27%         26%      33%   4.75
+global|r=0.1 tracked                0.872    27%         28%      32%   5.25
+prior_fix|r=0.1 frozen              0.869    28%         28%      33%   5.39
+prior_fix|r=0.1 tracked             0.871    28%         29%      33%   5.88
+ditto|r=0.1 frozen                  0.870    26%         26%      33%   4.64
+ditto|r=0.1 tracked                 0.873    25%         27%      32%   5.17
+finetune_l0|r=0.1 frozen            0.861    30%         33%      36%   4.46
+finetune_l0|r=0.1 tracked           0.869    28%         31%      34%   5.09
+local_only|r=0.1 frozen             0.846    33%         37%      38%   4.52
+local_only|r=0.1 tracked            0.852    32%         35%      37%   5.32
+global|r=0.3 frozen                 0.870    27%         26%      33%   4.75
+global|r=0.3 tracked                0.875    23%         23%      30%   5.50
+prior_fix|r=0.3 frozen              0.880    25%         24%      33%   6.40
+prior_fix|r=0.3 tracked             0.881    24%         24%      31%   7.20
+ditto|r=0.3 frozen                  0.880    23%         22%      32%   4.36
+ditto|r=0.3 tracked                 0.884    19%         20%      28%   5.06
+finetune_l0|r=0.3 frozen            0.862    30%         34%      37%   3.82
+finetune_l0|r=0.3 tracked           0.876    24%         28%      31%   4.93
+local_only|r=0.3 frozen             0.830    35%         41%      43%   4.01
+local_only|r=0.3 tracked            0.841    34%         38%      40%   5.91
+global|r=1.0 frozen                 0.869    27%         26%      33%   4.75
+global|r=1.0 tracked                0.879    18%         20%      28%   6.56
+prior_fix|r=1.0 frozen              0.895    22%         18%      27%   7.15
+prior_fix|r=1.0 tracked             0.889    17%         18%      26%   8.97
+ditto|r=1.0 frozen                  0.897    19%         17%      26%   4.04
+ditto|r=1.0 tracked                 0.891    10%         17%      22%   5.28
+finetune_l0|r=1.0 frozen            0.871    28%         30%      35%   3.04
+finetune_l0|r=1.0 tracked           0.883    13%         24%      26%   5.13
+local_only|r=1.0 frozen             0.823    38%         43%      44%   3.48
+local_only|r=1.0 tracked            0.834    32%         32%      38%   8.84

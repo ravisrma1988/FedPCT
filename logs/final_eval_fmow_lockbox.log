@@ -1,0 +1,108 @@
+${FEDPCT_ROOT}/src/splits.py:179: DtypeWarning: Columns (10) have mixed types. Specify dtype option on import or set low_memory=False.
+  return pd.read_csv(f"{p}.csv.gz", parse_dates=["datetime"]), info
+  seed 0 r=0.1: ours %sig 9 size 15.74 | ditto fixed 6 | global qt 9 | fcp 9
+  seed 0 r=0.3: ours %sig 9 size 16.18 | ditto fixed 6 | global qt 9 | fcp 9
+  seed 0 r=1.0: ours %sig 0 size 16.43 | ditto fixed 6 | global qt 0 | fcp 9
+seed 0 done
+${FEDPCT_ROOT}/src/splits.py:179: DtypeWarning: Columns (10) have mixed types. Specify dtype option on import or set low_memory=False.
+  return pd.read_csv(f"{p}.csv.gz", parse_dates=["datetime"]), info
+  seed 1 r=0.1: ours %sig 12 size 24.84 | ditto fixed 3 | global qt 12 | fcp 6
+  seed 1 r=0.3: ours %sig 16 size 24.48 | ditto fixed 3 | global qt 22 | fcp 6
+  seed 1 r=1.0: ours %sig 0 size 25.12 | ditto fixed 3 | global qt 0 | fcp 6
+seed 1 done
+${FEDPCT_ROOT}/src/splits.py:179: DtypeWarning: Columns (10) have mixed types. Specify dtype option on import or set low_memory=False.
+  return pd.read_csv(f"{p}.csv.gz", parse_dates=["datetime"]), info
+  seed 2 r=0.1: ours %sig 9 size 27.05 | ditto fixed 3 | global qt 16 | fcp 6
+  seed 2 r=0.3: ours %sig 12 size 25.45 | ditto fixed 3 | global qt 16 | fcp 6
+  seed 2 r=1.0: ours %sig 0 size 27.90 | ditto fixed 3 | global qt 0 | fcp 6
+seed 2 done
+${FEDPCT_ROOT}/src/splits.py:179: DtypeWarning: Columns (10) have mixed types. Specify dtype option on import or set low_memory=False.
+  return pd.read_csv(f"{p}.csv.gz", parse_dates=["datetime"]), info
+  seed 3 r=0.1: ours %sig 9 size 17.75 | ditto fixed 0 | global qt 9 | fcp 3
+  seed 3 r=0.3: ours %sig 3 size 16.70 | ditto fixed 3 | global qt 6 | fcp 3
+  seed 3 r=1.0: ours %sig 0 size 16.48 | ditto fixed 3 | global qt 0 | fcp 3
+seed 3 done
+${FEDPCT_ROOT}/src/splits.py:179: DtypeWarning: Columns (10) have mixed types. Specify dtype option on import or set low_memory=False.
+  return pd.read_csv(f"{p}.csv.gz", parse_dates=["datetime"]), info
+  seed 4 r=0.1: ours %sig 6 size 19.09 | ditto fixed 6 | global qt 9 | fcp 9
+  seed 4 r=0.3: ours %sig 3 size 20.03 | ditto fixed 3 | global qt 6 | fcp 9
+  seed 4 r=1.0: ours %sig 0 size 21.85 | ditto fixed 6 | global qt 0 | fcp 9
+seed 4 done
+${FEDPCT_ROOT}/src/splits.py:179: DtypeWarning: Columns (10) have mixed types. Specify dtype option on import or set low_memory=False.
+  return pd.read_csv(f"{p}.csv.gz", parse_dates=["datetime"]), info
+
+== FINAL EVALUATION on FMOW LOCKBOX sites (32 sites, 8 unseen), features=fmow_dinov2, RAPS, alpha=0.1, alpha_u=0.2, delay=5, seeds [0, 1, 2, 3, 4]
+method                                cov   %sig %sig_unseen   size   per-seed %sig
+fcp (static, global)                0.907     7%          5%  18.38   [9, 6, 6, 3, 9]
+labelshift (static, global)         0.897    12%         12%  17.87   [9, 12, 12, 9, 19]
+qq (static, global)                 0.895    12%          5%  17.32   [9, 6, 25, 3, 19]
+dr (static, global)                 0.917     6%          5%  19.87   [6, 6, 6, 3, 6]
+global + tracking   r=0.1           0.905    11%         12%  21.46   [9, 12, 16, 9, 9]
+Ditto fixed tau     r=0.1           0.914     4%          5%  18.32   [6, 3, 3, 0, 6]
+OURS Ditto+tracking r=0.1           0.907     9%         12%  20.89   [9, 12, 9, 9, 6]
+   ours - FCP: +2.5 pts (per seed [0.0, 6.2, 3.1, 6.2, -3.1]); ours - Ditto frontier at matched size: +7.0 pts (per seed [3.1, 10.0, 9.4, 9.4, 3.1])
+   unknown flag global : recall 0.788  %sites<0.8 12%  false flags 79.3%  AUROC 0.481
+   unknown flag ours   : recall 0.803  %sites<0.8 12%  false flags 78.8%  AUROC 0.495
+global + tracking   r=0.3           0.901    12%         10%  22.19   [9, 22, 16, 6, 6]
+Ditto fixed tau     r=0.3           0.918     4%          5%  18.09   [6, 3, 3, 3, 3]
+OURS Ditto+tracking r=0.3           0.904     9%         12%  20.57   [9, 16, 12, 3, 3]
+   ours - FCP: +1.9 pts (per seed [0.0, 9.4, 6.2, 0.0, -6.2]); ours - Ditto frontier at matched size: +6.4 pts (per seed [3.1, 13.3, 12.5, 0.0, 3.1])
+   unknown flag global : recall 0.788  %sites<0.8 12%  false flags 79.3%  AUROC 0.481
+   unknown flag ours   : recall 0.806  %sites<0.8 12%  false flags 78.3%  AUROC 0.512
+global + tracking   r=1.0           0.904     0%          0%  24.32   [0, 0, 0, 0, 0]
+Ditto fixed tau     r=1.0           0.917     4%          0%  17.35   [6, 3, 3, 3, 6]
+OURS Ditto+tracking r=1.0           0.903     0%          0%  21.56   [0, 0, 0, 0, 0]
+   ours - FCP: -6.9 pts (per seed [-9.4, -6.2, -6.2, -3.1, -9.4]); ours - Ditto frontier at matched size: -2.2 pts (per seed [-5.3, 0.0, 0.0, -3.1, -2.7])
+   unknown flag global : recall 0.788  %sites<0.8 12%  false flags 79.3%  AUROC 0.481
+   unknown flag ours   : recall 0.814  %sites<0.8 14%  false flags 76.8%  AUROC 0.529
+  seed 0 r=0.1: global_qt 9%/16.31  global_decay 16%/16.40  global_dtaci 6%/25.25  global_pid 9%/16.70  ditto_qt 9%/15.74  ditto_decay 12%/16.05  ditto_dtaci 6%/24.50  ditto_pid 9%/16.16
+  seed 0 r=0.3: global_qt 9%/17.13  global_decay 9%/16.67  global_dtaci 0%/25.81  global_pid 9%/17.89  ditto_qt 9%/16.18  ditto_decay 6%/16.07  ditto_dtaci 0%/24.18  ditto_pid 6%/16.90
+  seed 0 r=1.0: global_qt 0%/18.27  global_decay 3%/17.27  global_dtaci 3%/27.86  global_pid 0%/18.80  ditto_qt 0%/16.43  ditto_decay 3%/15.78  ditto_dtaci 3%/25.89  ditto_pid 0%/16.96
+${FEDPCT_ROOT}/src/splits.py:179: DtypeWarning: Columns (10) have mixed types. Specify dtype option on import or set low_memory=False.
+  return pd.read_csv(f"{p}.csv.gz", parse_dates=["datetime"]), info
+  seed 1 r=0.1: global_qt 12%/25.44  global_decay 19%/26.13  global_dtaci 12%/32.49  global_pid 16%/27.71  ditto_qt 12%/24.84  ditto_decay 19%/25.21  ditto_dtaci 12%/31.87  ditto_pid 12%/26.95
+  seed 1 r=0.3: global_qt 22%/26.36  global_decay 19%/28.45  global_dtaci 6%/36.55  global_pid 19%/28.80  ditto_qt 16%/24.48  ditto_decay 12%/26.90  ditto_dtaci 6%/34.76  ditto_pid 16%/27.02
+  seed 1 r=1.0: global_qt 0%/28.65  global_decay 0%/27.92  global_dtaci 3%/38.66  global_pid 0%/29.53  ditto_qt 0%/25.12  ditto_decay 0%/25.26  ditto_dtaci 3%/33.66  ditto_pid 0%/25.94
+${FEDPCT_ROOT}/src/splits.py:179: DtypeWarning: Columns (10) have mixed types. Specify dtype option on import or set low_memory=False.
+  return pd.read_csv(f"{p}.csv.gz", parse_dates=["datetime"]), info
+  seed 2 r=0.1: global_qt 16%/28.07  global_decay 22%/29.50  global_dtaci 31%/32.42  global_pid 22%/28.25  ditto_qt 9%/27.05  ditto_decay 22%/27.87  ditto_dtaci 34%/30.71  ditto_pid 19%/27.29
+  seed 2 r=0.3: global_qt 16%/28.95  global_decay 19%/30.11  global_dtaci 16%/39.97  global_pid 16%/30.50  ditto_qt 12%/25.45  ditto_decay 16%/27.90  ditto_dtaci 12%/37.21  ditto_pid 12%/27.72
+  seed 2 r=1.0: global_qt 0%/32.14  global_decay 3%/31.12  global_dtaci 6%/41.18  global_pid 0%/32.61  ditto_qt 0%/27.90  ditto_decay 0%/28.21  ditto_dtaci 0%/37.03  ditto_pid 0%/28.37
+${FEDPCT_ROOT}/src/splits.py:179: DtypeWarning: Columns (10) have mixed types. Specify dtype option on import or set low_memory=False.
+  return pd.read_csv(f"{p}.csv.gz", parse_dates=["datetime"]), info
+  seed 3 r=0.1: global_qt 9%/18.38  global_decay 16%/19.49  global_dtaci 9%/23.85  global_pid 6%/19.44  ditto_qt 9%/17.75  ditto_decay 16%/19.21  ditto_dtaci 9%/23.64  ditto_pid 9%/18.78
+  seed 3 r=0.3: global_qt 6%/17.56  global_decay 9%/18.40  global_dtaci 3%/26.57  global_pid 9%/17.97  ditto_qt 3%/16.70  ditto_decay 9%/17.91  ditto_dtaci 3%/25.81  ditto_pid 6%/17.19
+  seed 3 r=1.0: global_qt 0%/18.60  global_decay 3%/19.51  global_dtaci 0%/26.61  global_pid 0%/19.26  ditto_qt 0%/16.48  ditto_decay 3%/17.75  ditto_dtaci 0%/25.39  ditto_pid 0%/17.07
+${FEDPCT_ROOT}/src/splits.py:179: DtypeWarning: Columns (10) have mixed types. Specify dtype option on import or set low_memory=False.
+  return pd.read_csv(f"{p}.csv.gz", parse_dates=["datetime"]), info
+  seed 4 r=0.1: global_qt 9%/19.09  global_decay 9%/20.54  global_dtaci 6%/27.01  global_pid 12%/19.49  ditto_qt 6%/19.09  ditto_decay 3%/20.47  ditto_dtaci 6%/27.33  ditto_pid 6%/19.54
+  seed 4 r=0.3: global_qt 6%/20.95  global_decay 6%/23.68  global_dtaci 12%/30.15  global_pid 9%/22.26  ditto_qt 3%/20.03  ditto_decay 6%/22.59  ditto_dtaci 9%/29.57  ditto_pid 6%/21.48
+  seed 4 r=1.0: global_qt 0%/23.95  global_decay 0%/23.43  global_dtaci 0%/34.33  global_pid 0%/24.84  ditto_qt 0%/21.85  ditto_decay 3%/21.34  ditto_dtaci 0%/31.41  ditto_pid 0%/22.50
+
+== online trackers, FMoW LOCKBOX sites (secondary comparison) (32 sites), 5 seeds
+head_method      rate    %sig  unseen   size    cov   per-seed %sig
+global_qt         0.1   11.2%     12%  21.46  0.905   [9, 12, 16, 9, 9]
+global_decay      0.1   16.2%     22%  22.41  0.896   [16, 19, 22, 16, 9]
+global_dtaci      0.1   13.1%     10%  28.21  0.895   [6, 12, 31, 9, 6]
+global_pid        0.1   13.1%     15%  22.32  0.900   [9, 16, 22, 6, 12]
+ditto_qt          0.1    9.4%     12%  20.89  0.907   [9, 12, 9, 9, 6]
+ditto_decay       0.1   14.4%     22%  21.76  0.898   [12, 19, 22, 16, 3]
+ditto_dtaci       0.1   13.8%     10%  27.61  0.894   [6, 12, 34, 9, 6]
+ditto_pid         0.1   11.2%     12%  21.74  0.902   [9, 12, 19, 9, 6]
+global_qt         0.3   11.9%     10%  22.19  0.901   [9, 22, 16, 6, 6]
+global_decay      0.3   12.5%     15%  23.46  0.900   [9, 19, 19, 9, 6]
+global_dtaci      0.3    7.5%      0%  31.81  0.905   [0, 6, 16, 3, 12]
+global_pid        0.3   12.5%     10%  23.48  0.900   [9, 19, 16, 9, 9]
+ditto_qt          0.3    8.8%     12%  20.57  0.904   [9, 16, 12, 3, 3]
+ditto_decay       0.3   10.0%     15%  22.27  0.904   [6, 12, 16, 9, 6]
+ditto_dtaci       0.3    6.2%      0%  30.31  0.905   [0, 6, 12, 3, 9]
+ditto_pid         0.3    9.4%     12%  22.06  0.904   [6, 16, 12, 6, 6]
+global_qt         1.0    0.0%      0%  24.32  0.904   [0, 0, 0, 0, 0]
+global_decay      1.0    1.9%      5%  23.85  0.902   [3, 0, 3, 3, 0]
+global_dtaci      1.0    2.5%      0%  33.73  0.909   [3, 3, 6, 0, 0]
+global_pid        1.0    0.0%      0%  25.01  0.903   [0, 0, 0, 0, 0]
+ditto_qt          1.0    0.0%      0%  21.56  0.903   [0, 0, 0, 0, 0]
+ditto_decay       1.0    1.9%      5%  21.67  0.904   [3, 0, 0, 3, 3]
+ditto_dtaci       1.0    1.2%      0%  30.68  0.903   [3, 3, 0, 0, 0]
+ditto_pid         1.0    0.0%      0%  22.17  0.902   [0, 0, 0, 0, 0]
+FINAL_EVAL_DONE fmow lockbox

@@ -1,0 +1,52 @@
+  seed 0 r=0.1 global done
+  seed 0 r=0.1 ditto done
+  seed 0 r=0.3 global done
+  seed 0 r=0.3 ditto done
+seed 0 done
+  seed 1 r=0.1 global done
+  seed 1 r=0.1 ditto done
+  seed 1 r=0.3 global done
+  seed 1 r=0.3 ditto done
+seed 1 done
+  seed 2 r=0.1 global done
+  seed 2 r=0.1 ditto done
+  seed 2 r=0.3 global done
+  seed 2 r=0.3 ditto done
+seed 2 done
+  seed 3 r=0.1 global done
+  seed 3 r=0.1 ditto done
+  seed 3 r=0.3 global done
+  seed 3 r=0.3 ditto done
+seed 3 done
+  seed 4 r=0.1 global done
+  seed 4 r=0.1 ditto done
+  seed 4 r=0.3 global done
+  seed 4 r=0.3 ditto done
+seed 4 done
+
+== selective labelling, DEV sites, features=bioclip2, RAPS, delay=5, 5 seeds
+mode|policy|rate|tracker                    cov   %sig %sig_unseen %win<.85   size  labels
+global|uniform|r=0.1|frozen               0.869    27%         26%      33%   4.75   0.098
+global|uniform|r=0.1|naive                0.872    27%         27%      32%   5.26   0.098
+global|uniform|r=0.1|iw                   0.872    27%         27%      32%   5.26   0.098
+global|uncertainty|r=0.1|frozen           0.869    27%         26%      33%   4.75   0.111
+global|uncertainty|r=0.1|naive            0.875    26%         27%      31%   5.54   0.111
+global|uncertainty|r=0.1|iw               0.872    27%         28%      33%   5.23   0.111
+ditto|uniform|r=0.1|frozen                0.870    26%         26%      33%   4.64   0.098
+ditto|uniform|r=0.1|naive                 0.873    25%         27%      32%   5.17   0.098
+ditto|uniform|r=0.1|iw                    0.873    25%         27%      32%   5.17   0.098
+ditto|uncertainty|r=0.1|frozen            0.868    28%         28%      33%   4.61   0.108
+ditto|uncertainty|r=0.1|naive             0.875    26%         28%      31%   5.43   0.108
+ditto|uncertainty|r=0.1|iw                0.871    27%         28%      33%   5.14   0.108
+global|uniform|r=0.3|frozen               0.869    27%         26%      33%   4.75   0.296
+global|uniform|r=0.3|naive                0.876    23%         23%      30%   5.50   0.296
+global|uniform|r=0.3|iw                   0.876    23%         23%      30%   5.50   0.296
+global|uncertainty|r=0.3|frozen           0.869    27%         26%      33%   4.75   0.310
+global|uncertainty|r=0.3|naive            0.883    21%         25%      28%   6.04   0.310
+global|uncertainty|r=0.3|iw               0.876    23%         25%      31%   5.58   0.310
+ditto|uniform|r=0.3|frozen                0.880    23%         22%      32%   4.35   0.296
+ditto|uniform|r=0.3|naive                 0.884    19%         20%      28%   5.06   0.296
+ditto|uniform|r=0.3|iw                    0.884    19%         20%      28%   5.06   0.296
+ditto|uncertainty|r=0.3|frozen            0.880    23%         24%      30%   4.27   0.293
+ditto|uncertainty|r=0.3|naive             0.890    16%         20%      25%   5.49   0.293
+ditto|uncertainty|r=0.3|iw                0.883    20%         22%      29%   5.12   0.293

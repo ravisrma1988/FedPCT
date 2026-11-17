@@ -1,0 +1,12 @@
+seed 0 done
+seed 1 done
+seed 2 done
+seed 3 done
+seed 4 done
+
+== tightened theory, iwildcam development sites (POST HOC), EPS 0.1, delta 0.05/K, delay 5
+r=0.1: 500 site-streams | Freedman bound (frozen eta) median 11.86 | floor median 5.023, share floor < 0.10: 0.00, < 0.20: 0.00 | violations frozen 0 cert 0
+r=0.3: 500 site-streams | Freedman bound (frozen eta) median 7.13 | floor median 1.925, share floor < 0.10: 0.00, < 0.20: 0.00 | violations frozen 0 cert 0
+r=1.0: 500 site-streams | Freedman bound (frozen eta) median 2.74 | floor median 0.265, share floor < 0.10: 0.15, < 0.20: 0.40 | violations frozen 0 cert 0
+   certified sites 130 (26%): realised bound median 0.136 (< 0.10: 0.00) | eta_c median 0.112 vs eta* 0.005 | cov 0.898 -> 0.892 | %sig 7% -> 0% | size 3.99 -> 33.38
+THEORY_CHECK2_DONE

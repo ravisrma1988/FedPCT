@@ -1,0 +1,37 @@
+Fusing layers... 
+Fusing layers... 
+Model summary: 733 layers, 140054656 parameters, 0 gradients, 208.8 GFLOPs
+Model summary: 733 layers, 140054656 parameters, 0 gradients, 208.8 GFLOPs
+PyTorch reports 1 available CUDA devices (load_detector)
+Loading PT detector with compatibility mode classic
+No image size available in model metadata, defaulting to 1280
+Using model stride: 64
+PTDetector using device cuda:0
+Using user-supplied image size 1280
+shard 3: 0/50757  1.0 img/s
+shard 3: 2000/50757  9.0 img/s
+shard 3: 4000/50757  9.1 img/s
+shard 3: 6000/50757  9.1 img/s
+shard 3: 8000/50757  9.1 img/s
+shard 3: 10000/50757  9.2 img/s
+shard 3: 12000/50757  9.1 img/s
+shard 3: 14000/50757  9.1 img/s
+shard 3: 16000/50757  9.0 img/s
+shard 3: 18000/50757  9.1 img/s
+shard 3: 20000/50757  9.1 img/s
+shard 3: 22000/50757  9.2 img/s
+shard 3: 24000/50757  9.2 img/s
+shard 3: 26000/50757  9.2 img/s
+shard 3: 28000/50757  6.1 img/s
+shard 3: 30000/50757  6.3 img/s
+shard 3: 32000/50757  6.4 img/s
+shard 3: 34000/50757  6.6 img/s
+shard 3: 36000/50757  6.7 img/s
+shard 3: 38000/50757  6.8 img/s
+shard 3: 40000/50757  6.9 img/s
+shard 3: 42000/50757  7.0 img/s
+shard 3: 44000/50757  7.1 img/s
+shard 3: 46000/50757  7.1 img/s
+shard 3: 48000/50757  6.0 img/s
+shard 3: 50000/50757  6.1 img/s
+MD_SHARD_DONE 3

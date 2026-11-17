@@ -1,0 +1,26 @@
+{
+ "freeze": {
+  "PREREG.md": "2b20460f4167da94cde1d518a6f77bb2e83f145685da5bded555bddf9ba9c412",
+  "src/lockbox_eval.py": "1ebf98093ce148fc6d66751136d327f8d55cbfd0c6c8354050fca92d070d1c80",
+  "src/baselines_lit.py": "ba213fb6a9c3064c6fc63f2d4f81700be5a2a5a9242810ea5e52e8a7687c6dab",
+  "src/pers_select.py": "cb66529d98ea0357b231cdab9e1c306967eb869f6b71d0668ec08f03bc9fe1e4",
+  "src/pers_online.py": "0284358bef4fa14ae5902a6e802c5833e35ffa9b09bcc466e80e382080a9af48",
+  "src/pers_frontier.py": "0f832b5defb334b3a3ad110b06bd56614f8e7ca1ecd718e5930832cbb7ab7032",
+  "src/online2.py": "da32450eff158b9aa586de8c6b1430fba7bbaf748d4a24c08b7bd2cd0553ce82",
+  "src/online.py": "d21bcc3d5c13ff969950835f9ef4cee6107d30cae6b2f6116957037bd42fd2b4",
+  "src/online_gpu.py": "f3e7b834964eb89347cd906b21f76c7df1cc57817b9929d2a3c034d5a8c1c72c",
+  "src/openset.py": "f89b547ad5601e6b38cb71e03a0beeacb78170f120e6df62f955b5b0778a38b9",
+  "src/cp_baselines.py": "a1200a2337c50ec23db1f6c227878b60485d5824766a73e731dc5d23ffa70b54",
+  "src/scores.py": "36a09e58a23eadeee3e3ece297cf6d9037d2323107fa35a55d5f8ae5ff6c4f77",
+  "src/run_iwildcam.py": "86a91194f1900a3701e8ab3c11684187bcd04776bb3e6d6bdcb36e55a1207ef5",
+  "src/splits.py": "40520cb856c9e3757e45e97bdaca1766f7cce59e1bd6904a99d3ecdf3adc1c97",
+  "src/lockbox.py": "aa2d18f585cd8cc1b0ea448acc7cc7b3a86519a5dd859f1d3e3cfb2711744901",
+  "PREREG_CCT.md": "2f2ed51828a6329a616e580b51bbc93f6b9c6dcbccf892c753bf15e3e24f0347",
+  "src/lockbox_eval_cct.py": "0bfc63f54d60c18cd6f0b2f7770c40c6706b2df6775f904d34016b73a62da2b0",
+  "src/cct_env.py": "804c8a74c187f18b158417ba4b7142fcd16cbffd910043b48ba8a7b02d448e41",
+  "src/cct_run.py": "7b1c70b0b77c3ec088e6893de1ece4956d207885d90ed6a53e9f29ebafe4d4d4",
+  "src/pers_lambda.py": "162508022e8d701be5dc6778ede91df5f9ea0b7c98cc9594bc8ba8aab174f557",
+  "results/pers_lambda_cct_bioclip2crop.json": "c73e86830ec502106f0412e5f583f2e2c6cd0d6c9f6e900aa69c8a1613f36d42",
+  "splits_cct/lockbox_sites.json": "ab0d99aecf065354ee0c033b5a747b3ccc68d8b57097464dcd55114edb3a1e1a"
+ }
+}

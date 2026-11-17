@@ -1,0 +1,10 @@
+seed 0: bioclip2 acc 0.668 size 4.15 auroc 0.747 | bioclip2crop acc 0.718 size 3.08 auroc 0.755 | bioclip2ft_seed{seed} acc 0.667 size 4.14 auroc 0.750
+seed 1: bioclip2 acc 0.679 size 3.63 auroc 0.752 | bioclip2crop acc 0.736 size 2.61 auroc 0.794 | bioclip2ft_seed{seed} acc 0.684 size 3.43 auroc 0.758
+seed 2: bioclip2 acc 0.647 size 4.38 auroc 0.740 | bioclip2crop acc 0.716 size 3.01 auroc 0.813 | bioclip2ft_seed{seed} acc 0.654 size 4.03 auroc 0.756
+seed 3: bioclip2 acc 0.654 size 4.48 auroc 0.757 | bioclip2crop acc 0.709 size 3.15 auroc 0.831 | bioclip2ft_seed{seed} acc 0.659 size 4.21 auroc 0.735
+seed 4: bioclip2 acc 0.676 size 3.91 auroc 0.734 | bioclip2crop acc 0.732 size 2.68 auroc 0.804 | bioclip2ft_seed{seed} acc 0.680 size 3.72 auroc 0.732
+
+== DEV-site test only, FedAvg head, pooled LAC alpha=0.1, 5 seeds
+bioclip2                 acc 0.665  cov 0.871  size 4.11  msp auroc 0.746
+bioclip2crop             acc 0.722  cov 0.871  size 2.90  msp auroc 0.799
+bioclip2ft_seed{seed}    acc 0.669  cov 0.870  size 3.91  msp auroc 0.746

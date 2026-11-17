@@ -1,0 +1,425 @@
+{
+ "n_labelled_classes": 22,
+ "images_in_meta": 242895,
+ "seed0": {
+  "known": 19,
+  "designed": 2,
+  "natural_heldout": 1,
+  "absent_from_retained": 0,
+  "natural_classes": [
+   "insect"
+  ],
+  "absent_classes_sample": [],
+  "images_by_part_role": {
+   "cal/designed": 816,
+   "cal/known": 30833,
+   "test/designed": 2580,
+   "test/known": 83141,
+   "train/known": 69120,
+   "tune/designed": 481,
+   "tune/known": 15277,
+   "tune/natural": 3
+  },
+  "sites_by_category": {
+   "development/seen": 42,
+   "lockbox/seen": 18,
+   "development/unseen": 17,
+   "lockbox/unseen": 7
+  },
+  "partitions_by_site_category": {
+   "development/seen": {
+    "cal": 10585,
+    "test": 23553,
+    "train": 30790,
+    "tune": 5333
+   },
+   "development/unseen": {
+    "cal": 5729,
+    "test": 17208,
+    "train": 0,
+    "tune": 2784
+   },
+   "lockbox/seen": {
+    "cal": 12923,
+    "test": 37793,
+    "train": 38330,
+    "tune": 6483
+   },
+   "lockbox/unseen": {
+    "cal": 2412,
+    "test": 7167,
+    "train": 0,
+    "tune": 1161
+   }
+  },
+  "retained_rows": 202251
+ },
+ "seed1": {
+  "known": 19,
+  "designed": 2,
+  "natural_heldout": 1,
+  "absent_from_retained": 0,
+  "natural_classes": [
+   "insect"
+  ],
+  "absent_classes_sample": [],
+  "images_by_part_role": {
+   "cal/designed": 269,
+   "cal/known": 31240,
+   "cal/natural": 3,
+   "test/designed": 844,
+   "test/known": 84869,
+   "train/known": 69985,
+   "tune/designed": 145,
+   "tune/known": 15753
+  },
+  "sites_by_category": {
+   "development/seen": 42,
+   "lockbox/seen": 18,
+   "development/unseen": 17,
+   "lockbox/unseen": 7
+  },
+  "partitions_by_site_category": {
+   "development/seen": {
+    "cal": 10580,
+    "test": 23545,
+    "train": 31252,
+    "tune": 5338
+   },
+   "development/unseen": {
+    "cal": 5647,
+    "test": 17208,
+    "train": 0,
+    "tune": 2866
+   },
+   "lockbox/seen": {
+    "cal": 12902,
+    "test": 37793,
+    "train": 38733,
+    "tune": 6504
+   },
+   "lockbox/unseen": {
+    "cal": 2383,
+    "test": 7167,
+    "train": 0,
+    "tune": 1190
+   }
+  },
+  "retained_rows": 203108
+ },
+ "seed2": {
+  "known": 19,
+  "designed": 2,
+  "natural_heldout": 1,
+  "absent_from_retained": 0,
+  "natural_classes": [
+   "insect"
+  ],
+  "absent_classes_sample": [],
+  "images_by_part_role": {
+   "cal/designed": 381,
+   "cal/known": 31255,
+   "cal/natural": 3,
+   "test/designed": 693,
+   "test/known": 85099,
+   "train/known": 70010,
+   "tune/designed": 158,
+   "tune/known": 15613
+  },
+  "sites_by_category": {
+   "development/seen": 42,
+   "lockbox/seen": 18,
+   "development/unseen": 17,
+   "lockbox/unseen": 7
+  },
+  "partitions_by_site_category": {
+   "development/seen": {
+    "cal": 10594,
+    "test": 23637,
+    "train": 31163,
+    "tune": 5324
+   },
+   "development/unseen": {
+    "cal": 5689,
+    "test": 17208,
+    "train": 0,
+    "tune": 2824
+   },
+   "lockbox/seen": {
+    "cal": 12917,
+    "test": 37780,
+    "train": 38847,
+    "tune": 6489
+   },
+   "lockbox/unseen": {
+    "cal": 2439,
+    "test": 7167,
+    "train": 0,
+    "tune": 1134
+   }
+  },
+  "retained_rows": 203212
+ },
+ "seed3": {
+  "known": 19,
+  "designed": 2,
+  "natural_heldout": 1,
+  "absent_from_retained": 0,
+  "natural_classes": [
+   "insect"
+  ],
+  "absent_classes_sample": [],
+  "images_by_part_role": {
+   "cal/designed": 1240,
+   "cal/known": 30330,
+   "test/designed": 4450,
+   "test/known": 81800,
+   "train/known": 68776,
+   "tune/designed": 720,
+   "tune/known": 15117,
+   "tune/natural": 3
+  },
+  "sites_by_category": {
+   "development/seen": 42,
+   "lockbox/seen": 18,
+   "development/unseen": 17,
+   "lockbox/unseen": 7
+  },
+  "partitions_by_site_category": {
+   "development/seen": {
+    "cal": 10633,
+    "test": 24103,
+    "train": 29853,
+    "tune": 5285
+   },
+   "development/unseen": {
+    "cal": 5627,
+    "test": 17208,
+    "train": 0,
+    "tune": 2886
+   },
+   "lockbox/seen": {
+    "cal": 12948,
+    "test": 37772,
+    "train": 38923,
+    "tune": 6458
+   },
+   "lockbox/unseen": {
+    "cal": 2362,
+    "test": 7167,
+    "train": 0,
+    "tune": 1211
+   }
+  },
+  "retained_rows": 202436
+ },
+ "seed4": {
+  "known": 19,
+  "designed": 2,
+  "natural_heldout": 1,
+  "absent_from_retained": 0,
+  "natural_classes": [
+   "insect"
+  ],
+  "absent_classes_sample": [],
+  "images_by_part_role": {
+   "cal/designed": 1022,
+   "cal/known": 30633,
+   "cal/natural": 3,
+   "test/designed": 2550,
+   "test/known": 83242,
+   "train/known": 69487,
+   "tune/designed": 466,
+   "tune/known": 15286
+  },
+  "sites_by_category": {
+   "development/seen": 42,
+   "lockbox/seen": 18,
+   "development/unseen": 17,
+   "lockbox/unseen": 7
+  },
+  "partitions_by_site_category": {
+   "development/seen": {
+    "cal": 10666,
+    "test": 23637,
+    "train": 30656,
+    "tune": 5252
+   },
+   "development/unseen": {
+    "cal": 5691,
+    "test": 17208,
+    "train": 0,
+    "tune": 2822
+   },
+   "lockbox/seen": {
+    "cal": 12908,
+    "test": 37780,
+    "train": 38831,
+    "tune": 6498
+   },
+   "lockbox/unseen": {
+    "cal": 2393,
+    "test": 7167,
+    "train": 0,
+    "tune": 1180
+   }
+  },
+  "retained_rows": 202689
+ },
+ "per_class_seed0": {
+  "opossum": {
+   "role_seed0": "known",
+   "train": 4066,
+   "tune": 856,
+   "cal": 1869,
+   "test": 4364
+  },
+  "raccoon": {
+   "role_seed0": "known",
+   "train": 2384,
+   "tune": 683,
+   "cal": 1477,
+   "test": 3489
+  },
+  "squirrel": {
+   "role_seed0": "known",
+   "train": 1395,
+   "tune": 367,
+   "cal": 674,
+   "test": 974
+  },
+  "bobcat": {
+   "role_seed0": "known",
+   "train": 1960,
+   "tune": 454,
+   "cal": 860,
+   "test": 2108
+  },
+  "skunk": {
+   "role_seed0": "known",
+   "train": 519,
+   "tune": 131,
+   "cal": 307,
+   "test": 501
+  },
+  "dog": {
+   "role_seed0": "known",
+   "train": 570,
+   "tune": 359,
+   "cal": 691,
+   "test": 1911
+  },
+  "coyote": {
+   "role_seed0": "known",
+   "train": 3779,
+   "tune": 944,
+   "cal": 1893,
+   "test": 5409
+  },
+  "rabbit": {
+   "role_seed0": "known",
+   "train": 5251,
+   "tune": 664,
+   "cal": 1377,
+   "test": 3376
+  },
+  "bird": {
+   "role_seed0": "known",
+   "train": 2927,
+   "tune": 631,
+   "cal": 1280,
+   "test": 2393
+  },
+  "lizard": {
+   "role_seed0": "known",
+   "train": 47,
+   "tune": 45,
+   "cal": 56,
+   "test": 54
+  },
+  "cat": {
+   "role_seed0": "known",
+   "train": 1230,
+   "tune": 286,
+   "cal": 624,
+   "test": 1943
+  },
+  "badger": {
+   "role_seed0": "known",
+   "train": 6,
+   "tune": 0,
+   "cal": 0,
+   "test": 5
+  },
+  "empty": {
+   "role_seed0": "known",
+   "train": 40793,
+   "tune": 8373,
+   "cal": 16783,
+   "test": 51660
+  },
+  "car": {
+   "role_seed0": "known",
+   "train": 944,
+   "tune": 416,
+   "cal": 827,
+   "test": 1594
+  },
+  "deer": {
+   "role_seed0": "known",
+   "train": 3190,
+   "tune": 802,
+   "cal": 1545,
+   "test": 2787
+  },
+  "cow": {
+   "role_seed0": "known",
+   "train": 33,
+   "tune": 266,
+   "cal": 555,
+   "test": 498
+  },
+  "pig": {
+   "role_seed0": "known",
+   "train": 2,
+   "tune": 0,
+   "cal": 0,
+   "test": 0
+  },
+  "mountain_lion": {
+   "role_seed0": "known",
+   "train": 21,
+   "tune": 0,
+   "cal": 15,
+   "test": 75
+  },
+  "fox": {
+   "role_seed0": "designed held-out",
+   "train": 0,
+   "tune": 100,
+   "cal": 213,
+   "test": 795
+  },
+  "bat": {
+   "role_seed0": "known",
+   "train": 3,
+   "tune": 0,
+   "cal": 0,
+   "test": 0
+  },
+  "insect": {
+   "role_seed0": "natural held-out",
+   "train": 0,
+   "tune": 3,
+   "cal": 0,
+   "test": 0
+  },
+  "rodent": {
+   "role_seed0": "designed held-out",
+   "train": 0,
+   "tune": 381,
+   "cal": 603,
+   "test": 1785
+  }
+ }
+}

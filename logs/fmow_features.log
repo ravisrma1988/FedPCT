@@ -1,0 +1,15 @@
+nohup: ignoring input
+/usr/local/lib/python3.12/dist-packages/nvidia/dali/plugin/base_iterator.py:208: Warning: Please set `reader_name` and don't set last_batch_padded and size manually whenever possible. This may lead, in some situations, to missing some samples or returning duplicated ones. Check the Sharding section of the documentation for more details.
+  _iterator_deprecation_warning()
+batch 0: 256 / 523846
+batch 200: 51456 / 523846
+batch 400: 102656 / 523846
+batch 600: 153856 / 523846
+batch 800: 205056 / 523846
+batch 1000: 256256 / 523846
+batch 1200: 307456 / 523846
+batch 1400: 358656 / 523846
+batch 1600: 409856 / 523846
+batch 1800: 461056 / 523846
+batch 2000: 512256 / 523846
+FMOW_FEATURES_DONE (523846, 1024)

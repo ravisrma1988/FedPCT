@@ -1,0 +1,12 @@
+seed 0 done (B=1.90, lam_RAPS=0.05, kreg=1)
+seed 1 done (B=1.90, lam_RAPS=0.05, kreg=1)
+seed 2 done (B=1.90, lam_RAPS=0.05, kreg=1)
+seed 3 done (B=4.60, lam_RAPS=0.2, kreg=1)
+seed 4 done (B=4.60, lam_RAPS=0.2, kreg=1)
+
+== theory check, cct development sites, seeds [0, 1, 2, 3, 4], delay 5, delta 0.05/K
+r=0.1: site-streams 295 | Lemma 1 violations 0 | Theorem 1 violations 0 | bound median 5.552 (share < 0.05: 0.00, < 0.10: 0.00) | actual |miss-alpha| median 0.056 | median N 357
+r=0.3: site-streams 295 | Lemma 1 violations 0 | Theorem 1 violations 0 | bound median 1.878 (share < 0.05: 0.00, < 0.10: 0.00) | actual |miss-alpha| median 0.023 | median N 357
+r=1.0: site-streams 295 | Lemma 1 violations 0 | Theorem 1 violations 0 | bound median 0.339 (share < 0.05: 0.05, < 0.10: 0.10) | actual |miss-alpha| median 0.011 | median N 357
+THEORY_CHECK_DONE
+THEORY_ALL_DONE

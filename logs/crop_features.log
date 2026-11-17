@@ -1,0 +1,12 @@
+animal crops: 0.549 of 203029 images
+/usr/local/lib/python3.12/dist-packages/nvidia/dali/plugin/base_iterator.py:208: Warning: Please set `reader_name` and don't set last_batch_padded and size manually whenever possible. This may lead, in some situations, to missing some samples or returning duplicated ones. Check the Sharding section of the documentation for more details.
+  _iterator_deprecation_warning()
+128/203029
+25728/203029
+51328/203029
+76928/203029
+102528/203029
+128128/203029
+153728/203029
+179328/203029
+CROP_FEATURES_DONE

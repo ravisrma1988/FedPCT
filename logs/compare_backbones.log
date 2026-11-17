@@ -1,0 +1,24 @@
+bioclip done
+bioclip_dali done
+bioclip2 done
+
+== frozen backbones, time split, LAC, alpha=0.1, 5 seeds
+features      head        acc method       mean_cov p10_known  %sig %sig_unseen   size
+bioclip       fedavg    0.632 pooled          0.836     0.675   32%         39%   4.71
+bioclip       fedavg    0.632 labelshift      0.862     0.730   22%         32%   6.65
+bioclip       fedavg    0.632 local           0.804     0.648   41%         46%   9.17
+bioclip       central   0.660 pooled          0.831     0.618   32%         42%   3.13
+bioclip       central   0.660 labelshift      0.881     0.753   18%         26%   5.74
+bioclip       central   0.660 local           0.789     0.586   43%         42%   6.76
+bioclip_dali  fedavg    0.630 pooled          0.834     0.675   33%         41%   4.72
+bioclip_dali  fedavg    0.630 labelshift      0.862     0.736   23%         34%   6.76
+bioclip_dali  fedavg    0.630 local           0.803     0.637   42%         48%   9.27
+bioclip_dali  central   0.660 pooled          0.832     0.631   33%         44%   3.17
+bioclip_dali  central   0.660 labelshift      0.881     0.760   18%         25%   5.71
+bioclip_dali  central   0.660 local           0.791     0.582   43%         40%   6.60
+bioclip2      fedavg    0.692 pooled          0.843     0.710   27%         31%   4.05
+bioclip2      fedavg    0.692 labelshift      0.855     0.739   21%         26%   5.01
+bioclip2      fedavg    0.692 local           0.835     0.717   33%         42%  11.06
+bioclip2      central   0.725 pooled          0.851     0.676   27%         41%   2.48
+bioclip2      central   0.725 labelshift      0.884     0.797   15%         24%   3.66
+bioclip2      central   0.725 local           0.816     0.693   37%         34%   5.66

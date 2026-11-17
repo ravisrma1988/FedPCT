@@ -1,0 +1,20 @@
+seed 0: clients=143 (unseen 34), unknown=[20, 27, 35, 65, 68, 70, 117, 176], acc fedavg=0.688 central=0.755, unk_frac median/p90/max=[0.0, 0.05, 0.607]
+seed 1: clients=143 (unseen 34), unknown=[20, 28, 43, 65, 68, 93, 95, 177], acc fedavg=0.689 central=0.753, unk_frac median/p90/max=[0.006, 0.106, 0.533]
+seed 2: clients=143 (unseen 34), unknown=[9, 12, 42, 68, 112, 118, 174, 177], acc fedavg=0.690 central=0.746, unk_frac median/p90/max=[0.0, 0.052, 0.364]
+seed 3: clients=143 (unseen 34), unknown=[27, 35, 37, 39, 70, 112, 156, 178], acc fedavg=0.690 central=0.749, unk_frac median/p90/max=[0.0, 0.052, 0.217]
+seed 4: clients=143 (unseen 34), unknown=[35, 69, 70, 95, 117, 118, 156, 173], acc fedavg=0.705 central=0.756, unk_frac median/p90/max=[0.0, 0.082, 0.402]
+
+== iWildCam protocol v2, split=seq, head=fedavg (alpha=0.1, 5 seeds)
+method       mean_cov p10_known %sig_clus %sig_unseen %sig_binom set_size unk_recall
+local           0.871     0.820       14%         18%        30%     7.13       0.00
+pooled          0.864     0.745       26%         42%        38%     3.98       0.00
+labelshift      0.897     0.822       11%         23%        23%     5.75       0.00
+pooled+msp      0.869     0.745       26%         42%        38%     4.08       0.23
+
+== iWildCam protocol v2, split=seq, head=central (alpha=0.1, 5 seeds)
+method       mean_cov p10_known %sig_clus %sig_unseen %sig_binom set_size unk_recall
+local           0.873     0.823       14%         15%        29%     3.95       0.00
+pooled          0.882     0.770       21%         46%        29%     2.47       0.00
+labelshift      0.924     0.866        6%         22%        11%     4.25       0.00
+pooled+msp      0.888     0.770       21%         46%        29%     2.57       0.23
+BOTH_DONE

@@ -1,0 +1,14 @@
+seed 0 done
+seed 1 done
+seed 2 done
+seed 3 done
+seed 4 done
+
+== tightened theory, cct development sites (POST HOC), EPS 0.1, delta 0.05/K, delay 5
+r=0.1: 295 site-streams | Freedman bound (frozen eta) median 3.36 | floor median 1.882, share floor < 0.10: 0.00, < 0.20: 0.05 | violations frozen 0 cert 0
+r=0.3: 295 site-streams | Freedman bound (frozen eta) median 1.28 | floor median 0.788, share floor < 0.10: 0.05, < 0.20: 0.05 | violations frozen 0 cert 0
+   certified sites 15 (5%): realised bound median 0.106 (< 0.10: 0.00) | eta_c median 0.133 vs eta* 0.050 | cov 0.901 -> 0.900 | %sig 13% -> 13% | size 1.01 -> 1.13
+r=1.0: 295 site-streams | Freedman bound (frozen eta) median 0.34 | floor median 0.088, share floor < 0.10: 0.55, < 0.20: 0.80 | violations frozen 0 cert 0
+   certified sites 224 (76%): realised bound median 0.144 (< 0.10: 0.13) | eta_c median 0.072 vs eta* 0.020 | cov 0.895 -> 0.892 | %sig 4% -> 2% | size 2.10 -> 4.37
+THEORY_CHECK2_DONE
+T2_ALL_DONE

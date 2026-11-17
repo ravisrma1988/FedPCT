@@ -1,0 +1,7 @@
+cct time seed 0: OK clients=84 unknown=[51, 99] (pool 9, range (20, 2000)) near-dup=0.0% dropped_seqs=4836 counts={'cal/known': 30833, 'cal/designed': 816, 'test/known': 83141, 'test/designed': 2580, 'train/known': 69120, 'tune/known': 15277, 'tune/designed': 481, 'tune/natural': 3}
+cct time seed 1: OK clients=84 unknown=[14, 51] (pool 9, range (20, 2000)) near-dup=0.0% dropped_seqs=4838 counts={'cal/known': 31240, 'cal/designed': 269, 'cal/natural': 3, 'test/known': 84869, 'test/designed': 844, 'train/known': 69985, 'tune/known': 15753, 'tune/designed': 145}
+cct time seed 2: OK clients=84 unknown=[7, 14] (pool 9, range (20, 2000)) near-dup=0.0% dropped_seqs=4776 counts={'cal/known': 31255, 'cal/designed': 381, 'cal/natural': 3, 'test/known': 85099, 'test/designed': 693, 'train/known': 70010, 'tune/known': 15613, 'tune/designed': 158}
+cct time seed 3: OK clients=84 unknown=[8, 16] (pool 9, range (20, 2000)) near-dup=0.0% dropped_seqs=4660 counts={'cal/known': 30330, 'cal/designed': 1240, 'test/known': 81800, 'test/designed': 4450, 'train/known': 68776, 'tune/known': 15117, 'tune/designed': 720, 'tune/natural': 3}
+cct time seed 4: OK clients=84 unknown=[7, 8] (pool 9, range (20, 2000)) near-dup=0.0% dropped_seqs=4776 counts={'cal/known': 30633, 'cal/designed': 1022, 'cal/natural': 3, 'test/known': 83242, 'test/designed': 2550, 'train/known': 69487, 'tune/known': 15286, 'tune/designed': 466}
+CCT lockbox: 25 of 84 sites (seen 18, unseen 7); CCT20 sites among clients: 20
+CCT_SPLITS_DONE

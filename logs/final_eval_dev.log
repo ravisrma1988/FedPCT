@@ -1,0 +1,47 @@
+  seed 0 r=0.1: ours %sig 32 size 5.14 | ditto fixed 31 | global qt 31 | fcp 31
+  seed 0 r=0.3: ours %sig 23 size 4.76 | ditto fixed 28 | global qt 28 | fcp 31
+  seed 0 r=1.0: ours %sig 15 size 4.10 | ditto fixed 19 | global qt 27 | fcp 31
+seed 0 done
+  seed 1 r=0.1: ours %sig 25 size 3.86 | ditto fixed 23 | global qt 26 | fcp 25
+  seed 1 r=0.3: ours %sig 18 size 4.18 | ditto fixed 20 | global qt 24 | fcp 25
+  seed 1 r=1.0: ours %sig 11 size 3.68 | ditto fixed 18 | global qt 19 | fcp 25
+seed 1 done
+  seed 2 r=0.1: ours %sig 27 size 4.14 | ditto fixed 31 | global qt 28 | fcp 31
+  seed 2 r=0.3: ours %sig 18 size 4.18 | ditto fixed 25 | global qt 25 | fcp 31
+  seed 2 r=1.0: ours %sig 9 size 4.22 | ditto fixed 17 | global qt 15 | fcp 31
+seed 2 done
+  seed 3 r=0.1: ours %sig 26 size 4.97 | ditto fixed 28 | global qt 29 | fcp 34
+  seed 3 r=0.3: ours %sig 17 size 4.34 | ditto fixed 25 | global qt 27 | fcp 34
+  seed 3 r=1.0: ours %sig 9 size 4.38 | ditto fixed 17 | global qt 17 | fcp 34
+seed 3 done
+  seed 4 r=0.1: ours %sig 25 size 4.03 | ditto fixed 26 | global qt 26 | fcp 29
+  seed 4 r=0.3: ours %sig 20 size 3.80 | ditto fixed 22 | global qt 25 | fcp 29
+  seed 4 r=1.0: ours %sig 11 size 3.63 | ditto fixed 16 | global qt 24 | fcp 29
+seed 4 done
+
+== FINAL EVALUATION on DEV sites (100 sites, 24 unseen), features=bioclip2crop, RAPS, alpha=0.1, alpha_u=0.2, delay=5, seeds [0, 1, 2, 3, 4]
+method                                cov   %sig %sig_unseen   size   per-seed %sig
+fcp (static, global)                0.872    30%         38%   3.87   [31, 25, 31, 34, 29]
+labelshift (static, global)         0.869    30%         32%   5.39   [17, 38, 33, 35, 26]
+qq (static, global)                 0.853    37%         48%   3.29   [36, 36, 38, 39, 34]
+dr (static, global)                 0.865    28%         36%   4.20   [30, 27, 28, 30, 27]
+global + tracking   r=0.1           0.875    28%         38%   4.48   [31, 26, 28, 29, 26]
+Ditto fixed tau     r=0.1           0.876    28%         36%   3.85   [31, 23, 31, 28, 26]
+OURS Ditto+tracking r=0.1           0.876    27%         37%   4.43   [32, 25, 27, 26, 25]
+   ours - FCP: -3.0 pts (per seed [1.0, 0.0, -4.0, -8.0, -4.0]); ours - Ditto frontier at matched size: +1.9 pts (per seed [2.7, 2.9, 0.7, 3.0, 0.1])
+   unknown flag global : recall 0.847  %sites<0.8 10%  false flags 40.2%  AUROC 0.799
+   unknown flag ours   : recall 0.850  %sites<0.8 12%  false flags 39.8%  AUROC 0.800
+global + tracking   r=0.3           0.877    26%         32%   4.54   [28, 24, 25, 27, 25]
+Ditto fixed tau     r=0.3           0.886    24%         28%   3.74   [28, 20, 25, 25, 22]
+OURS Ditto+tracking r=0.3           0.886    19%         26%   4.25   [23, 18, 18, 17, 20]
+   ours - FCP: -10.8 pts (per seed [-8.0, -7.0, -13.0, -17.0, -9.0]); ours - Ditto frontier at matched size: -2.4 pts (per seed [-2.3, -1.1, -1.4, -5.4, -2.0])
+   unknown flag global : recall 0.847  %sites<0.8 10%  false flags 40.2%  AUROC 0.799
+   unknown flag ours   : recall 0.848  %sites<0.8 13%  false flags 37.8%  AUROC 0.812
+global + tracking   r=1.0           0.880    20%         28%   4.88   [27, 19, 15, 17, 24]
+Ditto fixed tau     r=1.0           0.905    17%         22%   3.40   [19, 18, 17, 17, 16]
+OURS Ditto+tracking r=1.0           0.897    11%         19%   4.00   [15, 11, 9, 9, 11]
+   ours - FCP: -19.0 pts (per seed [-16.0, -14.0, -22.0, -25.0, -18.0]); ours - Ditto frontier at matched size: -4.3 pts (per seed [-3.3, -4.4, -3.0, -6.0, -4.8])
+   unknown flag global : recall 0.847  %sites<0.8 10%  false flags 40.2%  AUROC 0.799
+   unknown flag ours   : recall 0.843  %sites<0.8 12%  false flags 33.2%  AUROC 0.823
+FINAL_EVAL_DONE dev
+DRY_DONE

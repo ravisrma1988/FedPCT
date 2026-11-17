@@ -1,0 +1,23 @@
+base          r=0.3  FCP  30%/ 3.87 | global+qt  26%/ 4.54 | pers fixed  24%/ 3.74 | OURS  19%/ 4.25 (unseen  26%) | ours-frontier -2.4 | unk recall/ff a_u=0.1:0.94/55% a_u=0.2:0.85/38% a_u=0.3:0.74/29%
+base          r=1.0  FCP  30%/ 3.87 | global+qt  20%/ 4.88 | pers fixed  17%/ 3.40 | OURS  11%/ 4.00 (unseen  19%) | ours-frontier -4.3 | unk recall/ff a_u=0.1:0.94/50% a_u=0.2:0.84/33% a_u=0.3:0.72/25%
+finetune_l0   r=0.3  FCP  30%/ 3.87 | global+qt  26%/ 4.54 | pers fixed  28%/ 3.30 | OURS  24%/ 4.09 (unseen  30%) | ours-frontier -0.4 | unk recall/ff a_u=0.1:0.89/51% a_u=0.2:0.75/34% a_u=0.3:0.61/25%
+finetune_l0   r=1.0  FCP  30%/ 3.87 | global+qt  20%/ 4.88 | pers fixed  22%/ 2.72 | OURS  14%/ 3.77 (unseen  25%) | ours-frontier -3.5 | unk recall/ff a_u=0.1:0.87/43% a_u=0.2:0.71/28% a_u=0.3:0.56/21%
+local_only    r=0.3  FCP  30%/ 3.87 | global+qt  26%/ 4.54 | pers fixed  37%/ 3.47 | OURS  36%/ 5.14 (unseen  42%) | ours-frontier +3.0 | unk recall/ff a_u=0.1:0.87/57% a_u=0.2:0.75/38% a_u=0.3:0.63/28%
+local_only    r=1.0  FCP  30%/ 3.87 | global+qt  20%/ 4.88 | pers fixed  38%/ 3.08 | OURS  34%/ 6.47 (unseen  38%) | ours-frontier -1.2 | unk recall/ff a_u=0.1:0.85/54% a_u=0.2:0.72/35% a_u=0.3:0.60/26%
+central_head  r=0.3  FCP  27%/ 2.23 | global+qt  23%/ 2.90 | pers fixed  24%/ 2.16 | OURS  21%/ 2.81 (unseen  32%) | ours-frontier -0.3 | unk recall/ff a_u=0.1:0.92/50% a_u=0.2:0.81/31% a_u=0.3:0.69/23%
+central_head  r=1.0  FCP  27%/ 2.23 | global+qt  12%/ 3.63 | pers fixed  21%/ 2.02 | OURS   9%/ 3.21 (unseen  18%) | ours-frontier -8.0 | unk recall/ff a_u=0.1:0.92/45% a_u=0.2:0.80/28% a_u=0.3:0.66/21%
+alpha=0.05    r=0.3  FCP  27%/ 8.62 | global+qt  23%/ 9.56 | pers fixed  23%/ 8.41 | OURS  20%/ 9.26 (unseen  20%) | ours-frontier -0.9 | unk recall/ff a_u=0.1:0.94/55% a_u=0.2:0.85/38% a_u=0.3:0.74/29%
+alpha=0.05    r=1.0  FCP  27%/ 8.62 | global+qt  19%/ 9.53 | pers fixed  15%/ 7.89 | OURS  10%/ 8.32 (unseen  15%) | ours-frontier -3.5 | unk recall/ff a_u=0.1:0.94/50% a_u=0.2:0.84/33% a_u=0.3:0.72/25%
+alpha=0.2     r=0.3  FCP  37%/ 1.42 | global+qt  31%/ 1.85 | pers fixed  32%/ 1.40 | OURS  25%/ 1.75 (unseen  36%) | ours-frontier +0.7 | unk recall/ff a_u=0.1:0.94/55% a_u=0.2:0.85/38% a_u=0.3:0.74/29%
+alpha=0.2     r=1.0  FCP  37%/ 1.42 | global+qt  24%/ 2.08 | pers fixed  22%/ 1.35 | OURS  13%/ 1.67 (unseen  20%) | ours-frontier -3.3 | unk recall/ff a_u=0.1:0.94/50% a_u=0.2:0.84/33% a_u=0.3:0.72/25%
+delay=0       r=0.3  FCP  30%/ 3.87 | global+qt  20%/ 5.48 | pers fixed  22%/ 3.70 | OURS  15%/ 5.02 (unseen  20%) | ours-frontier -2.0 | unk recall/ff a_u=0.1:0.94/55% a_u=0.2:0.85/37% a_u=0.3:0.74/28%
+delay=0       r=1.0  FCP  30%/ 3.87 | global+qt   7%/ 6.26 | pers fixed  12%/ 3.25 | OURS   3%/ 4.58 (unseen   6%) | ours-frontier -5.5 | unk recall/ff a_u=0.1:0.94/48% a_u=0.2:0.84/31% a_u=0.3:0.73/23%
+delay=2       r=0.3  FCP  30%/ 3.87 | global+qt  24%/ 4.66 | pers fixed  23%/ 3.72 | OURS  18%/ 4.31 (unseen  23%) | ours-frontier -2.8 | unk recall/ff a_u=0.1:0.94/55% a_u=0.2:0.85/38% a_u=0.3:0.74/29%
+delay=2       r=1.0  FCP  30%/ 3.87 | global+qt  15%/ 5.49 | pers fixed  16%/ 3.33 | OURS   6%/ 4.24 (unseen  12%) | ours-frontier -5.7 | unk recall/ff a_u=0.1:0.94/49% a_u=0.2:0.84/32% a_u=0.3:0.73/24%
+delay=10      r=0.3  FCP  30%/ 3.87 | global+qt  25%/ 4.86 | pers fixed  25%/ 3.76 | OURS  21%/ 4.67 (unseen  28%) | ours-frontier -0.8 | unk recall/ff a_u=0.1:0.94/56% a_u=0.2:0.85/38% a_u=0.3:0.74/29%
+delay=10      r=1.0  FCP  30%/ 3.87 | global+qt  23%/ 4.85 | pers fixed  19%/ 3.48 | OURS  15%/ 4.19 (unseen  21%) | ours-frontier -0.8 | unk recall/ff a_u=0.1:0.93/52% a_u=0.2:0.85/35% a_u=0.3:0.73/26%
+refit=20      r=0.3  FCP  30%/ 3.87 | global+qt  26%/ 4.54 | pers fixed  20%/ 3.59 | OURS  17%/ 4.07 (unseen  21%) | ours-frontier -1.5 | unk recall/ff a_u=0.1:0.94/53% a_u=0.2:0.85/36% a_u=0.3:0.74/27%
+refit=20      r=1.0  FCP  30%/ 3.87 | global+qt  20%/ 4.88 | pers fixed  16%/ 3.28 | OURS  10%/ 3.82 (unseen  17%) | ours-frontier -4.0 | unk recall/ff a_u=0.1:0.94/49% a_u=0.2:0.85/31% a_u=0.3:0.73/24%
+refit=100     r=0.3  FCP  30%/ 3.87 | global+qt  26%/ 4.54 | pers fixed  27%/ 3.81 | OURS  23%/ 4.40 (unseen  31%) | ours-frontier -0.9 | unk recall/ff a_u=0.1:0.94/57% a_u=0.2:0.85/39% a_u=0.3:0.74/30%
+refit=100     r=1.0  FCP  30%/ 3.87 | global+qt  20%/ 4.88 | pers fixed  18%/ 3.53 | OURS  13%/ 4.23 (unseen  18%) | ours-frontier -2.9 | unk recall/ff a_u=0.1:0.93/52% a_u=0.2:0.84/35% a_u=0.3:0.73/27%
+SENS_DONE

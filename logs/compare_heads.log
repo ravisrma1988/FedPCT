@@ -1,0 +1,47 @@
+  seed 0 zeroshot: acc=0.191 raps(lam,k)=(0.0,1)
+  seed 0 fedavg_zero: acc=0.632 raps(lam,k)=(0.01,1)
+  seed 0 fedavg_text: acc=0.622 raps(lam,k)=(0.2,10)
+  seed 0 central_text: acc=0.657 raps(lam,k)=(0.01,1)
+  seed 1 zeroshot: acc=0.192 raps(lam,k)=(0.0,1)
+  seed 1 fedavg_zero: acc=0.634 raps(lam,k)=(0.01,1)
+  seed 1 fedavg_text: acc=0.623 raps(lam,k)=(0.2,10)
+  seed 1 central_text: acc=0.660 raps(lam,k)=(0.01,5)
+  seed 2 zeroshot: acc=0.185 raps(lam,k)=(0.0,1)
+  seed 2 fedavg_zero: acc=0.628 raps(lam,k)=(0.01,1)
+  seed 2 fedavg_text: acc=0.623 raps(lam,k)=(0.05,10)
+  seed 2 central_text: acc=0.652 raps(lam,k)=(0.01,5)
+  seed 3 zeroshot: acc=0.186 raps(lam,k)=(0.0,1)
+  seed 3 fedavg_zero: acc=0.627 raps(lam,k)=(0.01,5)
+  seed 3 fedavg_text: acc=0.622 raps(lam,k)=(0.2,10)
+  seed 3 central_text: acc=0.655 raps(lam,k)=(0.001,1)
+  seed 4 zeroshot: acc=0.188 raps(lam,k)=(0.0,1)
+  seed 4 fedavg_zero: acc=0.636 raps(lam,k)=(0.01,1)
+  seed 4 fedavg_text: acc=0.625 raps(lam,k)=(0.05,10)
+  seed 4 central_text: acc=0.658 raps(lam,k)=(0.01,5)
+
+== heads x scores, time split, static calibration, alpha=0.1, 5 seeds
+head             acc score method       mean_cov p10_known  %sig %sig_unseen   size
+zeroshot       0.188 lac   pooled          0.963     1.000    0%          0% 103.00
+zeroshot       0.188 lac   labelshift      0.917     0.852    8%          6%  76.88
+zeroshot       0.188 lac   local           0.871     0.770   20%         22%  64.48
+zeroshot       0.188 raps  pooled          0.815     0.515   31%         20%  74.95
+zeroshot       0.188 raps  labelshift      0.898     0.827   11%          7%  71.58
+zeroshot       0.188 raps  local           0.843     0.726   27%         26%  62.09
+fedavg_zero    0.632 lac   pooled          0.836     0.675   32%         39%   4.71
+fedavg_zero    0.632 lac   labelshift      0.862     0.730   22%         32%   6.65
+fedavg_zero    0.632 lac   local           0.804     0.648   41%         46%   9.17
+fedavg_zero    0.632 raps  pooled          0.842     0.692   31%         39%   5.46
+fedavg_zero    0.632 raps  labelshift      0.861     0.744   23%         34%   7.30
+fedavg_zero    0.632 raps  local           0.833     0.710   34%         48%  10.35
+fedavg_text    0.623 lac   pooled          0.835     0.703   35%         44%   4.67
+fedavg_text    0.623 lac   labelshift      0.865     0.754   24%         32%   6.31
+fedavg_text    0.623 lac   local           0.820     0.698   36%         39%   8.93
+fedavg_text    0.623 raps  pooled          0.835     0.710   34%         45%   4.93
+fedavg_text    0.623 raps  labelshift      0.859     0.746   23%         34%   7.23
+fedavg_text    0.623 raps  local           0.846     0.745   29%         38%  10.88
+central_text   0.656 lac   pooled          0.827     0.626   34%         44%   3.13
+central_text   0.656 lac   labelshift      0.876     0.747   19%         26%   5.41
+central_text   0.656 lac   local           0.797     0.625   41%         43%   6.36
+central_text   0.656 raps  pooled          0.830     0.642   32%         44%   3.46
+central_text   0.656 raps  labelshift      0.871     0.730   20%         29%   6.39
+central_text   0.656 raps  local           0.833     0.732   35%         46%   7.67

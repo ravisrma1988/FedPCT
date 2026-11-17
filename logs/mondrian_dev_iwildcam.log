@@ -1,0 +1,16 @@
+seed 0 done (tau0 0.988, detected 0.941, not detected 1.104)
+seed 1 done (tau0 0.983, detected 0.923, not detected 1.114)
+seed 2 done (tau0 0.977, detected 0.918, not detected 1.031)
+seed 3 done (tau0 0.997, detected 0.949, not detected 1.048)
+seed 4 done (tau0 0.982, detected 0.937, not detected 1.134)
+
+== FedPCT-D exploratory, iwildcam development sites, five seeds
+fedpct|all|0.3           flagged  19.2% [23.0, 18.0, 18.0, 17.0, 20.0] | cov 0.886 | obs<0.9  46.2% | size 4.25 | sites 100
+fedpct|animal|0.3        flagged  43.3% [45.3, 44.2, 38.9, 41.9, 46.2] | cov 0.717 | obs<0.9  73.2% | size 5.44 | sites 95
+fedpct_d|all|0.3         flagged  23.6% [28.0, 20.0, 27.0, 21.0, 22.0] | cov 0.881 | obs<0.9  50.8% | size 4.64 | sites 100
+fedpct_d|animal|0.3      flagged  49.9% [53.7, 46.3, 51.6, 49.5, 48.4] | cov 0.700 | obs<0.9  79.8% | size 4.74 | sites 95
+fedpct|all|1.0           flagged  11.0% [15.0, 11.0, 9.0, 9.0, 11.0] | cov 0.897 | obs<0.9  34.2% | size 4.00 | sites 100
+fedpct|animal|1.0        flagged  34.4% [36.8, 34.7, 29.5, 34.4, 36.6] | cov 0.745 | obs<0.9  64.3% | size 5.13 | sites 95
+fedpct_d|all|1.0         flagged  16.0% [20.0, 17.0, 13.0, 13.0, 17.0] | cov 0.894 | obs<0.9  43.8% | size 4.27 | sites 100
+fedpct_d|animal|1.0      flagged  41.0% [43.2, 40.0, 38.9, 37.6, 45.2] | cov 0.730 | obs<0.9  74.3% | size 4.51 | sites 95
+MONDRIAN_DONE

@@ -1,0 +1,75 @@
+  seed 0 r=0.1 global done (novelty AUROC 0.755)
+  seed 0 r=0.1 ditto done (novelty AUROC 0.759)
+  seed 0 r=0.3 global done (novelty AUROC 0.755)
+  seed 0 r=0.3 ditto done (novelty AUROC 0.777)
+  seed 0 r=1.0 global done (novelty AUROC 0.755)
+  seed 0 r=1.0 ditto done (novelty AUROC 0.790)
+seed 0 done
+  seed 1 r=0.1 global done (novelty AUROC 0.794)
+  seed 1 r=0.1 ditto done (novelty AUROC 0.793)
+  seed 1 r=0.3 global done (novelty AUROC 0.794)
+  seed 1 r=0.3 ditto done (novelty AUROC 0.809)
+  seed 1 r=1.0 global done (novelty AUROC 0.794)
+  seed 1 r=1.0 ditto done (novelty AUROC 0.810)
+seed 1 done
+  seed 2 r=0.1 global done (novelty AUROC 0.813)
+  seed 2 r=0.1 ditto done (novelty AUROC 0.817)
+  seed 2 r=0.3 global done (novelty AUROC 0.813)
+  seed 2 r=0.3 ditto done (novelty AUROC 0.832)
+  seed 2 r=1.0 global done (novelty AUROC 0.813)
+  seed 2 r=1.0 ditto done (novelty AUROC 0.841)
+seed 2 done
+  seed 3 r=0.1 global done (novelty AUROC 0.831)
+  seed 3 r=0.1 ditto done (novelty AUROC 0.828)
+  seed 3 r=0.3 global done (novelty AUROC 0.831)
+  seed 3 r=0.3 ditto done (novelty AUROC 0.847)
+  seed 3 r=1.0 global done (novelty AUROC 0.831)
+  seed 3 r=1.0 ditto done (novelty AUROC 0.837)
+seed 3 done
+  seed 4 r=0.1 global done (novelty AUROC 0.804)
+  seed 4 r=0.1 ditto done (novelty AUROC 0.810)
+  seed 4 r=0.3 global done (novelty AUROC 0.804)
+  seed 4 r=0.3 ditto done (novelty AUROC 0.826)
+  seed 4 r=1.0 global done (novelty AUROC 0.804)
+  seed 4 r=1.0 ditto done (novelty AUROC 0.835)
+seed 4 done
+
+== integrated (Ditto + tracking + unknown flag), DEV sites, features=bioclip2crop, RAPS, delay=5, alpha=0.1, alpha_u=0.2, 5 seeds
+mode|rate|tau|theta                    cov  %sig  size  recall  %usig    ff%  joint  auroc
+global|r=0.1|tau=frozen|theta=frozen 0.873   30%  3.87   0.847    10%  40.2%  0.872  0.799
+global|r=0.1|tau=frozen|theta=local  0.873   30%  3.87   0.847    10%  40.1%  0.872  0.799
+global|r=0.1|tau=frozen|theta=shared 0.873   30%  3.87   0.866     6%  43.6%  0.873  0.799
+global|r=0.1|tau=qt|theta=frozen     0.875   28%  4.48   0.847    10%  40.2%  0.874  0.799
+global|r=0.1|tau=qt|theta=local      0.875   28%  4.48   0.847    10%  40.1%  0.874  0.799
+global|r=0.1|tau=qt|theta=shared     0.875   28%  4.48   0.866     6%  43.6%  0.875  0.799
+ditto|r=0.1|tau=frozen|theta=frozen  0.875   28%  3.82   0.838    13%  39.5%  0.874  0.801
+ditto|r=0.1|tau=frozen|theta=local   0.875   28%  3.82   0.838    13%  39.5%  0.875  0.801
+ditto|r=0.1|tau=frozen|theta=shared  0.875   28%  3.82   0.856     8%  42.9%  0.875  0.801
+ditto|r=0.1|tau=qt|theta=frozen      0.876   27%  4.41   0.838    13%  39.5%  0.875  0.801
+ditto|r=0.1|tau=qt|theta=local       0.876   27%  4.41   0.838    13%  39.5%  0.875  0.801
+ditto|r=0.1|tau=qt|theta=shared      0.876   27%  4.41   0.856     8%  42.9%  0.876  0.801
+global|r=0.3|tau=frozen|theta=frozen 0.873   30%  3.87   0.847    10%  40.2%  0.872  0.799
+global|r=0.3|tau=frozen|theta=local  0.873   30%  3.87   0.843    10%  40.0%  0.872  0.799
+global|r=0.3|tau=frozen|theta=shared 0.873   30%  3.87   0.878     4%  45.4%  0.874  0.799
+global|r=0.3|tau=qt|theta=frozen     0.877   26%  4.54   0.847    10%  40.2%  0.876  0.799
+global|r=0.3|tau=qt|theta=local      0.877   26%  4.54   0.843    10%  40.0%  0.876  0.799
+global|r=0.3|tau=qt|theta=shared     0.877   26%  4.54   0.878     4%  45.4%  0.878  0.799
+ditto|r=0.3|tau=frozen|theta=frozen  0.886   24%  3.65   0.845    11%  37.1%  0.885  0.818
+ditto|r=0.3|tau=frozen|theta=local   0.886   24%  3.65   0.839    11%  37.0%  0.885  0.818
+ditto|r=0.3|tau=frozen|theta=shared  0.886   24%  3.65   0.877     4%  44.2%  0.886  0.818
+ditto|r=0.3|tau=qt|theta=frozen      0.885   20%  4.20   0.845    11%  37.1%  0.884  0.818
+ditto|r=0.3|tau=qt|theta=local       0.885   20%  4.20   0.839    11%  37.0%  0.884  0.818
+ditto|r=0.3|tau=qt|theta=shared      0.885   20%  4.20   0.877     4%  44.2%  0.886  0.818
+global|r=1.0|tau=frozen|theta=frozen 0.873   30%  3.87   0.847    10%  40.2%  0.872  0.799
+global|r=1.0|tau=frozen|theta=local  0.873   30%  3.87   0.836     6%  40.7%  0.872  0.799
+global|r=1.0|tau=frozen|theta=shared 0.873   30%  3.87   0.852     7%  40.8%  0.873  0.799
+global|r=1.0|tau=qt|theta=frozen     0.880   20%  4.88   0.847    10%  40.2%  0.879  0.799
+global|r=1.0|tau=qt|theta=local      0.880   20%  4.88   0.836     6%  40.7%  0.879  0.799
+global|r=1.0|tau=qt|theta=shared     0.880   20%  4.88   0.852     7%  40.8%  0.879  0.799
+ditto|r=1.0|tau=frozen|theta=frozen  0.905   17%  3.40   0.843    12%  33.2%  0.903  0.823
+ditto|r=1.0|tau=frozen|theta=local   0.905   17%  3.40   0.833     5%  33.8%  0.903  0.823
+ditto|r=1.0|tau=frozen|theta=shared  0.905   17%  3.40   0.860     7%  34.6%  0.904  0.823
+ditto|r=1.0|tau=qt|theta=frozen      0.897   11%  4.00   0.843    12%  33.2%  0.895  0.823
+ditto|r=1.0|tau=qt|theta=local       0.897   11%  4.00   0.833     5%  33.8%  0.895  0.823
+ditto|r=1.0|tau=qt|theta=shared      0.897   11%  4.00   0.860     7%  34.6%  0.896  0.823
+PERS_OPENSET_DONE

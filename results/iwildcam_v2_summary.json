@@ -1,0 +1,567 @@
+[
+ {
+  "unknown": [
+   3,
+   9,
+   12,
+   41,
+   43,
+   73,
+   82,
+   119
+  ],
+  "n_clients": 143,
+  "n_unseen": 34,
+  "fedavg_acc_known": 0.6867983955635718,
+  "unk_frac_quantiles": [
+   0.0,
+   0.023,
+   0.12
+  ],
+  "fedavg": {
+   "local": {
+    "mean_cov": 0.8815419346894964,
+    "worst_cov": 0.6029411764705882,
+    "worst_cov_known": 0.640625,
+    "frac_clients_below": 0.43356643356643354,
+    "mean_size": 9.16876334858631,
+    "p10_cov_known": 0.8206293487118411,
+    "pct_sig_below": 34.96503496503497,
+    "pct_sig_below_unseen": 38.23529411764706,
+    "unk_recall": 0.0
+   },
+   "pooled": {
+    "mean_cov": 0.8718492805366751,
+    "worst_cov": 0.4407894736842105,
+    "worst_cov_known": 0.4407894736842105,
+    "frac_clients_below": 0.46853146853146854,
+    "mean_size": 4.0751226520675035,
+    "p10_cov_known": 0.7199701992922332,
+    "pct_sig_below": 38.46153846153847,
+    "pct_sig_below_unseen": 61.76470588235294,
+    "unk_recall": 0.0
+   },
+   "labelshift": {
+    "mean_cov": 0.9022048001319573,
+    "worst_cov": 0.5197368421052632,
+    "worst_cov_known": 0.5197368421052632,
+    "frac_clients_below": 0.32867132867132864,
+    "mean_size": 5.761288609250873,
+    "p10_cov_known": 0.7855136306192454,
+    "pct_sig_below": 28.671328671328673,
+    "pct_sig_below_unseen": 55.88235294117647,
+    "unk_recall": 0.0
+   },
+   "pooled+msp": {
+    "mean_cov": 0.8739626258745625,
+    "worst_cov": 0.4407894736842105,
+    "worst_cov_known": 0.4407894736842105,
+    "frac_clients_below": 0.46153846153846156,
+    "mean_size": 4.180768197481609,
+    "p10_cov_known": 0.7199701992922332,
+    "pct_sig_below": 38.46153846153847,
+    "pct_sig_below_unseen": 61.76470588235294,
+    "unk_recall": 0.2730441340786168
+   }
+  },
+  "central_acc_known": 0.7368158936118664,
+  "central": {
+   "local": {
+    "mean_cov": 0.8857515219687165,
+    "worst_cov": 0.6544117647058824,
+    "worst_cov_known": 0.6953125,
+    "frac_clients_below": 0.3916083916083916,
+    "mean_size": 5.092388157778598,
+    "p10_cov_known": 0.8355891989605694,
+    "pct_sig_below": 27.972027972027973,
+    "pct_sig_below_unseen": 26.47058823529412,
+    "unk_recall": 0.0
+   },
+   "pooled": {
+    "mean_cov": 0.8909487963314993,
+    "worst_cov": 0.5027472527472527,
+    "worst_cov_known": 0.5027472527472527,
+    "frac_clients_below": 0.3706293706293706,
+    "mean_size": 2.593213179237716,
+    "p10_cov_known": 0.7441240310077519,
+    "pct_sig_below": 33.56643356643357,
+    "pct_sig_below_unseen": 64.70588235294117,
+    "unk_recall": 0.0
+   },
+   "labelshift": {
+    "mean_cov": 0.9309511668893274,
+    "worst_cov": 0.5494505494505495,
+    "worst_cov_known": 0.5494505494505495,
+    "frac_clients_below": 0.1888111888111888,
+    "mean_size": 4.240601524251497,
+    "p10_cov_known": 0.8454797308188265,
+    "pct_sig_below": 13.986013986013987,
+    "pct_sig_below_unseen": 50.0,
+    "unk_recall": 0.0
+   },
+   "pooled+msp": {
+    "mean_cov": 0.8937138859290448,
+    "worst_cov": 0.5027472527472527,
+    "worst_cov_known": 0.5027472527472527,
+    "frac_clients_below": 0.35664335664335667,
+    "mean_size": 2.69289273207335,
+    "p10_cov_known": 0.7441240310077519,
+    "pct_sig_below": 33.56643356643357,
+    "pct_sig_below_unseen": 64.70588235294117,
+    "unk_recall": 0.32796966365931884
+   }
+  }
+ },
+ {
+  "unknown": [
+   9,
+   23,
+   70,
+   73,
+   112,
+   137,
+   171,
+   176
+  ],
+  "n_clients": 143,
+  "n_unseen": 34,
+  "fedavg_acc_known": 0.6873759854132032,
+  "unk_frac_quantiles": [
+   0.0,
+   0.027,
+   0.257
+  ],
+  "fedavg": {
+   "local": {
+    "mean_cov": 0.8897364503345389,
+    "worst_cov": 0.7310344827586207,
+    "worst_cov_known": 0.7383367139959433,
+    "frac_clients_below": 0.3706293706293706,
+    "mean_size": 10.597672069268283,
+    "p10_cov_known": 0.8271637902963204,
+    "pct_sig_below": 26.573426573426573,
+    "pct_sig_below_unseen": 23.52941176470588,
+    "unk_recall": 0.0
+   },
+   "pooled": {
+    "mean_cov": 0.8857769618568192,
+    "worst_cov": 0.40878378378378377,
+    "worst_cov_known": 0.40878378378378377,
+    "frac_clients_below": 0.40559440559440557,
+    "mean_size": 4.694066060802387,
+    "p10_cov_known": 0.7705092293327588,
+    "pct_sig_below": 32.16783216783217,
+    "pct_sig_below_unseen": 52.94117647058824,
+    "unk_recall": 0.0
+   },
+   "labelshift": {
+    "mean_cov": 0.9118562273636815,
+    "worst_cov": 0.6052631578947368,
+    "worst_cov_known": 0.6052631578947368,
+    "frac_clients_below": 0.2727272727272727,
+    "mean_size": 6.659750855838226,
+    "p10_cov_known": 0.817252539570045,
+    "pct_sig_below": 20.27972027972028,
+    "pct_sig_below_unseen": 41.17647058823529,
+    "unk_recall": 0.0
+   },
+   "pooled+msp": {
+    "mean_cov": 0.8883023867193167,
+    "worst_cov": 0.40878378378378377,
+    "worst_cov_known": 0.40878378378378377,
+    "frac_clients_below": 0.3986013986013986,
+    "mean_size": 4.805503911384738,
+    "p10_cov_known": 0.7705092293327588,
+    "pct_sig_below": 32.16783216783217,
+    "pct_sig_below_unseen": 52.94117647058824,
+    "unk_recall": 0.2804455266955267
+   }
+  },
+  "central_acc_known": 0.7138949965141845,
+  "central": {
+   "local": {
+    "mean_cov": 0.891189814841276,
+    "worst_cov": 0.6689655172413793,
+    "worst_cov_known": 0.6689655172413793,
+    "frac_clients_below": 0.34965034965034963,
+    "mean_size": 8.39114738496254,
+    "p10_cov_known": 0.8425024566000655,
+    "pct_sig_below": 25.874125874125873,
+    "pct_sig_below_unseen": 23.52941176470588,
+    "unk_recall": 0.0
+   },
+   "pooled": {
+    "mean_cov": 0.892795387722919,
+    "worst_cov": 0.36824324324324326,
+    "worst_cov_known": 0.36824324324324326,
+    "frac_clients_below": 0.34965034965034963,
+    "mean_size": 3.312574364889455,
+    "p10_cov_known": 0.7708177051174535,
+    "pct_sig_below": 32.86713286713287,
+    "pct_sig_below_unseen": 55.88235294117647,
+    "unk_recall": 0.0
+   },
+   "labelshift": {
+    "mean_cov": 0.9405794677344,
+    "worst_cov": 0.6052631578947368,
+    "worst_cov_known": 0.6052631578947368,
+    "frac_clients_below": 0.16083916083916083,
+    "mean_size": 9.176882837255539,
+    "p10_cov_known": 0.8498588955677489,
+    "pct_sig_below": 13.986013986013987,
+    "pct_sig_below_unseen": 35.294117647058826,
+    "unk_recall": 0.0
+   },
+   "pooled+msp": {
+    "mean_cov": 0.8957998900906075,
+    "worst_cov": 0.36824324324324326,
+    "worst_cov_known": 0.36824324324324326,
+    "frac_clients_below": 0.34265734265734266,
+    "mean_size": 3.4140149371232553,
+    "p10_cov_known": 0.7708177051174535,
+    "pct_sig_below": 32.86713286713287,
+    "pct_sig_below_unseen": 55.88235294117647,
+    "unk_recall": 0.3416443452380952
+   }
+  }
+ },
+ {
+  "unknown": [
+   12,
+   20,
+   40,
+   42,
+   70,
+   73,
+   119,
+   133
+  ],
+  "n_clients": 143,
+  "n_unseen": 34,
+  "fedavg_acc_known": 0.6849337191306103,
+  "unk_frac_quantiles": [
+   0.0,
+   0.016,
+   0.364
+  ],
+  "fedavg": {
+   "local": {
+    "mean_cov": 0.8850847013220807,
+    "worst_cov": 0.5028901734104047,
+    "worst_cov_known": 0.5028901734104047,
+    "frac_clients_below": 0.3706293706293706,
+    "mean_size": 8.647995131735772,
+    "p10_cov_known": 0.8188751033912324,
+    "pct_sig_below": 32.16783216783217,
+    "pct_sig_below_unseen": 29.411764705882355,
+    "unk_recall": 0.0
+   },
+   "pooled": {
+    "mean_cov": 0.8689673870169907,
+    "worst_cov": 0.3951890034364261,
+    "worst_cov_known": 0.39792387543252594,
+    "frac_clients_below": 0.46153846153846156,
+    "mean_size": 3.9308097529436132,
+    "p10_cov_known": 0.7171589700621959,
+    "pct_sig_below": 40.55944055944056,
+    "pct_sig_below_unseen": 55.88235294117647,
+    "unk_recall": 0.0
+   },
+   "labelshift": {
+    "mean_cov": 0.902990220573794,
+    "worst_cov": 0.49140893470790376,
+    "worst_cov_known": 0.49382716049382713,
+    "frac_clients_below": 0.3146853146853147,
+    "mean_size": 5.778754482637094,
+    "p10_cov_known": 0.8113257403189067,
+    "pct_sig_below": 25.174825174825177,
+    "pct_sig_below_unseen": 47.05882352941176,
+    "unk_recall": 0.0
+   },
+   "pooled+msp": {
+    "mean_cov": 0.8714338647843959,
+    "worst_cov": 0.3951890034364261,
+    "worst_cov_known": 0.39792387543252594,
+    "frac_clients_below": 0.45454545454545453,
+    "mean_size": 4.033912189079519,
+    "p10_cov_known": 0.7171589700621959,
+    "pct_sig_below": 40.55944055944056,
+    "pct_sig_below_unseen": 55.88235294117647,
+    "unk_recall": 0.31014550264550256
+   }
+  },
+  "central_acc_known": 0.7030078729560595,
+  "central": {
+   "local": {
+    "mean_cov": 0.8847713304352263,
+    "worst_cov": 0.6184971098265896,
+    "worst_cov_known": 0.6184971098265896,
+    "frac_clients_below": 0.38461538461538464,
+    "mean_size": 6.1881054046176835,
+    "p10_cov_known": 0.8158968850698174,
+    "pct_sig_below": 31.46853146853147,
+    "pct_sig_below_unseen": 32.35294117647059,
+    "unk_recall": 0.0
+   },
+   "pooled": {
+    "mean_cov": 0.9005771045686616,
+    "worst_cov": 0.36769759450171824,
+    "worst_cov_known": 0.370242214532872,
+    "frac_clients_below": 0.34265734265734266,
+    "mean_size": 3.468948762614557,
+    "p10_cov_known": 0.760118794413134,
+    "pct_sig_below": 30.069930069930066,
+    "pct_sig_below_unseen": 52.94117647058824,
+    "unk_recall": 0.0
+   },
+   "labelshift": {
+    "mean_cov": 0.9419776879410242,
+    "worst_cov": 0.6049382716049383,
+    "worst_cov_known": 0.6049382716049383,
+    "frac_clients_below": 0.13986013986013987,
+    "mean_size": 6.961585966269642,
+    "p10_cov_known": 0.8602630969096338,
+    "pct_sig_below": 11.888111888111888,
+    "pct_sig_below_unseen": 41.17647058823529,
+    "unk_recall": 0.0
+   },
+   "pooled+msp": {
+    "mean_cov": 0.9027906396070273,
+    "worst_cov": 0.36769759450171824,
+    "worst_cov_known": 0.370242214532872,
+    "frac_clients_below": 0.34265734265734266,
+    "mean_size": 3.569279555319586,
+    "p10_cov_known": 0.760118794413134,
+    "pct_sig_below": 30.069930069930066,
+    "pct_sig_below_unseen": 52.94117647058824,
+    "unk_recall": 0.26628306878306873
+   }
+  }
+ },
+ {
+  "unknown": [
+   12,
+   25,
+   27,
+   37,
+   90,
+   118,
+   133,
+   156
+  ],
+  "n_clients": 143,
+  "n_unseen": 34,
+  "fedavg_acc_known": 0.6812179066057088,
+  "unk_frac_quantiles": [
+   0.0,
+   0.027,
+   0.156
+  ],
+  "fedavg": {
+   "local": {
+    "mean_cov": 0.8889093895777785,
+    "worst_cov": 0.6422018348623854,
+    "worst_cov_known": 0.7019089574155654,
+    "frac_clients_below": 0.3776223776223776,
+    "mean_size": 9.02511509630814,
+    "p10_cov_known": 0.8283227848101266,
+    "pct_sig_below": 30.76923076923077,
+    "pct_sig_below_unseen": 38.23529411764706,
+    "unk_recall": 0.0
+   },
+   "pooled": {
+    "mean_cov": 0.8828932450642563,
+    "worst_cov": 0.4276729559748428,
+    "worst_cov_known": 0.4755244755244755,
+    "frac_clients_below": 0.4405594405594406,
+    "mean_size": 4.383409686534676,
+    "p10_cov_known": 0.7567287784679089,
+    "pct_sig_below": 37.76223776223776,
+    "pct_sig_below_unseen": 61.76470588235294,
+    "unk_recall": 0.0
+   },
+   "labelshift": {
+    "mean_cov": 0.9137963022938157,
+    "worst_cov": 0.5723270440251572,
+    "worst_cov_known": 0.6363636363636364,
+    "frac_clients_below": 0.2937062937062937,
+    "mean_size": 6.239785071781873,
+    "p10_cov_known": 0.8332298136645963,
+    "pct_sig_below": 25.874125874125873,
+    "pct_sig_below_unseen": 47.05882352941176,
+    "unk_recall": 0.0
+   },
+   "pooled+msp": {
+    "mean_cov": 0.8848777372854854,
+    "worst_cov": 0.4276729559748428,
+    "worst_cov_known": 0.4755244755244755,
+    "frac_clients_below": 0.43356643356643354,
+    "mean_size": 4.486607883634096,
+    "p10_cov_known": 0.7567287784679089,
+    "pct_sig_below": 37.76223776223776,
+    "pct_sig_below_unseen": 61.76470588235294,
+    "unk_recall": 0.2981630636279593
+   }
+  },
+  "central_acc_known": 0.6784426240497674,
+  "central": {
+   "local": {
+    "mean_cov": 0.8879961071653734,
+    "worst_cov": 0.7086956521739131,
+    "worst_cov_known": 0.7219251336898396,
+    "frac_clients_below": 0.35664335664335667,
+    "mean_size": 6.441274200292267,
+    "p10_cov_known": 0.8131817252239355,
+    "pct_sig_below": 31.46853146853147,
+    "pct_sig_below_unseen": 50.0,
+    "unk_recall": 0.0
+   },
+   "pooled": {
+    "mean_cov": 0.9172844661405559,
+    "worst_cov": 0.5345911949685535,
+    "worst_cov_known": 0.5709219858156028,
+    "frac_clients_below": 0.27972027972027974,
+    "mean_size": 4.782565673609909,
+    "p10_cov_known": 0.7885500187336081,
+    "pct_sig_below": 25.174825174825177,
+    "pct_sig_below_unseen": 47.05882352941176,
+    "unk_recall": 0.0
+   },
+   "labelshift": {
+    "mean_cov": 0.9453802237272693,
+    "worst_cov": 0.6695652173913044,
+    "worst_cov_known": 0.7,
+    "frac_clients_below": 0.16783216783216784,
+    "mean_size": 7.017172205900241,
+    "p10_cov_known": 0.8644770494009961,
+    "pct_sig_below": 11.888111888111888,
+    "pct_sig_below_unseen": 32.35294117647059,
+    "unk_recall": 0.0
+   },
+   "pooled+msp": {
+    "mean_cov": 0.9205347834263629,
+    "worst_cov": 0.5709219858156028,
+    "worst_cov_known": 0.5709219858156028,
+    "frac_clients_below": 0.26573426573426573,
+    "mean_size": 4.893297858567526,
+    "p10_cov_known": 0.7885500187336081,
+    "pct_sig_below": 25.174825174825177,
+    "pct_sig_below_unseen": 47.05882352941176,
+    "unk_recall": 0.3261201981078642
+   }
+  }
+ },
+ {
+  "unknown": [
+   12,
+   74,
+   102,
+   133,
+   137,
+   171,
+   176,
+   177
+  ],
+  "n_clients": 143,
+  "n_unseen": 34,
+  "fedavg_acc_known": 0.7010545498398746,
+  "unk_frac_quantiles": [
+   0.0,
+   0.015,
+   0.068
+  ],
+  "fedavg": {
+   "local": {
+    "mean_cov": 0.8927573590999622,
+    "worst_cov": 0.7217391304347827,
+    "worst_cov_known": 0.7217391304347827,
+    "frac_clients_below": 0.40559440559440557,
+    "mean_size": 8.69744393450306,
+    "p10_cov_known": 0.8176190476190476,
+    "pct_sig_below": 30.069930069930066,
+    "pct_sig_below_unseen": 38.23529411764706,
+    "unk_recall": 0.0
+   },
+   "pooled": {
+    "mean_cov": 0.8865656068864635,
+    "worst_cov": 0.5746268656716418,
+    "worst_cov_known": 0.5746268656716418,
+    "frac_clients_below": 0.42657342657342656,
+    "mean_size": 4.183439082235875,
+    "p10_cov_known": 0.7605222437137331,
+    "pct_sig_below": 32.86713286713287,
+    "pct_sig_below_unseen": 61.76470588235294,
+    "unk_recall": 0.0
+   },
+   "labelshift": {
+    "mean_cov": 0.914796990510159,
+    "worst_cov": 0.6462585034013606,
+    "worst_cov_known": 0.6462585034013606,
+    "frac_clients_below": 0.2937062937062937,
+    "mean_size": 6.091719070031012,
+    "p10_cov_known": 0.8295101715077321,
+    "pct_sig_below": 24.475524475524477,
+    "pct_sig_below_unseen": 52.94117647058824,
+    "unk_recall": 0.0
+   },
+   "pooled+msp": {
+    "mean_cov": 0.8876724049666533,
+    "worst_cov": 0.5746268656716418,
+    "worst_cov_known": 0.5746268656716418,
+    "frac_clients_below": 0.42657342657342656,
+    "mean_size": 4.294046444874078,
+    "p10_cov_known": 0.7605222437137331,
+    "pct_sig_below": 32.86713286713287,
+    "pct_sig_below_unseen": 61.76470588235294,
+    "unk_recall": 0.20882204340622193
+   }
+  },
+  "central_acc_known": 0.6939527529512656,
+  "central": {
+   "local": {
+    "mean_cov": 0.8918829930318256,
+    "worst_cov": 0.6701030927835051,
+    "worst_cov_known": 0.6701030927835051,
+    "frac_clients_below": 0.34965034965034963,
+    "mean_size": 6.463253060491829,
+    "p10_cov_known": 0.8150374696936301,
+    "pct_sig_below": 27.27272727272727,
+    "pct_sig_below_unseen": 35.294117647058826,
+    "unk_recall": 0.0
+   },
+   "pooled": {
+    "mean_cov": 0.9112316137627035,
+    "worst_cov": 0.5209125475285171,
+    "worst_cov_known": 0.5428571428571428,
+    "frac_clients_below": 0.27972027972027974,
+    "mean_size": 3.7611403246401527,
+    "p10_cov_known": 0.7716014008277619,
+    "pct_sig_below": 25.174825174825177,
+    "pct_sig_below_unseen": 50.0,
+    "unk_recall": 0.0
+   },
+   "labelshift": {
+    "mean_cov": 0.9425620781219922,
+    "worst_cov": 0.6565217391304348,
+    "worst_cov_known": 0.6565217391304348,
+    "frac_clients_below": 0.16083916083916083,
+    "mean_size": 5.801078502036502,
+    "p10_cov_known": 0.8692218350754937,
+    "pct_sig_below": 10.48951048951049,
+    "pct_sig_below_unseen": 29.411764705882355,
+    "unk_recall": 0.0
+   },
+   "pooled+msp": {
+    "mean_cov": 0.9125623926427708,
+    "worst_cov": 0.532319391634981,
+    "worst_cov_known": 0.5428571428571428,
+    "frac_clients_below": 0.2727272727272727,
+    "mean_size": 3.8656370365249817,
+    "p10_cov_known": 0.7716014008277619,
+    "pct_sig_below": 25.174825174825177,
+    "pct_sig_below_unseen": 50.0,
+    "unk_recall": 0.2568556865717109
+   }
+  }
+ }
+]

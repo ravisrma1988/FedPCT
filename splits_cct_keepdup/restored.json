@@ -1,0 +1,27 @@
+{
+ "0": {
+  "test_rows_restored": 9343,
+  "test_rows": 95064,
+  "seqs_restored": 4836
+ },
+ "1": {
+  "test_rows_restored": 9351,
+  "test_rows": 95064,
+  "seqs_restored": 4838
+ },
+ "2": {
+  "test_rows_restored": 9272,
+  "test_rows": 95064,
+  "seqs_restored": 4776
+ },
+ "3": {
+  "test_rows_restored": 8814,
+  "test_rows": 95064,
+  "seqs_restored": 4660
+ },
+ "4": {
+  "test_rows_restored": 9272,
+  "test_rows": 95064,
+  "seqs_restored": 4776
+ }
+}

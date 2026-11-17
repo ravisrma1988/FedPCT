@@ -1,0 +1,11 @@
+seed 0 done (B=5.90, lam_RAPS=0.05, kreg=5)
+seed 1 done (B=5.90, lam_RAPS=0.05, kreg=5)
+seed 2 done (B=2.02, lam_RAPS=0.01, kreg=1)
+seed 3 done (B=2.02, lam_RAPS=0.01, kreg=1)
+seed 4 done (B=5.90, lam_RAPS=0.05, kreg=5)
+
+== theory check, iwildcam development sites, seeds [0, 1, 2, 3, 4], delay 5, delta 0.05/K
+r=0.1: site-streams 500 | Lemma 1 violations 0 | Theorem 1 violations 0 | bound median 14.715 (share < 0.05: 0.00, < 0.10: 0.00) | actual |miss-alpha| median 0.054 | median N 307
+r=0.3: site-streams 500 | Lemma 1 violations 0 | Theorem 1 violations 0 | bound median 7.910 (share < 0.05: 0.00, < 0.10: 0.00) | actual |miss-alpha| median 0.043 | median N 307
+r=1.0: site-streams 500 | Lemma 1 violations 0 | Theorem 1 violations 0 | bound median 2.743 (share < 0.05: 0.00, < 0.10: 0.00) | actual |miss-alpha| median 0.035 | median N 307
+THEORY_CHECK_DONE

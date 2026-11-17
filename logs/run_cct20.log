@@ -1,0 +1,12 @@
+seed 0: unknown=['fox', 'opossum', 'raccoon'] known-class acc=0.700
+seed 1: unknown=['deer', 'dog', 'raccoon'] known-class acc=0.737
+seed 2: unknown=['bird', 'cat', 'raccoon'] known-class acc=0.763
+seed 3: unknown=['bird', 'bobcat', 'rabbit'] known-class acc=0.771
+seed 4: unknown=['opossum', 'skunk', 'squirrel'] known-class acc=0.734
+
+== CCT20 (alpha=0.1, target 0.90, 5 seeds, 3 unknown species)
+method       mean_cov    worst_cov worst_known  %clients<0.88 set_size unk_recall
+local           0.674   0.322±0.06       0.826            88%     2.18        nan
+pooled          0.667   0.317±0.06       0.798            85%     1.88        nan
+labelshift      0.716   0.342±0.06       0.874            75%     3.08        nan
+pooled+msp      0.719   0.440±0.04       0.798            82%     2.01       0.19

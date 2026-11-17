@@ -1,0 +1,16 @@
+nohup: ignoring input
+${FEDPCT_ROOT}/src/splits.py:179: DtypeWarning: Columns (10) have mixed types. Specify dtype option on import or set low_memory=False.
+  return pd.read_csv(f"{p}.csv.gz", parse_dates=["datetime"]), info
+FMOW_RAPS seed 0 (0.001, 10)
+${FEDPCT_ROOT}/src/splits.py:179: DtypeWarning: Columns (10) have mixed types. Specify dtype option on import or set low_memory=False.
+  return pd.read_csv(f"{p}.csv.gz", parse_dates=["datetime"]), info
+FMOW_RAPS seed 1 (0.0, 1)
+${FEDPCT_ROOT}/src/splits.py:179: DtypeWarning: Columns (10) have mixed types. Specify dtype option on import or set low_memory=False.
+  return pd.read_csv(f"{p}.csv.gz", parse_dates=["datetime"]), info
+FMOW_RAPS seed 2 (0.0, 1)
+${FEDPCT_ROOT}/src/splits.py:179: DtypeWarning: Columns (10) have mixed types. Specify dtype option on import or set low_memory=False.
+  return pd.read_csv(f"{p}.csv.gz", parse_dates=["datetime"]), info
+FMOW_RAPS seed 3 (0.001, 10)
+${FEDPCT_ROOT}/src/splits.py:179: DtypeWarning: Columns (10) have mixed types. Specify dtype option on import or set low_memory=False.
+  return pd.read_csv(f"{p}.csv.gz", parse_dates=["datetime"]), info
+FMOW_RAPS seed 4 (0.0, 1)

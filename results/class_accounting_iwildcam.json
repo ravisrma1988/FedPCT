@@ -1,0 +1,1800 @@
+{
+ "n_labelled_classes": 182,
+ "images_in_meta": 203029,
+ "seed0": {
+  "known": 103,
+  "designed": 8,
+  "natural_heldout": 34,
+  "absent_from_retained": 37,
+  "natural_classes": [
+   "arborophila rubrirostris",
+   "arctonyx hoevenii",
+   "canis lupus",
+   "capra aegagrus",
+   "chlorocebus pygerythrus",
+   "claravis pretiosa",
+   "colomys goslingi",
+   "conepatus semistriatus",
+   "cuniculus paca",
+   "dendrocitta occipitalis",
+   "deomys ferrugineus",
+   "francolinus africanus",
+   "genetta servalina",
+   "herpestes sanguineus",
+   "hylomyscus stella",
+   "hystrix cristata",
+   "leiothrix argentauris",
+   "lophotis gindiana",
+   "malacomys longipes",
+   "manis javanica",
+   "mus minutoides",
+   "musophaga rossae",
+   "myiophoneus glaucinus",
+   "neofelis diardi",
+   "oenomys hypoxanthus",
+   "oryx beisa",
+   "otocyon megalotis",
+   "ovis aries",
+   "panthera leo",
+   "paraxerus boehmi",
+   "philander opossum",
+   "procyon lotor",
+   "struthio camelus",
+   "turdus olivaceus"
+  ],
+  "absent_classes_sample": [
+   "acinonyx jubatus",
+   "alopochen aegyptiaca",
+   "andropadus latirostris",
+   "andropadus virens",
+   "ardeotis kori",
+   "brotogeris sp",
+   "burhinus capensis",
+   "cerdocyon thous",
+   "cuon alpinus",
+   "dasyprocta fuliginosa",
+   "didelphis marsupialis",
+   "eudorcas thomsonii",
+   "genetta genetta",
+   "geotrygon sp",
+   "herpestes semitorquatus"
+  ],
+  "images_by_part_role": {
+   "cal/designed": 285,
+   "cal/known": 23869,
+   "cal/natural": 139,
+   "test/designed": 1308,
+   "test/known": 71375,
+   "test/natural": 722,
+   "train/known": 52966,
+   "tune/designed": 147,
+   "tune/known": 11930,
+   "tune/natural": 71
+  },
+  "sites_by_category": {
+   "development/seen": 76,
+   "lockbox/seen": 33,
+   "development/unseen": 24,
+   "lockbox/unseen": 10
+  },
+  "partitions_by_site_category": {
+   "development/seen": {
+    "cal": 12187,
+    "test": 36943,
+    "train": 37175,
+    "tune": 6114
+   },
+   "development/unseen": {
+    "cal": 3396,
+    "test": 10780,
+    "train": 0,
+    "tune": 1566
+   },
+   "lockbox/seen": {
+    "cal": 5267,
+    "test": 15451,
+    "train": 15791,
+    "tune": 2684
+   },
+   "lockbox/unseen": {
+    "cal": 3443,
+    "test": 10231,
+    "train": 0,
+    "tune": 1784
+   }
+  },
+  "retained_rows": 162812
+ },
+ "seed1": {
+  "known": 103,
+  "designed": 8,
+  "natural_heldout": 34,
+  "absent_from_retained": 37,
+  "natural_classes": [
+   "arborophila rubrirostris",
+   "arctonyx hoevenii",
+   "canis lupus",
+   "capra aegagrus",
+   "chlorocebus pygerythrus",
+   "claravis pretiosa",
+   "colomys goslingi",
+   "conepatus semistriatus",
+   "cuniculus paca",
+   "dendrocitta occipitalis",
+   "deomys ferrugineus",
+   "francolinus africanus",
+   "genetta servalina",
+   "herpestes sanguineus",
+   "hylomyscus stella",
+   "hystrix cristata",
+   "leiothrix argentauris",
+   "lophotis gindiana",
+   "malacomys longipes",
+   "manis javanica",
+   "mus minutoides",
+   "musophaga rossae",
+   "myiophoneus glaucinus",
+   "neofelis diardi",
+   "oenomys hypoxanthus",
+   "oryx beisa",
+   "otocyon megalotis",
+   "ovis aries",
+   "panthera leo",
+   "paraxerus boehmi",
+   "philander opossum",
+   "procyon lotor",
+   "struthio camelus",
+   "turdus olivaceus"
+  ],
+  "absent_classes_sample": [
+   "acinonyx jubatus",
+   "alopochen aegyptiaca",
+   "andropadus latirostris",
+   "andropadus virens",
+   "ardeotis kori",
+   "brotogeris sp",
+   "burhinus capensis",
+   "cerdocyon thous",
+   "cuon alpinus",
+   "dasyprocta fuliginosa",
+   "didelphis marsupialis",
+   "eudorcas thomsonii",
+   "genetta genetta",
+   "geotrygon sp",
+   "herpestes semitorquatus"
+  ],
+  "images_by_part_role": {
+   "cal/designed": 363,
+   "cal/known": 23798,
+   "cal/natural": 154,
+   "test/designed": 1503,
+   "test/known": 71180,
+   "test/natural": 722,
+   "train/known": 52719,
+   "tune/designed": 190,
+   "tune/known": 11880,
+   "tune/natural": 56
+  },
+  "sites_by_category": {
+   "development/seen": 76,
+   "lockbox/seen": 33,
+   "development/unseen": 24,
+   "lockbox/unseen": 10
+  },
+  "partitions_by_site_category": {
+   "development/seen": {
+    "cal": 12123,
+    "test": 36943,
+    "train": 36989,
+    "tune": 6178
+   },
+   "development/unseen": {
+    "cal": 3260,
+    "test": 10780,
+    "train": 0,
+    "tune": 1702
+   },
+   "lockbox/seen": {
+    "cal": 5373,
+    "test": 15451,
+    "train": 15730,
+    "tune": 2578
+   },
+   "lockbox/unseen": {
+    "cal": 3559,
+    "test": 10231,
+    "train": 0,
+    "tune": 1668
+   }
+  },
+  "retained_rows": 162565
+ },
+ "seed2": {
+  "known": 103,
+  "designed": 8,
+  "natural_heldout": 34,
+  "absent_from_retained": 37,
+  "natural_classes": [
+   "arborophila rubrirostris",
+   "arctonyx hoevenii",
+   "canis lupus",
+   "capra aegagrus",
+   "chlorocebus pygerythrus",
+   "claravis pretiosa",
+   "colomys goslingi",
+   "conepatus semistriatus",
+   "cuniculus paca",
+   "dendrocitta occipitalis",
+   "deomys ferrugineus",
+   "francolinus africanus",
+   "genetta servalina",
+   "herpestes sanguineus",
+   "hylomyscus stella",
+   "hystrix cristata",
+   "leiothrix argentauris",
+   "lophotis gindiana",
+   "malacomys longipes",
+   "manis javanica",
+   "mus minutoides",
+   "musophaga rossae",
+   "myiophoneus glaucinus",
+   "neofelis diardi",
+   "oenomys hypoxanthus",
+   "oryx beisa",
+   "otocyon megalotis",
+   "ovis aries",
+   "panthera leo",
+   "paraxerus boehmi",
+   "philander opossum",
+   "procyon lotor",
+   "struthio camelus",
+   "turdus olivaceus"
+  ],
+  "absent_classes_sample": [
+   "acinonyx jubatus",
+   "alopochen aegyptiaca",
+   "andropadus latirostris",
+   "andropadus virens",
+   "ardeotis kori",
+   "brotogeris sp",
+   "burhinus capensis",
+   "cerdocyon thous",
+   "cuon alpinus",
+   "dasyprocta fuliginosa",
+   "didelphis marsupialis",
+   "eudorcas thomsonii",
+   "genetta genetta",
+   "geotrygon sp",
+   "herpestes semitorquatus"
+  ],
+  "images_by_part_role": {
+   "cal/designed": 333,
+   "cal/known": 23969,
+   "cal/natural": 156,
+   "test/designed": 933,
+   "test/known": 71750,
+   "test/natural": 722,
+   "train/known": 52815,
+   "tune/designed": 99,
+   "tune/known": 11830,
+   "tune/natural": 54
+  },
+  "sites_by_category": {
+   "development/seen": 76,
+   "lockbox/seen": 33,
+   "development/unseen": 24,
+   "lockbox/unseen": 10
+  },
+  "partitions_by_site_category": {
+   "development/seen": {
+    "cal": 12405,
+    "test": 36943,
+    "train": 36926,
+    "tune": 5896
+   },
+   "development/unseen": {
+    "cal": 3260,
+    "test": 10780,
+    "train": 0,
+    "tune": 1702
+   },
+   "lockbox/seen": {
+    "cal": 5313,
+    "test": 15451,
+    "train": 15889,
+    "tune": 2638
+   },
+   "lockbox/unseen": {
+    "cal": 3480,
+    "test": 10231,
+    "train": 0,
+    "tune": 1747
+   }
+  },
+  "retained_rows": 162661
+ },
+ "seed3": {
+  "known": 103,
+  "designed": 8,
+  "natural_heldout": 34,
+  "absent_from_retained": 37,
+  "natural_classes": [
+   "arborophila rubrirostris",
+   "arctonyx hoevenii",
+   "canis lupus",
+   "capra aegagrus",
+   "chlorocebus pygerythrus",
+   "claravis pretiosa",
+   "colomys goslingi",
+   "conepatus semistriatus",
+   "cuniculus paca",
+   "dendrocitta occipitalis",
+   "deomys ferrugineus",
+   "francolinus africanus",
+   "genetta servalina",
+   "herpestes sanguineus",
+   "hylomyscus stella",
+   "hystrix cristata",
+   "leiothrix argentauris",
+   "lophotis gindiana",
+   "malacomys longipes",
+   "manis javanica",
+   "mus minutoides",
+   "musophaga rossae",
+   "myiophoneus glaucinus",
+   "neofelis diardi",
+   "oenomys hypoxanthus",
+   "oryx beisa",
+   "otocyon megalotis",
+   "ovis aries",
+   "panthera leo",
+   "paraxerus boehmi",
+   "philander opossum",
+   "procyon lotor",
+   "struthio camelus",
+   "turdus olivaceus"
+  ],
+  "absent_classes_sample": [
+   "acinonyx jubatus",
+   "alopochen aegyptiaca",
+   "andropadus latirostris",
+   "andropadus virens",
+   "ardeotis kori",
+   "brotogeris sp",
+   "burhinus capensis",
+   "cerdocyon thous",
+   "cuon alpinus",
+   "dasyprocta fuliginosa",
+   "didelphis marsupialis",
+   "eudorcas thomsonii",
+   "genetta genetta",
+   "geotrygon sp",
+   "herpestes semitorquatus"
+  ],
+  "images_by_part_role": {
+   "cal/designed": 142,
+   "cal/known": 23916,
+   "cal/natural": 146,
+   "test/designed": 734,
+   "test/known": 71949,
+   "test/natural": 722,
+   "train/known": 53017,
+   "tune/designed": 70,
+   "tune/known": 12103,
+   "tune/natural": 64
+  },
+  "sites_by_category": {
+   "development/seen": 76,
+   "lockbox/seen": 33,
+   "development/unseen": 24,
+   "lockbox/unseen": 10
+  },
+  "partitions_by_site_category": {
+   "development/seen": {
+    "cal": 12208,
+    "test": 36943,
+    "train": 37214,
+    "tune": 6093
+   },
+   "development/unseen": {
+    "cal": 3252,
+    "test": 10780,
+    "train": 0,
+    "tune": 1710
+   },
+   "lockbox/seen": {
+    "cal": 5333,
+    "test": 15451,
+    "train": 15803,
+    "tune": 2618
+   },
+   "lockbox/unseen": {
+    "cal": 3411,
+    "test": 10231,
+    "train": 0,
+    "tune": 1816
+   }
+  },
+  "retained_rows": 162863
+ },
+ "seed4": {
+  "known": 103,
+  "designed": 8,
+  "natural_heldout": 34,
+  "absent_from_retained": 37,
+  "natural_classes": [
+   "arborophila rubrirostris",
+   "arctonyx hoevenii",
+   "canis lupus",
+   "capra aegagrus",
+   "chlorocebus pygerythrus",
+   "claravis pretiosa",
+   "colomys goslingi",
+   "conepatus semistriatus",
+   "cuniculus paca",
+   "dendrocitta occipitalis",
+   "deomys ferrugineus",
+   "francolinus africanus",
+   "genetta servalina",
+   "herpestes sanguineus",
+   "hylomyscus stella",
+   "hystrix cristata",
+   "leiothrix argentauris",
+   "lophotis gindiana",
+   "malacomys longipes",
+   "manis javanica",
+   "mus minutoides",
+   "musophaga rossae",
+   "myiophoneus glaucinus",
+   "neofelis diardi",
+   "oenomys hypoxanthus",
+   "oryx beisa",
+   "otocyon megalotis",
+   "ovis aries",
+   "panthera leo",
+   "paraxerus boehmi",
+   "philander opossum",
+   "procyon lotor",
+   "struthio camelus",
+   "turdus olivaceus"
+  ],
+  "absent_classes_sample": [
+   "acinonyx jubatus",
+   "alopochen aegyptiaca",
+   "andropadus latirostris",
+   "andropadus virens",
+   "ardeotis kori",
+   "brotogeris sp",
+   "burhinus capensis",
+   "cerdocyon thous",
+   "cuon alpinus",
+   "dasyprocta fuliginosa",
+   "didelphis marsupialis",
+   "eudorcas thomsonii",
+   "genetta genetta",
+   "geotrygon sp",
+   "herpestes semitorquatus"
+  ],
+  "images_by_part_role": {
+   "cal/designed": 336,
+   "cal/known": 23612,
+   "cal/natural": 95,
+   "test/designed": 1300,
+   "test/known": 71383,
+   "test/natural": 722,
+   "train/known": 52850,
+   "tune/designed": 210,
+   "tune/known": 12073,
+   "tune/natural": 115
+  },
+  "sites_by_category": {
+   "development/seen": 76,
+   "lockbox/seen": 33,
+   "development/unseen": 24,
+   "lockbox/unseen": 10
+  },
+  "partitions_by_site_category": {
+   "development/seen": {
+    "cal": 12259,
+    "test": 36943,
+    "train": 37128,
+    "tune": 6042
+   },
+   "development/unseen": {
+    "cal": 3125,
+    "test": 10780,
+    "train": 0,
+    "tune": 1837
+   },
+   "lockbox/seen": {
+    "cal": 5257,
+    "test": 15451,
+    "train": 15722,
+    "tune": 2694
+   },
+   "lockbox/unseen": {
+    "cal": 3402,
+    "test": 10231,
+    "train": 0,
+    "tune": 1825
+   }
+  },
+  "retained_rows": 162696
+ },
+ "per_class_seed0": {
+  "empty": {
+   "role_seed0": "known",
+   "train": 18935,
+   "tune": 3933,
+   "cal": 7733,
+   "test": 24594
+  },
+  "tayassu pecari": {
+   "role_seed0": "known",
+   "train": 1095,
+   "tune": 502,
+   "cal": 941,
+   "test": 2910
+  },
+  "dasyprocta punctata": {
+   "role_seed0": "known",
+   "train": 1140,
+   "tune": 400,
+   "cal": 771,
+   "test": 3146
+  },
+  "cuniculus paca": {
+   "role_seed0": "natural held-out",
+   "train": 0,
+   "tune": 0,
+   "cal": 6,
+   "test": 43
+  },
+  "puma concolor": {
+   "role_seed0": "known",
+   "train": 1764,
+   "tune": 266,
+   "cal": 644,
+   "test": 965
+  },
+  "tapirus terrestris": {
+   "role_seed0": "absent",
+   "train": 0,
+   "tune": 0,
+   "cal": 0,
+   "test": 0
+  },
+  "pecari tajacu": {
+   "role_seed0": "known",
+   "train": 580,
+   "tune": 45,
+   "cal": 125,
+   "test": 400
+  },
+  "mazama americana": {
+   "role_seed0": "absent",
+   "train": 0,
+   "tune": 0,
+   "cal": 0,
+   "test": 0
+  },
+  "leopardus pardalis": {
+   "role_seed0": "known",
+   "train": 1576,
+   "tune": 380,
+   "cal": 842,
+   "test": 2129
+  },
+  "geotrygon montana": {
+   "role_seed0": "known",
+   "train": 180,
+   "tune": 20,
+   "cal": 30,
+   "test": 100
+  },
+  "nasua nasua": {
+   "role_seed0": "absent",
+   "train": 0,
+   "tune": 0,
+   "cal": 0,
+   "test": 0
+  },
+  "dasypus novemcinctus": {
+   "role_seed0": "known",
+   "train": 50,
+   "tune": 36,
+   "cal": 64,
+   "test": 30
+  },
+  "eira barbara": {
+   "role_seed0": "designed held-out",
+   "train": 0,
+   "tune": 20,
+   "cal": 10,
+   "test": 80
+  },
+  "didelphis marsupialis": {
+   "role_seed0": "absent",
+   "train": 0,
+   "tune": 0,
+   "cal": 0,
+   "test": 0
+  },
+  "procyon cancrivorus": {
+   "role_seed0": "absent",
+   "train": 0,
+   "tune": 0,
+   "cal": 0,
+   "test": 0
+  },
+  "panthera onca": {
+   "role_seed0": "known",
+   "train": 860,
+   "tune": 223,
+   "cal": 477,
+   "test": 1860
+  },
+  "myrmecophaga tridactyla": {
+   "role_seed0": "absent",
+   "train": 0,
+   "tune": 0,
+   "cal": 0,
+   "test": 0
+  },
+  "tinamus major": {
+   "role_seed0": "designed held-out",
+   "train": 0,
+   "tune": 62,
+   "cal": 138,
+   "test": 530
+  },
+  "sylvilagus brasiliensis": {
+   "role_seed0": "absent",
+   "train": 0,
+   "tune": 0,
+   "cal": 0,
+   "test": 0
+  },
+  "puma yagouaroundi": {
+   "role_seed0": "absent",
+   "train": 0,
+   "tune": 0,
+   "cal": 0,
+   "test": 0
+  },
+  "leopardus wiedii": {
+   "role_seed0": "designed held-out",
+   "train": 0,
+   "tune": 50,
+   "cal": 70,
+   "test": 160
+  },
+  "mazama gouazoubira": {
+   "role_seed0": "absent",
+   "train": 0,
+   "tune": 0,
+   "cal": 0,
+   "test": 0
+  },
+  "philander opossum": {
+   "role_seed0": "natural held-out",
+   "train": 0,
+   "tune": 10,
+   "cal": 10,
+   "test": 0
+  },
+  "capra aegagrus": {
+   "role_seed0": "natural held-out",
+   "train": 0,
+   "tune": 0,
+   "cal": 12,
+   "test": 144
+  },
+  "bos taurus": {
+   "role_seed0": "known",
+   "train": 722,
+   "tune": 293,
+   "cal": 647,
+   "test": 1137
+  },
+  "ovis aries": {
+   "role_seed0": "natural held-out",
+   "train": 0,
+   "tune": 0,
+   "cal": 0,
+   "test": 30
+  },
+  "canis lupus": {
+   "role_seed0": "natural held-out",
+   "train": 0,
+   "tune": 0,
+   "cal": 0,
+   "test": 15
+  },
+  "lepus saxatilis": {
+   "role_seed0": "known",
+   "train": 47,
+   "tune": 6,
+   "cal": 13,
+   "test": 28
+  },
+  "papio anubis": {
+   "role_seed0": "known",
+   "train": 185,
+   "tune": 6,
+   "cal": 69,
+   "test": 197
+  },
+  "genetta genetta": {
+   "role_seed0": "absent",
+   "train": 0,
+   "tune": 0,
+   "cal": 0,
+   "test": 0
+  },
+  "tragelaphus scriptus": {
+   "role_seed0": "known",
+   "train": 29,
+   "tune": 3,
+   "cal": 6,
+   "test": 6
+  },
+  "herpestes sanguineus": {
+   "role_seed0": "natural held-out",
+   "train": 0,
+   "tune": 3,
+   "cal": 3,
+   "test": 0
+  },
+  "loxodonta africana": {
+   "role_seed0": "known",
+   "train": 414,
+   "tune": 93,
+   "cal": 125,
+   "test": 1019
+  },
+  "cricetomys gambianus": {
+   "role_seed0": "known",
+   "train": 590,
+   "tune": 206,
+   "cal": 333,
+   "test": 809
+  },
+  "raphicerus campestris": {
+   "role_seed0": "absent",
+   "train": 0,
+   "tune": 0,
+   "cal": 0,
+   "test": 0
+  },
+  "hyaena hyaena": {
+   "role_seed0": "known",
+   "train": 6,
+   "tune": 0,
+   "cal": 13,
+   "test": 15
+  },
+  "aepyceros melampus": {
+   "role_seed0": "known",
+   "train": 842,
+   "tune": 582,
+   "cal": 1102,
+   "test": 2594
+  },
+  "crocuta crocuta": {
+   "role_seed0": "designed held-out",
+   "train": 0,
+   "tune": 5,
+   "cal": 34,
+   "test": 120
+  },
+  "caracal caracal": {
+   "role_seed0": "known",
+   "train": 3,
+   "tune": 0,
+   "cal": 0,
+   "test": 3
+  },
+  "equus ferus": {
+   "role_seed0": "known",
+   "train": 40,
+   "tune": 0,
+   "cal": 0,
+   "test": 320
+  },
+  "panthera leo": {
+   "role_seed0": "natural held-out",
+   "train": 0,
+   "tune": 0,
+   "cal": 0,
+   "test": 6
+  },
+  "tragelaphus oryx": {
+   "role_seed0": "known",
+   "train": 24,
+   "tune": 3,
+   "cal": 0,
+   "test": 47
+  },
+  "kobus ellipsiprymnus": {
+   "role_seed0": "known",
+   "train": 67,
+   "tune": 8,
+   "cal": 27,
+   "test": 1
+  },
+  "phacochoerus africanus": {
+   "role_seed0": "known",
+   "train": 45,
+   "tune": 27,
+   "cal": 6,
+   "test": 56
+  },
+  "panthera pardus": {
+   "role_seed0": "known",
+   "train": 7,
+   "tune": 12,
+   "cal": 15,
+   "test": 3
+  },
+  "ichneumia albicauda": {
+   "role_seed0": "known",
+   "train": 3,
+   "tune": 0,
+   "cal": 0,
+   "test": 3
+  },
+  "canis mesomelas": {
+   "role_seed0": "known",
+   "train": 6,
+   "tune": 0,
+   "cal": 7,
+   "test": 6
+  },
+  "syncerus caffer": {
+   "role_seed0": "known",
+   "train": 833,
+   "tune": 110,
+   "cal": 352,
+   "test": 235
+  },
+  "equus quagga": {
+   "role_seed0": "known",
+   "train": 408,
+   "tune": 68,
+   "cal": 247,
+   "test": 891
+  },
+  "giraffa camelopardalis": {
+   "role_seed0": "known",
+   "train": 541,
+   "tune": 62,
+   "cal": 77,
+   "test": 298
+  },
+  "alcelaphus buselaphus": {
+   "role_seed0": "known",
+   "train": 3,
+   "tune": 0,
+   "cal": 0,
+   "test": 0
+  },
+  "chlorocebus pygerythrus": {
+   "role_seed0": "natural held-out",
+   "train": 0,
+   "tune": 0,
+   "cal": 0,
+   "test": 1
+  },
+  "madoqua guentheri": {
+   "role_seed0": "known",
+   "train": 1029,
+   "tune": 173,
+   "cal": 370,
+   "test": 786
+  },
+  "potamochoerus larvatus": {
+   "role_seed0": "known",
+   "train": 291,
+   "tune": 0,
+   "cal": 16,
+   "test": 167
+  },
+  "nanger granti": {
+   "role_seed0": "absent",
+   "train": 0,
+   "tune": 0,
+   "cal": 0,
+   "test": 0
+  },
+  "eudorcas thomsonii": {
+   "role_seed0": "absent",
+   "train": 0,
+   "tune": 0,
+   "cal": 0,
+   "test": 0
+  },
+  "struthio camelus": {
+   "role_seed0": "natural held-out",
+   "train": 0,
+   "tune": 0,
+   "cal": 0,
+   "test": 11
+  },
+  "orycteropus afer": {
+   "role_seed0": "absent",
+   "train": 0,
+   "tune": 0,
+   "cal": 0,
+   "test": 0
+  },
+  "acinonyx jubatus": {
+   "role_seed0": "absent",
+   "train": 0,
+   "tune": 0,
+   "cal": 0,
+   "test": 0
+  },
+  "eupodotis senegalensis": {
+   "role_seed0": "known",
+   "train": 12,
+   "tune": 0,
+   "cal": 0,
+   "test": 12
+  },
+  "felis silvestris": {
+   "role_seed0": "known",
+   "train": 3,
+   "tune": 0,
+   "cal": 2,
+   "test": 0
+  },
+  "oryx beisa": {
+   "role_seed0": "natural held-out",
+   "train": 0,
+   "tune": 0,
+   "cal": 3,
+   "test": 63
+  },
+  "lophotis gindiana": {
+   "role_seed0": "natural held-out",
+   "train": 0,
+   "tune": 0,
+   "cal": 0,
+   "test": 12
+  },
+  "ardeotis kori": {
+   "role_seed0": "absent",
+   "train": 0,
+   "tune": 0,
+   "cal": 0,
+   "test": 0
+  },
+  "lissotis melanogaster": {
+   "role_seed0": "absent",
+   "train": 0,
+   "tune": 0,
+   "cal": 0,
+   "test": 0
+  },
+  "argusianus argus": {
+   "role_seed0": "known",
+   "train": 69,
+   "tune": 19,
+   "cal": 49,
+   "test": 169
+  },
+  "prionailurus bengalensis": {
+   "role_seed0": "known",
+   "train": 6,
+   "tune": 0,
+   "cal": 0,
+   "test": 1
+  },
+  "hemigalus derbyanus": {
+   "role_seed0": "known",
+   "train": 2,
+   "tune": 0,
+   "cal": 0,
+   "test": 2
+  },
+  "muntiacus muntjak": {
+   "role_seed0": "known",
+   "train": 68,
+   "tune": 25,
+   "cal": 38,
+   "test": 199
+  },
+  "sus scrofa": {
+   "role_seed0": "known",
+   "train": 14,
+   "tune": 18,
+   "cal": 38,
+   "test": 153
+  },
+  "helarctos malayanus": {
+   "role_seed0": "known",
+   "train": 5,
+   "tune": 12,
+   "cal": 5,
+   "test": 45
+  },
+  "rusa unicolor": {
+   "role_seed0": "known",
+   "train": 3,
+   "tune": 0,
+   "cal": 1,
+   "test": 1
+  },
+  "hystrix brachyura": {
+   "role_seed0": "known",
+   "train": 8,
+   "tune": 16,
+   "cal": 15,
+   "test": 86
+  },
+  "pardofelis temminckii": {
+   "role_seed0": "known",
+   "train": 12,
+   "tune": 1,
+   "cal": 2,
+   "test": 11
+  },
+  "panthera tigris": {
+   "role_seed0": "known",
+   "train": 10,
+   "tune": 0,
+   "cal": 1,
+   "test": 13
+  },
+  "lariscus insignis": {
+   "role_seed0": "known",
+   "train": 11,
+   "tune": 0,
+   "cal": 0,
+   "test": 0
+  },
+  "chalcophaps indica": {
+   "role_seed0": "known",
+   "train": 7,
+   "tune": 0,
+   "cal": 1,
+   "test": 0
+  },
+  "genetta tigrina": {
+   "role_seed0": "known",
+   "train": 3,
+   "tune": 0,
+   "cal": 0,
+   "test": 15
+  },
+  "hystrix cristata": {
+   "role_seed0": "natural held-out",
+   "train": 0,
+   "tune": 3,
+   "cal": 0,
+   "test": 0
+  },
+  "lycaon pictus": {
+   "role_seed0": "known",
+   "train": 5,
+   "tune": 3,
+   "cal": 0,
+   "test": 85
+  },
+  "procavia capensis": {
+   "role_seed0": "known",
+   "train": 3,
+   "tune": 0,
+   "cal": 0,
+   "test": 3
+  },
+  "canis familiaris": {
+   "role_seed0": "known",
+   "train": 2,
+   "tune": 0,
+   "cal": 0,
+   "test": 3
+  },
+  "unknown bird": {
+   "role_seed0": "designed held-out",
+   "train": 0,
+   "tune": 0,
+   "cal": 0,
+   "test": 91
+  },
+  "unknown bat": {
+   "role_seed0": "absent",
+   "train": 0,
+   "tune": 0,
+   "cal": 0,
+   "test": 0
+  },
+  "momotus momota": {
+   "role_seed0": "known",
+   "train": 10,
+   "tune": 20,
+   "cal": 80,
+   "test": 0
+  },
+  "dasyprocta fuliginosa": {
+   "role_seed0": "absent",
+   "train": 0,
+   "tune": 0,
+   "cal": 0,
+   "test": 0
+  },
+  "geotrygon sp": {
+   "role_seed0": "absent",
+   "train": 0,
+   "tune": 0,
+   "cal": 0,
+   "test": 0
+  },
+  "nasua narica": {
+   "role_seed0": "known",
+   "train": 263,
+   "tune": 65,
+   "cal": 138,
+   "test": 730
+  },
+  "tamandua mexicana": {
+   "role_seed0": "known",
+   "train": 30,
+   "tune": 0,
+   "cal": 0,
+   "test": 30
+  },
+  "didelphis sp": {
+   "role_seed0": "known",
+   "train": 1038,
+   "tune": 120,
+   "cal": 139,
+   "test": 520
+  },
+  "penelope purpurascens": {
+   "role_seed0": "known",
+   "train": 20,
+   "tune": 43,
+   "cal": 57,
+   "test": 330
+  },
+  "phaetornis sp": {
+   "role_seed0": "absent",
+   "train": 0,
+   "tune": 0,
+   "cal": 0,
+   "test": 0
+  },
+  "brotogeris sp": {
+   "role_seed0": "absent",
+   "train": 0,
+   "tune": 0,
+   "cal": 0,
+   "test": 0
+  },
+  "camelus dromedarius": {
+   "role_seed0": "known",
+   "train": 88,
+   "tune": 53,
+   "cal": 98,
+   "test": 106
+  },
+  "otocyon megalotis": {
+   "role_seed0": "natural held-out",
+   "train": 0,
+   "tune": 0,
+   "cal": 0,
+   "test": 2
+  },
+  "acryllium vulturinum": {
+   "role_seed0": "known",
+   "train": 212,
+   "tune": 29,
+   "cal": 44,
+   "test": 145
+  },
+  "equus grevyi": {
+   "role_seed0": "known",
+   "train": 374,
+   "tune": 63,
+   "cal": 89,
+   "test": 239
+  },
+  "proteles cristata": {
+   "role_seed0": "known",
+   "train": 3,
+   "tune": 0,
+   "cal": 9,
+   "test": 9
+  },
+  "leptailurus serval": {
+   "role_seed0": "known",
+   "train": 6,
+   "tune": 1,
+   "cal": 9,
+   "test": 0
+  },
+  "tragelaphus strepsiceros": {
+   "role_seed0": "known",
+   "train": 3,
+   "tune": 0,
+   "cal": 3,
+   "test": 15
+  },
+  "hippopotamus amphibius": {
+   "role_seed0": "known",
+   "train": 30,
+   "tune": 0,
+   "cal": 0,
+   "test": 9
+  },
+  "burhinus capensis": {
+   "role_seed0": "absent",
+   "train": 0,
+   "tune": 0,
+   "cal": 0,
+   "test": 0
+  },
+  "paguma larvata": {
+   "role_seed0": "known",
+   "train": 6,
+   "tune": 6,
+   "cal": 4,
+   "test": 13
+  },
+  "pardofelis marmorata": {
+   "role_seed0": "known",
+   "train": 1,
+   "tune": 4,
+   "cal": 0,
+   "test": 3
+  },
+  "cuon alpinus": {
+   "role_seed0": "absent",
+   "train": 0,
+   "tune": 0,
+   "cal": 0,
+   "test": 0
+  },
+  "varanus salvator": {
+   "role_seed0": "known",
+   "train": 1,
+   "tune": 0,
+   "cal": 0,
+   "test": 0
+  },
+  "martes flavigula": {
+   "role_seed0": "known",
+   "train": 11,
+   "tune": 1,
+   "cal": 0,
+   "test": 17
+  },
+  "prionodon linsang": {
+   "role_seed0": "known",
+   "train": 4,
+   "tune": 1,
+   "cal": 1,
+   "test": 0
+  },
+  "rollulus rouloul": {
+   "role_seed0": "known",
+   "train": 15,
+   "tune": 0,
+   "cal": 2,
+   "test": 9
+  },
+  "lophura inornata": {
+   "role_seed0": "known",
+   "train": 2,
+   "tune": 0,
+   "cal": 6,
+   "test": 5
+  },
+  "polyplectron chalcurum": {
+   "role_seed0": "absent",
+   "train": 0,
+   "tune": 0,
+   "cal": 0,
+   "test": 0
+  },
+  "manis javanica": {
+   "role_seed0": "natural held-out",
+   "train": 0,
+   "tune": 0,
+   "cal": 0,
+   "test": 1
+  },
+  "capricornis sumatraensis": {
+   "role_seed0": "known",
+   "train": 16,
+   "tune": 14,
+   "cal": 31,
+   "test": 70
+  },
+  "macaca sp": {
+   "role_seed0": "known",
+   "train": 367,
+   "tune": 84,
+   "cal": 138,
+   "test": 267
+  },
+  "francolinus nobilis": {
+   "role_seed0": "known",
+   "train": 361,
+   "tune": 105,
+   "cal": 239,
+   "test": 261
+  },
+  "cercopithecus lhoesti": {
+   "role_seed0": "known",
+   "train": 313,
+   "tune": 66,
+   "cal": 131,
+   "test": 405
+  },
+  "cephalophus nigrifrons": {
+   "role_seed0": "known",
+   "train": 1843,
+   "tune": 437,
+   "cal": 1002,
+   "test": 3021
+  },
+  "atherurus africanus": {
+   "role_seed0": "known",
+   "train": 210,
+   "tune": 52,
+   "cal": 74,
+   "test": 460
+  },
+  "pan troglodytes": {
+   "role_seed0": "designed held-out",
+   "train": 0,
+   "tune": 0,
+   "cal": 3,
+   "test": 27
+  },
+  "cercopithecus mitis": {
+   "role_seed0": "known",
+   "train": 33,
+   "tune": 0,
+   "cal": 0,
+   "test": 26
+  },
+  "funisciurus carruthersi": {
+   "role_seed0": "known",
+   "train": 182,
+   "tune": 27,
+   "cal": 44,
+   "test": 339
+  },
+  "motacilla flava": {
+   "role_seed0": "absent",
+   "train": 0,
+   "tune": 0,
+   "cal": 0,
+   "test": 0
+  },
+  "andropadus latirostris": {
+   "role_seed0": "absent",
+   "train": 0,
+   "tune": 0,
+   "cal": 0,
+   "test": 0
+  },
+  "andropadus virens": {
+   "role_seed0": "absent",
+   "train": 0,
+   "tune": 0,
+   "cal": 0,
+   "test": 0
+  },
+  "thamnomys venustus": {
+   "role_seed0": "absent",
+   "train": 0,
+   "tune": 0,
+   "cal": 0,
+   "test": 0
+  },
+  "protoxerus stangeri": {
+   "role_seed0": "known",
+   "train": 6,
+   "tune": 0,
+   "cal": 0,
+   "test": 0
+  },
+  "paraxerus boehmi": {
+   "role_seed0": "natural held-out",
+   "train": 0,
+   "tune": 5,
+   "cal": 0,
+   "test": 17
+  },
+  "cephalophus silvicultor": {
+   "role_seed0": "designed held-out",
+   "train": 0,
+   "tune": 0,
+   "cal": 0,
+   "test": 70
+  },
+  "oenomys hypoxanthus": {
+   "role_seed0": "natural held-out",
+   "train": 0,
+   "tune": 0,
+   "cal": 0,
+   "test": 3
+  },
+  "melocichla mentalis": {
+   "role_seed0": "known",
+   "train": 3,
+   "tune": 0,
+   "cal": 0,
+   "test": 0
+  },
+  "hybomys univittatus": {
+   "role_seed0": "known",
+   "train": 6,
+   "tune": 9,
+   "cal": 0,
+   "test": 0
+  },
+  "colomys goslingi": {
+   "role_seed0": "natural held-out",
+   "train": 0,
+   "tune": 0,
+   "cal": 0,
+   "test": 15
+  },
+  "hylomyscus stella": {
+   "role_seed0": "natural held-out",
+   "train": 0,
+   "tune": 0,
+   "cal": 0,
+   "test": 12
+  },
+  "genetta servalina": {
+   "role_seed0": "natural held-out",
+   "train": 0,
+   "tune": 0,
+   "cal": 9,
+   "test": 48
+  },
+  "canis adustus": {
+   "role_seed0": "known",
+   "train": 6,
+   "tune": 0,
+   "cal": 0,
+   "test": 15
+  },
+  "mus minutoides": {
+   "role_seed0": "natural held-out",
+   "train": 0,
+   "tune": 0,
+   "cal": 3,
+   "test": 12
+  },
+  "musophaga rossae": {
+   "role_seed0": "natural held-out",
+   "train": 0,
+   "tune": 0,
+   "cal": 3,
+   "test": 0
+  },
+  "turtur tympanistria": {
+   "role_seed0": "known",
+   "train": 32,
+   "tune": 3,
+   "cal": 6,
+   "test": 60
+  },
+  "praomys tullbergi": {
+   "role_seed0": "known",
+   "train": 9,
+   "tune": 0,
+   "cal": 0,
+   "test": 0
+  },
+  "malacomys longipes": {
+   "role_seed0": "natural held-out",
+   "train": 0,
+   "tune": 0,
+   "cal": 6,
+   "test": 3
+  },
+  "alopochen aegyptiaca": {
+   "role_seed0": "absent",
+   "train": 0,
+   "tune": 0,
+   "cal": 0,
+   "test": 0
+  },
+  "deomys ferrugineus": {
+   "role_seed0": "natural held-out",
+   "train": 0,
+   "tune": 0,
+   "cal": 0,
+   "test": 6
+  },
+  "francolinus africanus": {
+   "role_seed0": "natural held-out",
+   "train": 0,
+   "tune": 0,
+   "cal": 23,
+   "test": 9
+  },
+  "turdus olivaceus": {
+   "role_seed0": "natural held-out",
+   "train": 0,
+   "tune": 0,
+   "cal": 0,
+   "test": 6
+  },
+  "mazama sp": {
+   "role_seed0": "absent",
+   "train": 0,
+   "tune": 0,
+   "cal": 0,
+   "test": 0
+  },
+  "urocyon cinereoargenteus": {
+   "role_seed0": "known",
+   "train": 1400,
+   "tune": 202,
+   "cal": 518,
+   "test": 1812
+  },
+  "meleagris ocellata": {
+   "role_seed0": "known",
+   "train": 3804,
+   "tune": 1155,
+   "cal": 2422,
+   "test": 6645
+  },
+  "crax rubra": {
+   "role_seed0": "known",
+   "train": 3522,
+   "tune": 869,
+   "cal": 1539,
+   "test": 4768
+  },
+  "agouti paca": {
+   "role_seed0": "known",
+   "train": 769,
+   "tune": 248,
+   "cal": 552,
+   "test": 1050
+  },
+  "tapirus bairdii": {
+   "role_seed0": "known",
+   "train": 1659,
+   "tune": 137,
+   "cal": 265,
+   "test": 550
+  },
+  "procyon lotor": {
+   "role_seed0": "natural held-out",
+   "train": 0,
+   "tune": 0,
+   "cal": 10,
+   "test": 130
+  },
+  "odocoileus virginianus": {
+   "role_seed0": "known",
+   "train": 500,
+   "tune": 6,
+   "cal": 20,
+   "test": 647
+  },
+  "leptotila plumbeiceps": {
+   "role_seed0": "known",
+   "train": 210,
+   "tune": 50,
+   "cal": 120,
+   "test": 900
+  },
+  "mazama temama": {
+   "role_seed0": "known",
+   "train": 1320,
+   "tune": 292,
+   "cal": 492,
+   "test": 1611
+  },
+  "conepatus semistriatus": {
+   "role_seed0": "natural held-out",
+   "train": 0,
+   "tune": 40,
+   "cal": 50,
+   "test": 0
+  },
+  "mazama pandora": {
+   "role_seed0": "known",
+   "train": 590,
+   "tune": 102,
+   "cal": 217,
+   "test": 90
+  },
+  "ortalis vetula": {
+   "role_seed0": "known",
+   "train": 20,
+   "tune": 10,
+   "cal": 40,
+   "test": 50
+  },
+  "presbytis thomasi": {
+   "role_seed0": "known",
+   "train": 34,
+   "tune": 0,
+   "cal": 2,
+   "test": 5
+  },
+  "neofelis diardi": {
+   "role_seed0": "natural held-out",
+   "train": 0,
+   "tune": 0,
+   "cal": 1,
+   "test": 1
+  },
+  "arctonyx hoevenii": {
+   "role_seed0": "natural held-out",
+   "train": 0,
+   "tune": 0,
+   "cal": 0,
+   "test": 2
+  },
+  "tragulus sp": {
+   "role_seed0": "known",
+   "train": 1,
+   "tune": 0,
+   "cal": 0,
+   "test": 0
+  },
+  "dendrocitta occipitalis": {
+   "role_seed0": "natural held-out",
+   "train": 0,
+   "tune": 0,
+   "cal": 0,
+   "test": 6
+  },
+  "niltava sumatrana": {
+   "role_seed0": "known",
+   "train": 2,
+   "tune": 0,
+   "cal": 0,
+   "test": 0
+  },
+  "leiothrix argentauris": {
+   "role_seed0": "natural held-out",
+   "train": 0,
+   "tune": 0,
+   "cal": 0,
+   "test": 1
+  },
+  "arborophila rubrirostris": {
+   "role_seed0": "natural held-out",
+   "train": 0,
+   "tune": 0,
+   "cal": 0,
+   "test": 5
+  },
+  "lophura sp": {
+   "role_seed0": "absent",
+   "train": 0,
+   "tune": 0,
+   "cal": 0,
+   "test": 0
+  },
+  "myiophoneus glaucinus": {
+   "role_seed0": "natural held-out",
+   "train": 0,
+   "tune": 0,
+   "cal": 0,
+   "test": 8
+  },
+  "lophura erythrophthalma": {
+   "role_seed0": "absent",
+   "train": 0,
+   "tune": 0,
+   "cal": 0,
+   "test": 0
+  },
+  "spilornis cheela": {
+   "role_seed0": "absent",
+   "train": 0,
+   "tune": 0,
+   "cal": 0,
+   "test": 0
+  },
+  "myiophoneus caeruleus": {
+   "role_seed0": "absent",
+   "train": 0,
+   "tune": 0,
+   "cal": 0,
+   "test": 0
+  },
+  "herpestes semitorquatus": {
+   "role_seed0": "absent",
+   "train": 0,
+   "tune": 0,
+   "cal": 0,
+   "test": 0
+  },
+  "cerdocyon thous": {
+   "role_seed0": "absent",
+   "train": 0,
+   "tune": 0,
+   "cal": 0,
+   "test": 0
+  },
+  "motorcycle": {
+   "role_seed0": "known",
+   "train": 883,
+   "tune": 83,
+   "cal": 102,
+   "test": 180
+  },
+  "peromyscus sp": {
+   "role_seed0": "known",
+   "train": 110,
+   "tune": 22,
+   "cal": 32,
+   "test": 80
+  },
+  "puma yagoroundi": {
+   "role_seed0": "known",
+   "train": 10,
+   "tune": 0,
+   "cal": 0,
+   "test": 80
+  },
+  "tigrisoma mexicanum": {
+   "role_seed0": "known",
+   "train": 10,
+   "tune": 0,
+   "cal": 0,
+   "test": 10
+  },
+  "claravis pretiosa": {
+   "role_seed0": "natural held-out",
+   "train": 0,
+   "tune": 10,
+   "cal": 0,
+   "test": 110
+  },
+  "sciurus sp": {
+   "role_seed0": "designed held-out",
+   "train": 0,
+   "tune": 10,
+   "cal": 30,
+   "test": 230
+  },
+  "ave desconocida": {
+   "role_seed0": "known",
+   "train": 30,
+   "tune": 0,
+   "cal": 0,
+   "test": 200
+  },
+  "aramides cajanea": {
+   "role_seed0": "known",
+   "train": 10,
+   "tune": 0,
+   "cal": 0,
+   "test": 40
+  },
+  "unknown dove": {
+   "role_seed0": "known",
+   "train": 10,
+   "tune": 0,
+   "cal": 0,
+   "test": 0
+  },
+  "mazama  temama": {
+   "role_seed0": "known",
+   "train": 10,
+   "tune": 0,
+   "cal": 0,
+   "test": 0
+  }
+ }
+}

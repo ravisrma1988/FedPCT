@@ -1,0 +1,49 @@
+nohup: ignoring input
+  seed 0 r=0.1: global_qt 31%/5.20  global_decay 30%/4.81  global_dtaci 30%/5.38  global_pid 30%/5.24  ditto_qt 32%/5.14  ditto_decay 31%/4.75  ditto_dtaci 30%/5.33  ditto_pid 33%/5.19
+  seed 0 r=0.3: global_qt 28%/5.03  global_decay 29%/4.66  global_dtaci 26%/6.13  global_pid 29%/5.05  ditto_qt 23%/4.76  ditto_decay 24%/4.44  ditto_dtaci 22%/5.66  ditto_pid 23%/4.79
+  seed 0 r=1.0: global_qt 27%/4.95  global_decay 27%/4.78  global_dtaci 18%/6.99  global_pid 25%/5.11  ditto_qt 15%/4.10  ditto_decay 16%/4.16  ditto_dtaci 12%/5.59  ditto_pid 14%/4.25
+seed 0 done
+  seed 1 r=0.1: global_qt 26%/3.95  global_decay 28%/3.95  global_dtaci 25%/4.42  global_pid 26%/3.96  ditto_qt 25%/3.86  ditto_decay 26%/3.90  ditto_dtaci 23%/4.30  ditto_pid 25%/3.88
+  seed 1 r=0.3: global_qt 24%/4.44  global_decay 24%/3.92  global_dtaci 21%/5.27  global_pid 24%/4.08  ditto_qt 18%/4.18  ditto_decay 21%/3.79  ditto_dtaci 16%/4.88  ditto_pid 20%/3.89
+  seed 1 r=1.0: global_qt 19%/4.31  global_decay 21%/4.20  global_dtaci 16%/6.33  global_pid 19%/4.50  ditto_qt 11%/3.68  ditto_decay 12%/3.74  ditto_dtaci 12%/5.15  ditto_pid 11%/3.84
+seed 1 done
+  seed 2 r=0.1: global_qt 28%/4.15  global_decay 27%/4.66  global_dtaci 22%/6.13  global_pid 28%/4.25  ditto_qt 27%/4.14  ditto_decay 26%/4.65  ditto_dtaci 22%/6.09  ditto_pid 28%/4.23
+  seed 2 r=0.3: global_qt 25%/4.53  global_decay 23%/5.02  global_dtaci 17%/6.97  global_pid 23%/4.64  ditto_qt 18%/4.18  ditto_decay 17%/4.76  ditto_dtaci 15%/6.64  ditto_pid 17%/4.26
+  seed 2 r=1.0: global_qt 15%/5.27  global_decay 21%/5.40  global_dtaci 13%/7.77  global_pid 14%/5.35  ditto_qt 9%/4.22  ditto_decay 12%/4.56  ditto_dtaci 7%/6.37  ditto_pid 9%/4.33
+seed 2 done
+  seed 3 r=0.1: global_qt 29%/5.02  global_decay 31%/4.60  global_dtaci 24%/6.39  global_pid 29%/5.13  ditto_qt 26%/4.97  ditto_decay 28%/4.57  ditto_dtaci 24%/6.30  ditto_pid 26%/5.07
+  seed 3 r=0.3: global_qt 27%/4.74  global_decay 28%/5.16  global_dtaci 20%/7.37  global_pid 25%/4.87  ditto_qt 17%/4.34  ditto_decay 20%/4.83  ditto_dtaci 12%/6.95  ditto_pid 16%/4.52
+  seed 3 r=1.0: global_qt 17%/5.54  global_decay 21%/5.66  global_dtaci 15%/7.78  global_pid 13%/6.15  ditto_qt 9%/4.38  ditto_decay 10%/4.85  ditto_dtaci 8%/6.39  ditto_pid 7%/4.93
+seed 3 done
+  seed 4 r=0.1: global_qt 26%/4.06  global_decay 27%/4.11  global_dtaci 26%/4.50  global_pid 28%/4.15  ditto_qt 25%/4.03  ditto_decay 26%/4.08  ditto_dtaci 25%/4.48  ditto_pid 28%/4.13
+  seed 4 r=0.3: global_qt 25%/3.95  global_decay 25%/3.99  global_dtaci 21%/5.16  global_pid 24%/4.09  ditto_qt 20%/3.80  ditto_decay 21%/3.86  ditto_dtaci 19%/4.78  ditto_pid 20%/3.91
+  seed 4 r=1.0: global_qt 24%/4.33  global_decay 27%/4.15  global_dtaci 20%/6.21  global_pid 23%/4.53  ditto_qt 11%/3.63  ditto_decay 14%/3.65  ditto_dtaci 13%/5.08  ditto_pid 10%/3.79
+seed 4 done
+
+== online trackers, iwildcam DEVELOPMENT sites (100 sites), 5 seeds
+head_method      rate    %sig  unseen   size    cov   per-seed %sig
+global_qt         0.1   28.0%     38%   4.48  0.875   [31, 26, 28, 29, 26]
+global_decay      0.1   28.6%     38%   4.43  0.874   [30, 28, 27, 31, 27]
+global_dtaci      0.1   25.4%     35%   5.36  0.879   [30, 25, 22, 24, 26]
+global_pid        0.1   28.2%     37%   4.55  0.874   [30, 26, 28, 29, 28]
+ditto_qt          0.1   27.0%     37%   4.43  0.876   [32, 25, 27, 26, 25]
+ditto_decay       0.1   27.4%     35%   4.39  0.876   [31, 26, 26, 28, 26]
+ditto_dtaci       0.1   24.8%     35%   5.30  0.880   [30, 23, 22, 24, 25]
+ditto_pid         0.1   28.0%     37%   4.50  0.876   [33, 25, 28, 26, 28]
+global_qt         0.3   25.8%     32%   4.54  0.877   [28, 24, 25, 27, 25]
+global_decay      0.3   25.8%     32%   4.55  0.878   [29, 24, 23, 28, 25]
+global_dtaci      0.3   21.0%     27%   6.18  0.882   [26, 21, 17, 20, 21]
+global_pid        0.3   25.0%     32%   4.55  0.877   [29, 24, 23, 25, 24]
+ditto_qt          0.3   19.2%     26%   4.25  0.886   [23, 18, 18, 17, 20]
+ditto_decay       0.3   20.6%     26%   4.33  0.888   [24, 21, 17, 20, 21]
+ditto_dtaci       0.3   16.8%     22%   5.78  0.888   [22, 16, 15, 12, 19]
+ditto_pid         0.3   19.2%     25%   4.27  0.886   [23, 20, 17, 16, 20]
+global_qt         1.0   20.4%     28%   4.88  0.880   [27, 19, 15, 17, 24]
+global_decay      1.0   23.4%     30%   4.84  0.880   [27, 21, 21, 21, 27]
+global_dtaci      1.0   16.4%     27%   7.01  0.883   [18, 16, 13, 15, 20]
+global_pid        1.0   18.8%     28%   5.13  0.880   [25, 19, 14, 13, 23]
+ditto_qt          1.0   11.0%     19%   4.00  0.897   [15, 11, 9, 9, 11]
+ditto_decay       1.0   12.8%     18%   4.19  0.899   [16, 12, 12, 10, 14]
+ditto_dtaci       1.0   10.4%     18%   5.71  0.895   [12, 12, 7, 8, 13]
+ditto_pid         1.0   10.2%     18%   4.23  0.895   [14, 11, 9, 7, 10]
+ONLINE_BASELINES_DONE

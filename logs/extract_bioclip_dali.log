@@ -1,0 +1,7 @@
+hf-hub:imageomics/bioclip: image size 224, mean [0.48145466, 0.4578275, 0.40821073], std [0.26862954, 0.26130258, 0.27577711]
+512/203029  983 img/s
+51712/203029  1567 img/s
+102912/203029  1613 img/s
+154112/203029  1649 img/s
+saved (203029, 512) in 127s
+PIL vs DALI cosine: mean 0.9940  p1 0.9745  min 0.8932

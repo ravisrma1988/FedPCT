@@ -1,0 +1,12 @@
+# Base: NVIDIA NGC PyTorch container 25.03 (Python 3.12.3, torch 2.7.0a0, CUDA 12.8, DALI 1.47.0).
+# Versions present in that container for the reported runs:
+numpy==1.26.4
+pandas==2.2.3
+scikit-learn==1.6.1
+scipy==1.15.2
+pillow==11.1.0
+# Installed on top of the container:
+open_clip_torch==3.3.0
+# Used only by verify_iwildcam.py (version not recorded):
+wilds
+# MegaDetector runs in its own environment, see setup_md.sh and ENVIRONMENT.md.

@@ -1,0 +1,9 @@
+
+== local-calibration diagnostic, FedAvg head, alpha=0.1, 5 seeds
+split/method   mean_cov_known %sig_below (n_cal<100) (n_cal>=100) set_size med_ncal
+iid/local               0.902        14%         13%          14%     9.26      154
+iid/pooled              0.886        37%         29%          41%     4.25      154
+seq/local               0.894        30%         30%          29%     9.33      154
+seq/pooled              0.885        37%         33%          38%     4.22      154
+time/local              0.856        43%         40%          45%    11.00      155
+time/pooled             0.883        38%         37%          39%     4.24      155

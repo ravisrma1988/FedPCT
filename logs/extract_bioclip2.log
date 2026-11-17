@@ -1,0 +1,13 @@
+Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+WARNING:huggingface_hub.file_download:Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+hf-hub:imageomics/bioclip-2: image size 224, mean [0.48145466, 0.4578275, 0.40821073], std [0.26862954, 0.26130258, 0.27577711]
+256/203029  344 img/s
+25856/203029  485 img/s
+51456/203029  485 img/s
+77056/203029  485 img/s
+102656/203029  485 img/s
+128256/203029  487 img/s
+153856/203029  493 img/s
+179456/203029  491 img/s
+saved (203029, 768) in 415s
+EXTRACT_DONE

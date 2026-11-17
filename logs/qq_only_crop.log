@@ -1,0 +1,6 @@
+seed 0: qq beta=0.9 k=71/141 (MC cov 0.900) %sig 36 size 3.76
+seed 1: qq beta=0.9 k=72/141 (MC cov 0.900) %sig 36 size 2.92
+seed 2: qq beta=0.9 k=73/141 (MC cov 0.900) %sig 38 size 3.54
+seed 3: qq beta=0.9 k=72/141 (MC cov 0.900) %sig 39 size 3.17
+seed 4: qq beta=0.9 k=73/141 (MC cov 0.900) %sig 34 size 3.05
+qq (beta=1-alpha)  cov 0.853  %sig 37%  %sig_unseen 48%  size 3.29

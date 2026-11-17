@@ -1,0 +1,13 @@
+seed 0: fcp %sig 31 size 4.39 | labelshift %sig 17 size 6.28 | qq %sig 53 size 2.73 | dr %sig 30 size 4.62 | qq beta=0.92 k=33
+seed 1: fcp %sig 25 size 3.59 | labelshift %sig 38 size 4.94 | qq %sig 45 size 2.63 | dr %sig 27 size 4.06 | qq beta=0.91 k=49
+seed 2: fcp %sig 31 size 3.97 | labelshift %sig 33 size 5.04 | qq %sig 5 size 12.98 | dr %sig 28 size 4.00 | qq beta=0.86 k=126
+seed 3: fcp %sig 34 size 3.77 | labelshift %sig 35 size 5.27 | qq %sig 80 size 1.90 | dr %sig 30 size 4.14 | qq beta=0.96 k=4
+seed 4: fcp %sig 29 size 3.64 | labelshift %sig 26 size 5.41 | qq %sig 15 size 8.48 | dr %sig 27 size 4.16 | qq beta=0.88 k=107
+
+== literature baselines (global head, static), DEV sites, features=bioclip2crop, RAPS, alpha=0.1, 5 seeds
+method          cov   %sig %sig_unseen   size
+fcp           0.872    30%         38%   3.87
+labelshift    0.869    30%         32%   5.39
+qq            0.844    40%         47%   5.74
+dr            0.865    28%         36%   4.20
+LIT_DONE

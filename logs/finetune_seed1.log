@@ -1,0 +1,9 @@
+seed 1: 52719 train rows, 108 train clients, C=103
+round 0: mean local loss 0.7659  (6s)
+round 10: mean local loss 0.5191  (51s)
+round 20: mean local loss 0.5487  (92s)
+round 30: mean local loss 0.8317  (130s)
+round 40: mean local loss 0.7967  (167s)
+round 50: mean local loss 1.2362  (202s)
+round 59: mean local loss 1.1663  (229s)
+FT_DONE seed 1: tune known-class acc (FT head) 0.697  597s

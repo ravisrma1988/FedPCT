@@ -1,0 +1,4 @@
+seed 0: msp: tune 0.715 test 0.768 | energy: tune 0.686 test 0.772 | proto: tune 0.497 test 0.596 | maha: tune 0.567 test 0.698 | maha_rel: tune 0.622 test 0.615 | knn_ref: tune 0.602 test 0.745
+seed 1: msp: tune 0.753 test 0.798 | energy: tune 0.737 test 0.800 | proto: tune 0.539 test 0.594 | maha: tune 0.624 test 0.697 | maha_rel: tune 0.640 test 0.613 | knn_ref: tune 0.664 test 0.741
+seed 2: msp: tune 0.834 test 0.823 | energy: tune 0.823 test 0.840 | proto: tune 0.604 test 0.656 | maha: tune 0.710 test 0.758 | maha_rel: tune 0.722 test 0.600 | knn_ref: tune 0.749 test 0.793
+AFTER_MD_DONE

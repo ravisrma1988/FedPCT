@@ -1,0 +1,47 @@
+  seed 0 r=0.1: ours %sig 40 size 1.85 | ditto fixed 36 | global qt 44 | fcp 40
+  seed 0 r=0.3: ours %sig 20 size 2.28 | ditto fixed 32 | global qt 20 | fcp 40
+  seed 0 r=1.0: ours %sig 8 size 2.00 | ditto fixed 32 | global qt 16 | fcp 40
+seed 0 done
+  seed 1 r=0.1: ours %sig 48 size 1.94 | ditto fixed 48 | global qt 48 | fcp 48
+  seed 1 r=0.3: ours %sig 28 size 2.44 | ditto fixed 44 | global qt 36 | fcp 48
+  seed 1 r=1.0: ours %sig 4 size 2.09 | ditto fixed 32 | global qt 20 | fcp 48
+seed 1 done
+  seed 2 r=0.1: ours %sig 36 size 2.23 | ditto fixed 52 | global qt 44 | fcp 52
+  seed 2 r=0.3: ours %sig 20 size 2.75 | ditto fixed 48 | global qt 32 | fcp 52
+  seed 2 r=1.0: ours %sig 4 size 2.23 | ditto fixed 24 | global qt 20 | fcp 52
+seed 2 done
+  seed 3 r=0.1: ours %sig 44 size 1.57 | ditto fixed 44 | global qt 44 | fcp 44
+  seed 3 r=0.3: ours %sig 36 size 1.79 | ditto fixed 40 | global qt 48 | fcp 44
+  seed 3 r=1.0: ours %sig 12 size 2.21 | ditto fixed 32 | global qt 28 | fcp 44
+seed 3 done
+  seed 4 r=0.1: ours %sig 56 size 1.41 | ditto fixed 52 | global qt 60 | fcp 52
+  seed 4 r=0.3: ours %sig 40 size 1.67 | ditto fixed 48 | global qt 48 | fcp 52
+  seed 4 r=1.0: ours %sig 12 size 2.03 | ditto fixed 36 | global qt 28 | fcp 52
+seed 4 done
+
+== FINAL EVALUATION on CCT LOCKBOX sites (25 sites, 7 unseen), features=cct_bioclip2crop, RAPS, alpha=0.1, alpha_u=0.2, delay=5, seeds [0, 1, 2, 3, 4]
+method                                cov   %sig %sig_unseen   size   per-seed %sig
+fcp (static, global)                0.808    47%         71%   1.40   [40, 48, 52, 44, 52]
+labelshift (static, global)         0.806    46%         63%   1.71   [40, 56, 52, 40, 44]
+qq (static, global)                 0.864    32%         51%   2.62   [28, 28, 28, 36, 40]
+dr (static, global)                 0.836    38%         60%   2.34   [28, 40, 48, 32, 44]
+global + tracking   r=0.1           0.818    48%         69%   1.84   [44, 48, 44, 44, 60]
+Ditto fixed tau     r=0.1           0.815    46%         71%   1.36   [36, 48, 52, 44, 52]
+OURS Ditto+tracking r=0.1           0.819    45%         54%   1.80   [40, 48, 36, 44, 56]
+   ours - FCP: -2.4 pts (per seed [0.0, 0.0, -16.0, 0.0, 4.0]); ours - Ditto frontier at matched size: +5.9 pts (per seed [13.2, 16.0, -10.0, 1.4, 8.7])
+   unknown flag global : recall 0.733  %sites<0.8 35%  false flags 35.4%  AUROC 0.778
+   unknown flag ours   : recall 0.731  %sites<0.8 35%  false flags 31.4%  AUROC 0.887
+global + tracking   r=0.3           0.835    37%         57%   2.37   [20, 36, 32, 48, 48]
+Ditto fixed tau     r=0.3           0.829    42%         57%   1.33   [32, 44, 48, 40, 48]
+OURS Ditto+tracking r=0.3           0.841    29%         37%   2.18   [20, 28, 20, 36, 40]
+   ours - FCP: -18.4 pts (per seed [-20.0, -20.0, -32.0, -8.0, -12.0]); ours - Ditto frontier at matched size: -0.2 pts (per seed [0.7, 4.6, -6.9, 0.8, 0.0])
+   unknown flag global : recall 0.733  %sites<0.8 35%  false flags 35.4%  AUROC 0.778
+   unknown flag ours   : recall 0.734  %sites<0.8 35%  false flags 29.8%  AUROC 0.898
+global + tracking   r=1.0           0.853    22%         26%   2.70   [16, 20, 20, 28, 28]
+Ditto fixed tau     r=1.0           0.859    31%         49%   1.27   [32, 32, 24, 32, 36]
+OURS Ditto+tracking r=1.0           0.871     8%         11%   2.11   [8, 4, 4, 12, 12]
+   ours - FCP: -39.2 pts (per seed [-32.0, -44.0, -48.0, -32.0, -40.0]); ours - Ditto frontier at matched size: -10.4 pts (per seed [-4.6, -4.4, -8.0, -15.0, -20.0])
+   unknown flag global : recall 0.733  %sites<0.8 35%  false flags 35.4%  AUROC 0.778
+   unknown flag ours   : recall 0.756  %sites<0.8 35%  false flags 27.3%  AUROC 0.923
+FINAL_EVAL_DONE cct lockbox
+CCT_LOCKBOX_DONE
